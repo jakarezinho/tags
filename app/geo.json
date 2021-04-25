@@ -1,0 +1,357 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "1",
+                "tag": "Turistas e hipsters",
+                "lat": "39.4039",
+                "lng": "-9.1336",
+                "color": "#f965fb",
+                "icon": "",
+                "info": "",
+                "adress": "Cl. Ginobst\u00e9trica Dr. Daniel \u00c1lvaro",
+                "size": "25",
+                "time": "Sat Apr 24 2021 20:24:53 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.1336",
+                    "39.4039"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "2",
+                "tag": "Minha feira",
+                "lat": "39.4073",
+                "lng": "-9.12239",
+                "color": "#897459",
+                "icon": "mercado",
+                "info": "",
+                "adress": "Rua Di\u00e1rio de Not\u00edcias 203B",
+                "size": "16",
+                "time": "Sat Apr 24 2021 20:25:57 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.12239",
+                    "39.4073"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3",
+                "tag": "Meu caf\u00e9",
+                "lat": "39.4065",
+                "lng": "-9.12077",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Rua Jos\u00e9 Pinto Miranda 3-17",
+                "size": "14",
+                "time": "Sat Apr 24 2021 20:26:19 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.12077",
+                    "39.4065"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "4",
+                "tag": "Ressacas",
+                "lat": "39.4033",
+                "lng": "-9.13624",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Mimosa",
+                "size": "14",
+                "time": "Sat Apr 24 2021 20:26:53 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13624",
+                    "39.4033"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5",
+                "tag": "escola de artistas",
+                "lat": "39.395",
+                "lng": "-9.13496",
+                "color": "#897459",
+                "icon": "hot",
+                "info": "",
+                "adress": "Multibanco",
+                "size": "18",
+                "time": "Sat Apr 24 2021 20:27:39 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13496",
+                    "39.395"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "8",
+                "tag": "Talho",
+                "lat": "39.4077",
+                "lng": "-9.1346",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Rua 15 de Maio 2",
+                "size": "18",
+                "time": "Sat Apr 24 2021 20:32:27 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.1346",
+                    "39.4077"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "10",
+                "tag": "Made in china",
+                "lat": "39.4075",
+                "lng": "-9.13548",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Rua Engenheiro Cancela de Abreu 5-7",
+                "size": "18",
+                "time": "Sat Apr 24 2021 20:35:25 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13548",
+                    "39.4075"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "18",
+                "tag": "Nature",
+                "lat": "39.4008",
+                "lng": "-9.12694",
+                "color": "#897459",
+                "icon": "nature",
+                "info": "",
+                "adress": "Rua Augusto Dias Coimbra 33-33",
+                "size": "25",
+                "time": "Sat Apr 24 2021 20:47:56 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.12694",
+                    "39.4008"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "20",
+                "tag": "brasileiros",
+                "lat": "39.4056",
+                "lng": "-9.13889",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Travessa da Electricidade 1-1",
+                "size": "14",
+                "time": "Sat Apr 24 2021 22:34:18 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13889",
+                    "39.4056"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "21",
+                "tag": "popular area ",
+                "lat": "39.4064",
+                "lng": "-9.14251",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Beco do Estragado 6",
+                "size": "21",
+                "time": "Sat Apr 24 2021 22:34:50 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.14251",
+                    "39.4064"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "25",
+                "tag": "Coworking criativo",
+                "lat": "39.4023",
+                "lng": "-9.13952",
+                "color": "#897459",
+                "icon": "hot",
+                "info": "",
+                "adress": "N360",
+                "size": "18",
+                "time": "Sun Apr 25 2021 10:51:12 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13952",
+                    "39.4023"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "27",
+                "tag": "buldings bad area",
+                "lat": "39.4092",
+                "lng": "-9.13891",
+                "color": "#897459",
+                "icon": "bad",
+                "info": "",
+                "adress": "Rua Jos\u00e9 Filipe Neto Rebelo 13",
+                "size": "18",
+                "time": "Sun Apr 25 2021 11:05:29 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13891",
+                    "39.4092"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "30",
+                "tag": "Passear e dar de comer a pombos",
+                "lat": "39.4009",
+                "lng": "-9.13372",
+                "color": "#897459",
+                "icon": "nice",
+                "info": "",
+                "adress": "Parque Dom Carlos I",
+                "size": "14",
+                "time": "Sun Apr 25 2021 11:10:56 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13372",
+                    "39.4009"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "31",
+                "tag": "pav\u00f5es ",
+                "lat": "39.4019",
+                "lng": "-9.13379",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Parque Dom Carlos I",
+                "size": "14",
+                "time": "Sun Apr 25 2021 11:11:32 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13379",
+                    "39.4019"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "36",
+                "tag": "Rua sem carros",
+                "lat": "39.4045",
+                "lng": "-9.13457",
+                "color": "#ea1abd",
+                "icon": "",
+                "info": "",
+                "adress": "Rua Almirante C\u00e2ndido Reis 46-106",
+                "size": "18",
+                "time": "Sun Apr 25 2021 11:42:53 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13457",
+                    "39.4045"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "37",
+                "tag": "Loja hipster",
+                "lat": "39.405",
+                "lng": "-9.13535",
+                "color": "#d644f3",
+                "icon": "",
+                "info": "",
+                "adress": "Rua Dom Miguel Bombarda 2-120",
+                "size": "12",
+                "time": "Sun Apr 25 2021 11:43:31 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13535",
+                    "39.405"
+                ]
+            }
+        }
+    ]
+}

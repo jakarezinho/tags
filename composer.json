@@ -1,0 +1,14 @@
+{
+    "name": "jo/tags",
+    "authors": [{
+        "name": "Jorge Melo",
+        "email": "jakarezinh@gmail.com"
+    }],
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
