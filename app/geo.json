@@ -6,20 +6,20 @@
             "properties": {
                 "id": "1",
                 "tag": "Turistas e hipsters",
-                "lat": "39.4039",
-                "lng": "-9.1336",
-                "color": "#f965fb",
-                "icon": "",
+                "lat": "39.4038",
+                "lng": "-9.13374",
+                "color": "#ce3bc9",
+                "icon": "tourist",
                 "info": "",
-                "adress": "Cl. Ginobst\u00e9trica Dr. Daniel \u00c1lvaro",
+                "adress": "Pra\u00e7a da Rep\u00fablica 21",
                 "size": "25",
-                "time": "Sat Apr 24 2021 20:24:53 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon Apr 26 2021 17:08:54 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    "-9.1336",
-                    "39.4039"
+                    "-9.13374",
+                    "39.4038"
                 ]
             }
         },
@@ -27,262 +27,20 @@
             "type": "Feature",
             "properties": {
                 "id": "2",
-                "tag": "Minha feira",
-                "lat": "39.4073",
-                "lng": "-9.12239",
-                "color": "#897459",
-                "icon": "mercado",
-                "info": "",
-                "adress": "Rua Di\u00e1rio de Not\u00edcias 203B",
-                "size": "16",
-                "time": "Sat Apr 24 2021 20:25:57 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    "-9.12239",
-                    "39.4073"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "3",
-                "tag": "Meu caf\u00e9",
-                "lat": "39.4065",
-                "lng": "-9.12077",
-                "color": "#897459",
-                "icon": "",
-                "info": "",
-                "adress": "Rua Jos\u00e9 Pinto Miranda 3-17",
-                "size": "14",
-                "time": "Sat Apr 24 2021 20:26:19 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    "-9.12077",
-                    "39.4065"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "4",
-                "tag": "Ressacas",
-                "lat": "39.4033",
-                "lng": "-9.13624",
-                "color": "#897459",
-                "icon": "",
-                "info": "",
-                "adress": "Mimosa",
-                "size": "14",
-                "time": "Sat Apr 24 2021 20:26:53 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    "-9.13624",
-                    "39.4033"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "5",
-                "tag": "escola de artistas",
-                "lat": "39.395",
-                "lng": "-9.13496",
-                "color": "#897459",
-                "icon": "hot",
-                "info": "",
-                "adress": "Multibanco",
-                "size": "18",
-                "time": "Sat Apr 24 2021 20:27:39 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    "-9.13496",
-                    "39.395"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "8",
-                "tag": "Talho",
-                "lat": "39.4077",
-                "lng": "-9.1346",
-                "color": "#897459",
-                "icon": "",
-                "info": "",
-                "adress": "Rua 15 de Maio 2",
-                "size": "18",
-                "time": "Sat Apr 24 2021 20:32:27 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    "-9.1346",
-                    "39.4077"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "10",
-                "tag": "Made in china",
-                "lat": "39.4075",
-                "lng": "-9.13548",
-                "color": "#897459",
-                "icon": "",
-                "info": "",
-                "adress": "Rua Engenheiro Cancela de Abreu 5-7",
-                "size": "18",
-                "time": "Sat Apr 24 2021 20:35:25 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    "-9.13548",
-                    "39.4075"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "18",
                 "tag": "Nature",
-                "lat": "39.4008",
-                "lng": "-9.12694",
+                "lat": "39.4009",
+                "lng": "-9.12854",
                 "color": "#897459",
                 "icon": "nature",
                 "info": "",
-                "adress": "Rua Augusto Dias Coimbra 33-33",
+                "adress": "2500",
                 "size": "25",
-                "time": "Sat Apr 24 2021 20:47:56 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon Apr 26 2021 16:52:40 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    "-9.12694",
-                    "39.4008"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "20",
-                "tag": "brasileiros",
-                "lat": "39.4056",
-                "lng": "-9.13889",
-                "color": "#897459",
-                "icon": "",
-                "info": "",
-                "adress": "Travessa da Electricidade 1-1",
-                "size": "14",
-                "time": "Sat Apr 24 2021 22:34:18 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    "-9.13889",
-                    "39.4056"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "21",
-                "tag": "popular area ",
-                "lat": "39.4064",
-                "lng": "-9.14251",
-                "color": "#897459",
-                "icon": "",
-                "info": "",
-                "adress": "Beco do Estragado 6",
-                "size": "21",
-                "time": "Sat Apr 24 2021 22:34:50 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    "-9.14251",
-                    "39.4064"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "25",
-                "tag": "Coworking criativo",
-                "lat": "39.4023",
-                "lng": "-9.13952",
-                "color": "#897459",
-                "icon": "hot",
-                "info": "",
-                "adress": "N360",
-                "size": "18",
-                "time": "Sun Apr 25 2021 10:51:12 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    "-9.13952",
-                    "39.4023"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "27",
-                "tag": "buldings bad area",
-                "lat": "39.4092",
-                "lng": "-9.13891",
-                "color": "#897459",
-                "icon": "bad",
-                "info": "",
-                "adress": "Rua Jos\u00e9 Filipe Neto Rebelo 13",
-                "size": "18",
-                "time": "Sun Apr 25 2021 11:05:29 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    "-9.13891",
-                    "39.4092"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "30",
-                "tag": "Passear e dar de comer a pombos",
-                "lat": "39.4009",
-                "lng": "-9.13372",
-                "color": "#897459",
-                "icon": "nice",
-                "info": "",
-                "adress": "Parque Dom Carlos I",
-                "size": "14",
-                "time": "Sun Apr 25 2021 11:10:56 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    "-9.13372",
+                    "-9.12854",
                     "39.4009"
                 ]
             }
@@ -290,66 +48,528 @@
         {
             "type": "Feature",
             "properties": {
-                "id": "31",
-                "tag": "pav\u00f5es ",
-                "lat": "39.4019",
-                "lng": "-9.13379",
+                "id": "3",
+                "tag": "Pav\u00f5es",
+                "lat": "39.4018",
+                "lng": "-9.13381",
                 "color": "#897459",
                 "icon": "",
                 "info": "",
                 "adress": "Parque Dom Carlos I",
                 "size": "14",
-                "time": "Sun Apr 25 2021 11:11:32 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon Apr 26 2021 16:53:45 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    "-9.13379",
-                    "39.4019"
+                    "-9.13381",
+                    "39.4018"
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "id": "36",
+                "id": "4",
+                "tag": "Passear e dar de comer a pombos",
+                "lat": "39.4009",
+                "lng": "-9.13336",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Parque Dom Carlos I",
+                "size": "14",
+                "time": "Mon Apr 26 2021 17:15:08 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13336",
+                    "39.4009"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5",
+                "tag": "Tradi\u00e7\u00f5es da cer\u00e2mica",
+                "lat": "39.4003",
+                "lng": "-9.13022",
+                "color": "#897459",
+                "icon": "sapo",
+                "info": "",
+                "adress": "Rua Rafael Bordalo Pinheiro 53-53",
+                "size": "20",
+                "time": "Mon Apr 26 2021 16:55:01 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13022",
+                    "39.4003"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "6",
+                "tag": "Zona hist\u00f3rica",
+                "lat": "39.4027",
+                "lng": "-9.13207",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Travessa Rodrigo Berqu\u00f3 3",
+                "size": "18",
+                "time": "Mon Apr 26 2021 16:55:38 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13207",
+                    "39.4027"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "7",
+                "tag": "Arte",
+                "lat": "39.404",
+                "lng": "-9.13126",
+                "color": "#897459",
+                "icon": "",
+                "info": "Obra de ceramista Ferreira da Silva",
+                "adress": "Rua Di\u00e1rio de Not\u00edcias",
+                "size": "22",
+                "time": "Tue Apr 27 2021 11:20:46 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13126",
+                    "39.404"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "8",
+                "tag": "Minha feira",
+                "lat": "39.4075",
+                "lng": "-9.12245",
+                "color": "#897459",
+                "icon": "mercado",
+                "info": "",
+                "adress": "Rua Insepar\u00e1veis de Lubango",
+                "size": "20",
+                "time": "Mon Apr 26 2021 16:57:10 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.12245",
+                    "39.4075"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "9",
+                "tag": "meu caf\u00e9",
+                "lat": "39.4062",
+                "lng": "-9.12074",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Rua Di\u00e1rio de Not\u00edcias 211",
+                "size": "14",
+                "time": "Mon Apr 26 2021 16:57:18 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.12074",
+                    "39.4062"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "10",
                 "tag": "Rua sem carros",
-                "lat": "39.4045",
-                "lng": "-9.13457",
-                "color": "#ea1abd",
+                "lat": "39.4046",
+                "lng": "-9.13467",
+                "color": "#de42e0",
                 "icon": "",
                 "info": "",
                 "adress": "Rua Almirante C\u00e2ndido Reis 46-106",
-                "size": "18",
-                "time": "Sun Apr 25 2021 11:42:53 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "size": "14",
+                "time": "Mon Apr 26 2021 16:58:05 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    "-9.13457",
-                    "39.4045"
+                    "-9.13467",
+                    "39.4046"
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "id": "37",
+                "id": "11",
                 "tag": "Loja hipster",
                 "lat": "39.405",
-                "lng": "-9.13535",
-                "color": "#d644f3",
+                "lng": "-9.13543",
+                "color": "#cd32b9",
                 "icon": "",
                 "info": "",
-                "adress": "Rua Dom Miguel Bombarda 2-120",
-                "size": "12",
-                "time": "Sun Apr 25 2021 11:43:31 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "adress": "Rua Dom Miguel Bombarda 3-115",
+                "size": "13",
+                "time": "Mon Apr 26 2021 16:58:43 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    "-9.13535",
+                    "-9.13543",
                     "39.405"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "12",
+                "tag": "Ressacas",
+                "lat": "39.4033",
+                "lng": "-9.1363",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "120 Bar",
+                "size": "18",
+                "time": "Mon Apr 26 2021 16:59:09 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.1363",
+                    "39.4033"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "13",
+                "tag": "Coworking criativo",
+                "lat": "39.4024",
+                "lng": "-9.13951",
+                "color": "#897459",
+                "icon": "nice",
+                "info": "",
+                "adress": "N360",
+                "size": "17",
+                "time": "Mon Apr 26 2021 16:59:40 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13951",
+                    "39.4024"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "14",
+                "tag": "Escolas de artistas",
+                "lat": "39.3953",
+                "lng": "-9.13451",
+                "color": "#897459",
+                "icon": "hot",
+                "info": "",
+                "adress": "Avenal",
+                "size": "16",
+                "time": "Mon Apr 26 2021 17:00:39 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13451",
+                    "39.3953"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "15",
+                "tag": "Made in china",
+                "lat": "39.4074",
+                "lng": "-9.13522",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Rua Engenheiro Cancela de Abreu 11",
+                "size": "14",
+                "time": "Mon Apr 26 2021 17:01:17 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13522",
+                    "39.4074"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "16",
+                "tag": "Talho",
+                "lat": "39.4075",
+                "lng": "-9.13436",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Rua da Pra\u00e7a de Touros 5",
+                "size": "14",
+                "time": "Mon Apr 26 2021 17:01:27 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13436",
+                    "39.4075"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "17",
+                "tag": "buldings bad area",
+                "lat": "39.4074",
+                "lng": "-9.13906",
+                "color": "#897459",
+                "icon": "bad",
+                "info": "",
+                "adress": "Rua Adelino Soares de Oliveira 9A",
+                "size": "17",
+                "time": "Tue Apr 27 2021 11:16:59 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13906",
+                    "39.4074"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "18",
+                "tag": "Popular  area",
+                "lat": "39.4049",
+                "lng": "-9.14303",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Rua Claudina Chami\u00e7o 30",
+                "size": "20",
+                "time": "Tue Apr 27 2021 11:15:55 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.14303",
+                    "39.4049"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "19",
+                "tag": "Museus vazios",
+                "lat": "39.3986",
+                "lng": "-9.13174",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Rua Columbano Bordalo Pinheiro",
+                "size": "18",
+                "time": "Mon Apr 26 2021 17:07:51 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13174",
+                    "39.3986"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "20",
+                "tag": "Street art",
+                "lat": "39.4065",
+                "lng": "-9.13332",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Rua Capit\u00e3o Filipe de Sousa",
+                "size": "18",
+                "time": "Mon Apr 26 2021 17:20:46 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13332",
+                    "39.4065"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "21",
+                "tag": "tradicional area",
+                "lat": "39.4037",
+                "lng": "-9.13778",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Rua O Moinho de Vento 12A",
+                "size": "14",
+                "time": "Mon Apr 26 2021 17:21:42 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13778",
+                    "39.4037"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "22",
+                "tag": "street art",
+                "lat": "39.4039",
+                "lng": "-9.13698",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Frigot\u00eav\u00ea",
+                "size": "14",
+                "time": "Mon Apr 26 2021 17:22:03 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13698",
+                    "39.4039"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "23",
+                "tag": " zona de caf\u00e9 a 0.65\u20ac",
+                "lat": "39.4086",
+                "lng": "-9.12447",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Rua Doutor Artur Maldonado Freitas 12-32",
+                "size": "13",
+                "time": "Tue Apr 27 2021 11:12:40 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.12447",
+                    "39.4086"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "24",
+                "tag": "zona de caf\u00e9 a 0.75\u20ac",
+                "lat": "39.4038",
+                "lng": "-9.13311",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Largo Doutor Jos\u00e9 Barbosa 6-9",
+                "size": "12",
+                "time": "Tue Apr 27 2021 11:13:33 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13311",
+                    "39.4038"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "25",
+                "tag": "Pr\u00e9dios velhos",
+                "lat": "39.4086",
+                "lng": "-9.13898",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Escola B\u00e1sica do Campo",
+                "size": "14",
+                "time": "Tue Apr 27 2021 11:18:28 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13898",
+                    "39.4086"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "26",
+                "tag": "fog",
+                "lat": "39.4033",
+                "lng": "-9.13226",
+                "color": "#897459",
+                "icon": "fog",
+                "info": "",
+                "adress": "Hospital Termal das Caldas da Rainha",
+                "size": "16",
+                "time": "Tue Apr 27 2021 11:21:15 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13226",
+                    "39.4033"
                 ]
             }
         }

@@ -137,12 +137,10 @@
         <button id="envia" class="enable "> enviar</button>
     </div>
 
-
-
     <div id="map"></div>
 
     <script>
-        var map = L.map('map').setView([39.40761622517027, -9.13393020629883], 15);
+        var map = L.map('map').setView([39.4039, -9.1336], 16);
 
         L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
             attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -158,7 +156,9 @@
             position: 'bottomright'
         }).addTo(map);
         /*
-                L.esri.Geocoding.suggest()
+              let serch=  L.esri.Geocoding.suggest()
+
+
                     .text('caldas')
                     .nearby([39.40761622517027, -9.13393020629883], 5000)
                     .run(function(error, response) {
@@ -317,6 +317,8 @@
                 let deletag = document.getElementById('delete')
 
                 deletag.onclick = () => {
+
+                    return confirm("Quer mesmo eliminar este tag?");
                     fetchTag(deletag.dataset.id)
 
                 }
@@ -380,7 +382,7 @@
             if (feature.properties && feature.properties.tag) {
                 popupContent += '<strong>' + feature.properties.tag + '</strong><br>'
                 popupContent += 'Infos: ' + info + '<br> Adress: ' + feature.properties.adress
-                popupContent += '<br><a href="update.php?id=' + feature.properties.id + '"> edite</a>'
+                popupContent += '<br><a href="update.php?id=' + feature.properties.id + '" target="_blank"> edite</a>'
                 popupContent += '<p id="delete" data-id="' + feature.properties.id + '" classe="delete"><span> DELETE</span></p>'
 
             }

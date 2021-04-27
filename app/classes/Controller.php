@@ -46,8 +46,8 @@ public function insert_infos($tag,$lat,$lng,$color,$icon,$adress,$info,$size,$ti
 public function update_infos($tag,$lat,$lng,$color,$icon,$adress,$info,$size,$time,$id)
  {
 
-    $insert = $this->db->query("INSERT INTO tags SET tag=?, lat=?, lng=?, color=?,icon=?, adress=?, info=?,size=?,time=? WHERE id=?", [$tag, $lat, $lng, $color, $icon,  $adress,$info,$size, $time,$id]);
-  return  $insert? 'OK' : 'OPS!!';
+    $update = $this->db->query("UPDATE tags SET tag=?, lat=?, lng=?, color=?,icon=?, adress=?, info=?,size=?,time=? WHERE id=?", [$tag, $lat, $lng, $color, $icon,  $adress,$info,$size, $time,$id]);
+  return $update;
 
   }
 
@@ -56,11 +56,9 @@ public function delete( $id)
 {
 
   $result = $this->db->query("DELETE from tags WHERE id=?", [$id]);
-  if ($result) {
-    return true;
-  } else {
-    return false;
-  }
+
+    return $result;
+
 }
 
   
