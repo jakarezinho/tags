@@ -155,20 +155,8 @@
         L.control.zoom({
             position: 'bottomright'
         }).addTo(map);
-        /*
-              let serch=  L.esri.Geocoding.suggest()
+        //map.panTo([39.431, -9.23272]);
 
-
-                    .text('caldas')
-                    .nearby([39.40761622517027, -9.13393020629883], 5000)
-                    .run(function(error, response) {
-                        console.log(response)
-                             response syntax is documented here:
-                            https://developers.arcgis.com/rest/geocode/api-reference/geocoding-suggest.htm#ESRI_SECTION1_FC3884A45AD24E62BD11C9888F1392DB
-                            
-                           
-                    });
-        */
         //// Geo code/////
         var gcs = L.esri.Geocoding.geocodeService();
 
@@ -317,9 +305,11 @@
                 let deletag = document.getElementById('delete')
 
                 deletag.onclick = () => {
+                    if (window.confirm('Quer mesmo eliminar este tag?')) {
+                        fetchTag(deletag.dataset.id)
+                    }
 
-                    return confirm("Quer mesmo eliminar este tag?");
-                    fetchTag(deletag.dataset.id)
+
 
                 }
 
@@ -471,8 +461,6 @@
                     return response.json();
                 })
                 .then((data) => {
-
-
 
                     geral = L.geoJSON(data, {
 

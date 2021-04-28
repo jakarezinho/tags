@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Load Leaflet from CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+
+    <!-- Load Esri Leaflet from CDN -->
+    <script src="https://unpkg.com/esri-leaflet@2.5.0/dist/esri-leaflet.js" integrity="sha512-ucw7Grpc+iEQZa711gcjgMBnmd9qju1CICsRaryvX7HJklK0pGl/prxKvtHwpgm5ZHdvAil7YPxI1oWPOWK3UQ==" crossorigin=""></script>
+
+    <!-- Load Esri Leaflet Geocoder from CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/esri-leaflet-geocoder@2.3.3/dist/esri-leaflet-geocoder.css" integrity="sha512-IM3Hs+feyi40yZhDH6kV8vQMg4Fh20s9OzInIIAc4nx7aMYMfo+IenRUekoYsHZqGkREUgx0VvlEsgm7nCDW9g==" crossorigin="">
+    <script src="https://unpkg.com/esri-leaflet-geocoder@2.3.3/dist/esri-leaflet-geocoder.js" integrity="sha512-HrFUyCEtIpxZloTgEKKMq4RFYhxjJkCiF5sDxuAokklOeZ68U2NPfh4MFtyIVWlsKtVbK5GD2/JzFyAfvT5ejA==" crossorigin=""></script>
+    <!--styles-->
+
+    <style>
+         :root {
+            --blanc: #FFF;
+            --noir: #000;
+            --shadow: #2e2d2d;
+            --shadow_map: text-shadow: 1px 1px 0 var(--shadow), 1px 2px 0 var(--shadow), 3px 3px 0 var(--shadow), -1px -1px 0 var(--shadow), 1px -1px 0 var(--shadow), -1px 1px 0 var(--shadow), 0 1px 0 var(--shadow);
+        }
+        
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        #map {
+            width: 100vw;
+            height: 100vh;
+            z-index: 0;
+        }
+        
+        .search {
+            position: absolute;
+            top: 20px;
+            left: 200px;
+            z-index: 100;
+        }
+        
+        .result {
+            display: none;
+            background-color: var(--blanc);
+            width: 300px;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="search"> <input id="cherche" type="text">
+        <ul id="r" class="result"></ul>
+    </div>
+    <div id="map"></div>
+
+    <script>
+        ////map
+        var map = L.map('map').setView([39.4039, -9.1336], 16);
+        //// Geo code/////
+        var gcs = L.esri.Geocoding.geocodeService();
+        let serch = L.esri.Geocoding.suggest()
+
+        L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+            maxZoom: 18,
+            minZoom: 11,
+            id: 'mapbox/streets-v11',
+            tileSize: 512,
+            zoomOffset: -1,
+            accessToken: 'pk.eyJ1IjoibWFwYXVyYmFubyIsImEiOiJja215cm8xYzIwNHp1Mnh0M2QwZ3puZmkwIn0.ig4jIr-gZzUfuIX8YZB0ug'
+        }).addTo(map);
+        let s = L.esri.Geocoding.suggest()
+
+        let cherche = document.getElementById('cherche')
+        let r = document.getElementById('r')
+        cherche.addEventListener('input', (e) => {
+            let n = cherche.value.length
+            if (n > 3) {
+                result()
+
+            } else if (n < 3) {
+                r.innerHTML = ''
+            }
+
+
+        })
+
+        function result() {
+
+            s.text(cherche.value).nearby([39.4039, -9.1336], 5000).run(function(error, response) {
+                r.style.display = 'block'
+                console.log(response)
+
+
+                response.suggestions.forEach((index) => {
+
+                    let li = document.createElement('li')
+
+                    li.innerHTML = index.text
+                    r.appendChild(li)
+                    let list = r.getElementsByTagName("li")
+                    console.log(list.length)
+                    if (list.length >= 6) {
+                        r.innerHTML = ''
+                        return
+                    }
+                })
+
+                // https://developers.arcgis.com/rest/geocode/api-reference/geocoding-suggest.htm#ESRI_SECTION1_FC3884A45AD24E62BD11C9888F1392DB
+
+
+            });
+
+        }
+        const locations = [{
+            name: 'caldas da rainha',
+            lat: '39.4039',
+            lng: '-9.1336'
+        }, {
+            name: 'foz do arelho',
+            lat: '35.4039',
+            lng: ' - 8.1336 '
+
+        }]
+
+        let f = locations.filter(city => city.name == 'caldas')
+            .map(city => console.log(city.name + ':' + city.lat + ':' + city.lng))
+
+
+
+        let lea = locations.filter(function(obj) {
+            //loop through each object
+            for (key in obj) {
+                //check if object value contains value you are looking for
+                if (obj[key].includes('f')) {
+                    //add this object to the filtered array
+                    return obj;
+                }
+            }
+        });
+
+        console.log(lea);
+    </script>
+
+</body>
+
+</html>

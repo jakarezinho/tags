@@ -10,10 +10,10 @@
                 "lng": "-9.13374",
                 "color": "#ce3bc9",
                 "icon": "tourist",
-                "info": "",
+                "info": "Pra\u00e7a da fruta mercado ao ar livre local tur\u00edstico e chic",
                 "adress": "Pra\u00e7a da Rep\u00fablica 21",
                 "size": "25",
-                "time": "Mon Apr 26 2021 17:08:54 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue Apr 27 2021 15:21:12 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
@@ -32,10 +32,10 @@
                 "lng": "-9.12854",
                 "color": "#897459",
                 "icon": "nature",
-                "info": "",
+                "info": "Quinta da boneca antiga quinta",
                 "adress": "2500",
                 "size": "25",
-                "time": "Mon Apr 26 2021 16:52:40 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue Apr 27 2021 15:20:16 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
@@ -116,20 +116,20 @@
             "properties": {
                 "id": "6",
                 "tag": "Zona hist\u00f3rica",
-                "lat": "39.4027",
-                "lng": "-9.13207",
-                "color": "#897459",
+                "lat": "39.4025",
+                "lng": "-9.13189",
+                "color": "#e82cb5",
                 "icon": "",
                 "info": "",
-                "adress": "Travessa Rodrigo Berqu\u00f3 3",
+                "adress": "Rua Rafael Bordalo Pinheiro 13",
                 "size": "18",
-                "time": "Mon Apr 26 2021 16:55:38 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Wed Apr 28 2021 11:42:26 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    "-9.13207",
-                    "39.4027"
+                    "-9.13189",
+                    "39.4025"
                 ]
             }
         },
@@ -145,7 +145,7 @@
                 "info": "Obra de ceramista Ferreira da Silva",
                 "adress": "Rua Di\u00e1rio de Not\u00edcias",
                 "size": "22",
-                "time": "Tue Apr 27 2021 11:20:46 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue Apr 27 2021 20:33:46 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
@@ -360,12 +360,12 @@
                 "tag": "buldings bad area",
                 "lat": "39.4074",
                 "lng": "-9.13906",
-                "color": "#897459",
+                "color": "#ec2727",
                 "icon": "bad",
                 "info": "",
                 "adress": "Rua Adelino Soares de Oliveira 9A",
                 "size": "17",
-                "time": "Tue Apr 27 2021 11:16:59 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue Apr 27 2021 18:46:40 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
@@ -379,7 +379,7 @@
             "type": "Feature",
             "properties": {
                 "id": "18",
-                "tag": "Popular  area",
+                "tag": "Popular  area no tourists here",
                 "lat": "39.4049",
                 "lng": "-9.14303",
                 "color": "#897459",
@@ -387,7 +387,7 @@
                 "info": "",
                 "adress": "Rua Claudina Chami\u00e7o 30",
                 "size": "20",
-                "time": "Tue Apr 27 2021 11:15:55 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue Apr 27 2021 20:48:50 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
@@ -541,7 +541,7 @@
                 "info": "",
                 "adress": "Escola B\u00e1sica do Campo",
                 "size": "14",
-                "time": "Tue Apr 27 2021 11:18:28 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue Apr 27 2021 19:38:53 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
@@ -560,16 +560,192 @@
                 "lng": "-9.13226",
                 "color": "#897459",
                 "icon": "fog",
-                "info": "",
-                "adress": "Hospital Termal das Caldas da Rainha",
+                "info": "Hospital termal \u00e1guas e vapores ",
+                "adress": "Hospital Termal das Caldas da Rainha vapores termais",
                 "size": "16",
-                "time": "Tue Apr 27 2021 11:21:15 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Wed Apr 28 2021 11:42:59 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     "-9.13226",
                     "39.4033"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "27",
+                "tag": "Pr\u00e9dios novos",
+                "lat": "39.4134",
+                "lng": "-9.14314",
+                "color": "#7b6a51",
+                "icon": "",
+                "info": "",
+                "adress": "Rua Centro de Exposi\u00e7\u00f5es 3",
+                "size": "18",
+                "time": "Tue Apr 27 2021 19:04:52 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.14314",
+                    "39.4134"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "28",
+                "tag": "Esta praia n\u00e3o \u00e9 para velhos",
+                "lat": "39.431",
+                "lng": "-9.23272",
+                "color": "#897459",
+                "icon": "froid",
+                "info": "agua fria",
+                "adress": "2500",
+                "size": "22",
+                "time": "Tue Apr 27 2021 18:33:15 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.23272",
+                    "39.431"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "30",
+                "tag": "caravan paradise",
+                "lat": "39.4282",
+                "lng": "-9.22071",
+                "color": "#ea2a2a",
+                "icon": "bad",
+                "info": "",
+                "adress": "Rua Francisco Almeida Grandela",
+                "size": "16",
+                "time": "Tue Apr 27 2021 18:46:14 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.22071",
+                    "39.4282"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "31",
+                "tag": "Passeio dos tristes",
+                "lat": "39.4256",
+                "lng": "-9.21199",
+                "color": "#897459",
+                "icon": "ennui",
+                "info": "",
+                "adress": "Rua do Penedo Furado",
+                "size": "18",
+                "time": "Tue Apr 27 2021 18:45:40 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.21199",
+                    "39.4256"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "33",
+                "tag": "poucos combois",
+                "lat": "39.4059",
+                "lng": "-9.14005",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "",
+                "size": "14",
+                "time": "Tue Apr 27 2021 20:27:50 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.14005",
+                    "39.4059"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "34",
+                "tag": "\u00e1rea residencial",
+                "lat": "39.3994",
+                "lng": "-9.12657",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Rua Augusto Dias Coimbra 19",
+                "size": "18",
+                "time": "Tue Apr 27 2021 20:38:37 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.12657",
+                    "39.3994"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "36",
+                "tag": "hipsters",
+                "lat": "39.4058",
+                "lng": "-9.13158",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Rua Dr. Leonel Souto Mayor",
+                "size": "18",
+                "time": "Tue Apr 27 2021 20:50:44 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13158",
+                    "39.4058"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "37",
+                "tag": "o s\u00e9culo da SECLA",
+                "lat": "39.3996",
+                "lng": "-9.13583",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Rua S\u00e3o Jo\u00e3o de Deus",
+                "size": "14",
+                "time": "Tue Apr 27 2021 20:52:21 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13583",
+                    "39.3996"
                 ]
             }
         }

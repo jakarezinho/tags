@@ -52,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['id'])) {
         body {
             margin: 0;
             padding: 0;
-            
+
         }
 
         #map {
@@ -97,6 +97,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['id'])) {
         .item p {
             padding: 0px 0px 10px 0px;
         }
+
+        .iconimg {
+        
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            list-style-type: none;
+
+        }
+        .iconimg li {
+         padding: 10px;
+         margin: 3px;
+         text-align: center;
+         background-color:#ccc;
+
+        }
     </style>
 
 </head>
@@ -119,7 +135,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['id'])) {
 
             <?= $icon; ?>
             <p> <label for="icon">icon:</label><input type="text" id="icon" placeholder="icon" value="<?= $tag['icon']; ?>" /></p>
-            <p> <label for="color">Color:</label><input type="color" id="color" placeholder="color" value="<?= $tag['color']; ?>" /></p>
+            <p> <label for="color">Color:</label><input type="color" id="color" placeholder="color" value="<?= $tag['color']; ?>" /> <?= $tag['color']; ?></p>
             <label for="infos">infos:</label><textarea id="info" placeholder="info"><?= $tag['info']; ?></textarea>
             <p><label for="size">Size</label><input type="number" id="size" min="12" max="40" step="1" value="<?= $tag['size']; ?>"></p>
             <input type="hidden" id="time" placeholder="time" value="<?= $tag['time']; ?>" />
@@ -133,7 +149,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['id'])) {
 
     </div>
 
-
+    <ul id='icongif' class="iconimg"></ul>
 
 
     <script>
@@ -149,6 +165,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['id'])) {
         let info = document.getElementById('info')
         let latlng = [lat.value, lng.value]
         let response = document.getElementById('response')
+        let icongif = document.getElementById('icongif')
 
         ////map
         let map = L.map('map').setView(latlng, 15);
@@ -229,6 +246,35 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['id'])) {
             // (C) PREVENT HTML FORM SUBMIT
             return false;
         }
+
+        //// icons
+
+        const icons = ['art', 'bad', 'bar', 'bof', 'bomb', 'bronze', 'camion', 'chines',
+            'city', 'desert', 'dino', 'eclair', 'ennui', 'fire', 'fog', 'froid', 'guerra', 'heart',
+            'hipster', 'hot', 'hotp', 'like', 'love', 'mar', 'mercado', 'mild', 'mort', 'motacarro',
+             'napoleon', 'nature', 'nice', 'novo', 'ok', 'onda', 'paisagem', 'pato', 'pescador', 'pff',
+            'picnic', 'praia', 'religion', 'restaurante', 'sapo', 'sardines', 'star', 'super', 'surfing',
+            'surprise', 'tourist', 'touro', 'yes'
+        ]
+        const ics = [{ art: 'art.gif',bad: 'bad.gif'}]
+
+        ics.map((post,indice)=>{
+            console.log(post.indice)
+        })
+
+        icons.forEach((items, index) => {
+            let li = document.createElement('li')
+            let img = document.createElement('img')
+            let sp = document.createElement('p')
+           
+            sp.innerHTML = items 
+            img.setAttribute('src', 'images/' + items + '.gif')
+            li.append(sp);
+            li.appendChild(img)
+            icongif.appendChild(li)
+
+
+        })
     </script>
 </body>
 

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body {
+            font-family: monospace;
+        }
+        
+        .outer {
+            display: flex;
+        }
+        
+        h2 {
+            text-align: center;
+        }
+        
+        menu-left {
+            flex: 35%;
+            padding: 15px 0;
+        }
+        
+        menu-left h2 {
+            padding-left: 8px;
+        }
+        
+        .resultSide {
+            flex: 55%;
+            padding: 15px;
+            background-color: rgb(199, 199, 255);
+        }
+        
+        .resultSide p {
+            font-size: 25px;
+        }
+        
+        .searchBox {
+            font-size: 16px;
+            padding: 11px;
+            border: 2px solid black;
+        }
+        /* Style the navigation menu inside the left column */
+        
+        .animalMenu {
+            list-style-type: none;
+            margin: 0px;
+            background-color: lightgoldenrodyellow;
+        }
+        
+        .animalMenu li a {
+            padding: 12px;
+            text-decoration: none;
+            color: black;
+            display: block;
+        }
+        
+        li {
+            font-size: 25px;
+        }
+        
+        .animalMenu li a:hover {
+            background-color: rgb(255, 112, 112);
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Search Animals</h2>
+    <div class="outer">
+        <div class="menu-left">
+            <h2 style="background-color: lightgoldenrodyellow;">Menu</h2>
+            <input type="text" maxlength="20" size="20" class="searchBox" placeholder="Search about animal...." />
+            <ul class="animalMenu">
+                <li><a href="#">Lion</a></li>
+                <li><a href="#">Giraffe</a></li>
+                <li><a href="#">Camel</a></li>
+                <li><a href="#">tiger</a></li>
+                <li><a href="#">Cat</a></li>
+            </ul>
+        </div>
+        <div class="resultSide">
+            <h2>Page Header</h2>
+            <p>Some random text inside this box to demonstrate the example code</p>
+            <p>Some random text inside this box to demonstrate the example code</p>
+        </div>
+    </div>
+    <script>
+        let searchBox = document.querySelector(".searchBox");
+        let filterSearch, ulItem, liItem, links;
+
+        function processResults() {
+            input = document.getElementById("mySearch");
+            filterSearch = searchBox.value.toUpperCase();
+            ulItem = document.querySelector(".animalMenu");
+            liItem = ulItem.getElementsByTagName("li");
+            Array.from(liItem).forEach(element => {
+                console.log(element)
+                links = element.getElementsByTagName("a")[0];
+
+                if (links.innerHTML.toUpperCase().indexOf(filterSearch) > -1) {
+                    element.style.display = "";
+                } else {
+                    element.style.display = "none";
+                }
+            });
+        }
+        searchBox.addEventListener("keyup", () => {
+            processResults();
+        });
+    </script>
+</body>
+
+</html>
