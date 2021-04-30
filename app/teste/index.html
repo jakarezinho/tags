@@ -78,7 +78,7 @@
                 lat: '39.4282',
                 lng: '-9.22071'
 
-            }]
+            }, ]
             ////map
         var map = L.map('map').setView([39.4039, -9.1336], 16);
         //// Geo code/////
@@ -99,18 +99,24 @@
         let cherche = document.getElementById('cherche')
         let r = document.getElementById('r')
         cherche.addEventListener('focus', (e) => {
-
             localidades(locations)
-            let n = cherche.value.length
 
         })
 
         cherche.addEventListener("keyup", (e) => {
             processResults(r)
         });
-        cherche.addEventListener("blur", (e) => {
-            r.innerHTML = ''
+
+        cherche.addEventListener('focusout', (e) => {
+            if (!cherche.contains(e.relatedTarget))
+                setTimeout(function() {
+                    r.innerHTML = ''
+                    r.style.display = 'none'
+                }, 500);
+
+
         });
+
 
         function localidades(locations) {
             locations.map((city, index) => {
@@ -128,7 +134,6 @@
                     li.dataset.lat
                     console.log(li.dataset.lat)
                     cherche.value = city.name
-
                     r.innerHTML = ''
                     r.style.display = 'none'
                     map.setView([city.lat, city.lng], 16);
@@ -158,77 +163,6 @@
                 }
             })
         }
-
-
-        /*
-
-         Array.from(liItem).forEach(element => {
-                console.log(element)
-                links = element.getElementsByTagName("a")[0];
-
-                if (links.innerHTML.toUpperCase().indexOf(filterSearch) > -1) {
-                    element.style.display = "";
-                } else {
-                    element.style.display = "none";
-                }
-            });
-                var filterUsers = function(event) {
-                    keyword = cherche.value.toLowerCase();
-
-                    filtered_users = locations.map(function(city) {
-                        name = city.name.toLowerCase();
-                        console.log(keyword)
-                        return name.indexOf(keyword) > -1;
-                    });
-
-                    render_lists(filterUsers)
-
-                }
-                cherche.addEventListener('keyup', filterUsers);
-
-
-
-                var render_lists = function(lists) {
-                    var li = "";
-                    for (index in lists) {
-
-                        li += "<li> " + lists[index].name + "</li>";
-                    }
-                    r.innerHTML = li;
-                }
-
-                render_lists(locations);
-
-
-                
-                        function filtre(f) {
-                            r.style.display = 'block'
-                            let result = locations.filter(function(obj) {
-                                //loop through each object
-                                for (key in obj) {
-                                    //check if object value contains value you are looking for
-                                    if (obj[key].includes(f)) {
-                                        //add this object to the filtered array
-                                        return obj;
-                                    }
-                                }
-                            });
-
-
-                            result.forEach((index) => {
-
-                                let li = document.createElement('li')
-                                console.log(index)
-                                li.innerHTML = index.name
-                                r.appendChild(li)
-                                let list = r.getElementsByTagName("li")
-                                console.log(list.length)
-
-                            })
-
-
-                        };
-                        */
     </script>
 
 </body>

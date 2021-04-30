@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Reverse geocoding from map</title>
+    <title>HOT MAP</title>
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
 
     <!-- Load Leaflet from CDN -->
@@ -23,11 +23,14 @@
             --noir: #000;
             --shadow: #2e2d2d;
             --shadow_map: text-shadow: 1px 1px 0 var(--shadow), 1px 2px 0 var(--shadow), 3px 3px 0 var(--shadow), -1px -1px 0 var(--shadow), 1px -1px 0 var(--shadow), -1px 1px 0 var(--shadow), 0 1px 0 var(--shadow);
+            --tableau: #c2b8ab;
         }
         
-        body {
+        * {
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
+            font-family: 'Nunito', sans-serif;
         }
         
         #map {
@@ -73,7 +76,7 @@
             background-color: brown;
             display: block;
         }
-        /* ////// STYLE VISTA /////// */
+        /* ////// STYLE TAGS /////// */
         
         .leaflet-tooltip.my-labels {
             background-color: transparent;
@@ -94,11 +97,11 @@
             padding: 0;
             margin: 0;
         }
-        /* ////// NAVIGATION /////  */
         
         .leaflet-popup-content-wrapper {
             border-radius: 5px !important;
         }
+        /* ////// NAVIGATION /////  */
         
         .menu {
             position: absolute;
@@ -108,8 +111,8 @@
         }
         
         .menu span {
-            width: 35px;
-            height: 35px;
+            width: 45px;
+            height: 45px;
             padding: 5px;
             border-radius: 50%;
             font-size: 35px;
@@ -118,7 +121,7 @@
         }
         
         .doc {
-            background-color: #c2b8ab;
+            background-color: var(--tableau);
             width: 100vw;
             height: 100vh;
             top: 0;
@@ -143,6 +146,48 @@
             margin: 20px;
             padding-top: 100px;
             font-size: 30px;
+            display: flex;
+        }
+        /*PESQUISA*/
+        
+        .search {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 100;
+            background-color: var(--blanc);
+            box-shadow: 1px 2px 4px rgb(0 0 0 / 3%);
+            border-radius: 5px;
+        }
+        
+        .search span {
+            position: fixed;
+            left: 30px;
+            top: 35px;
+        }
+        
+        .search input {
+            border: none;
+            outline: none;
+            padding: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            font-size: 1.35em;
+            text-align: center;
+            font-weight: 800;
+            border-radius: 5px;
+        }
+        
+        .result {
+            display: none;
+            width: 300px;
+            padding: 10px;
+            list-style-type: none;
+        }
+        
+        .result li {
+            padding: 5px;
+            text-align: center;
         }
     </style>
 </head>
@@ -153,13 +198,21 @@
     </div>
     <div id="dc" class="doc">
         <div class="header">
-            <p><img src="app/images/hot_map.gif"></p>
-            <h1> Para saber melhor</h1>
-            <p>sasasasa</p>
+            <div>
+                <p><img src="app/images/hot_map.gif"></p>
+            </div>
+            <div>
+                <h1> Hello</h1>
+                <p>sasasasa</p>
+            </div>
+
         </div>
-
     </div>
-
+    <div class="search"> <input type="text" autocomplete="off" id="cherche" placeholder="Procurar"><span class="material-icons-two-tone">
+        search
+        </span>
+        <ul id="r" class="result"></ul>
+    </div>
     <div id="map"></div>
 
     <script>
@@ -204,7 +257,7 @@
             attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
             maxZoom: 18,
             minZoom: 11,
-            id: 'mapbox/streets-v11',
+            id: 'mapbox/streets-v11', ///'mapbox/outdoors-v11', mapbox://styles/mapbox/streets-v11
             tileSize: 512,
             zoomOffset: -1,
             accessToken: 'pk.eyJ1IjoibWFwYXVyYmFubyIsImEiOiJja215cm8xYzIwNHp1Mnh0M2QwZ3puZmkwIn0.ig4jIr-gZzUfuIX8YZB0ug'
@@ -388,13 +441,7 @@
             }
 
 
-
-
-
         } //////// FIM
-
-
-
 
         ///// ADD REMOVE LAYER PRINCIPAL ZOOM LEVEL ////
 
@@ -439,6 +486,106 @@
         /////// FIM
 
         window.load = getText(url, null, 15)
+
+        //////////////////////// PESQUISA  CIDADES///////////////////
+        const locations = [{
+            name: 'Caldas da rainha',
+            lat: '39.4039',
+            lng: '-9.1336'
+        }, {
+            name: 'Foz do arelho',
+            lat: '39.4282',
+            lng: '-9.22071'
+
+        }, {
+            name: 'São martinho do porto',
+            lat: '39.51',
+            lng: '-9.13517'
+
+        }, {
+            name: 'Obidos',
+            lat: '39.3607',
+            lng: '-9.15754'
+
+        }, {
+            name: 'Nazaré',
+            lat: '39.6006',
+            lng: '-9.07166'
+
+        }, {
+            name: 'Baleal',
+            lat: '39.3725',
+            lng: '-9.33705'
+
+        }]
+
+        let cherche = document.getElementById('cherche')
+        let r = document.getElementById('r')
+        cherche.addEventListener('focus', (e) => {
+            localidades(locations)
+
+        })
+
+        cherche.addEventListener("keyup", (e) => {
+            processResults(r)
+        });
+
+        cherche.addEventListener('focusout', (e) => {
+            if (!cherche.contains(e.relatedTarget))
+                setTimeout(function() {
+                    r.innerHTML = ''
+                    r.style.display = 'none'
+                }, 500);
+
+
+        });
+
+
+        function localidades(locations) {
+            locations.map((city, index) => {
+                r.style.display = 'block'
+                let li = document.createElement('li')
+                let a = document.createElement('a')
+                a.setAttribute('href', '#')
+                a.innerHTML = city.name
+                li.setAttribute('data-lat', city.lat)
+                li.append(a)
+                li.appendChild(a)
+                r.appendChild(li)
+
+                li.addEventListener('click', (e) => {
+                    li.dataset.lat
+                        //console.log(li.dataset.lat)
+                    cherche.value = city.name
+                    r.innerHTML = ''
+                    r.style.display = 'none'
+                    map.setView([city.lat, city.lng], 16);
+
+
+                })
+
+
+            })
+        }
+
+        function processResults(r) {
+
+
+            console.log(r)
+            liItem = r.getElementsByTagName("li");
+            Array.from(liItem).forEach(element => {
+                console.log(element)
+                links = element.getElementsByTagName("a")[0];
+                console.log(links)
+                filterSearch = cherche.value.toUpperCase();
+
+                if (links.innerHTML.toUpperCase().indexOf(filterSearch) > -1) {
+                    element.style.display = "";
+                } else {
+                    element.style.display = "none";
+                }
+            })
+        }
     </script>
 
 

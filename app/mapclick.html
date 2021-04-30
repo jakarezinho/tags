@@ -66,8 +66,21 @@
         .content {
             position: absolute;
             z-index: 900;
-            left: 20;
+            left: 20px;
             top: 20px;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+        }
+        
+        .result {
+            list-style: none;
+            width: 200px;
+        }
+        
+        .result li {
+            background-color: var(--blanc);
+            padding: 5px;
         }
         
         .enable {
@@ -126,8 +139,8 @@
     <button id="stop" class="enable stop"> stop</button>
     <input type="text" id="tag" placeholder="tag" />
     <div class="content">
-        <input type="text" id="lat" placeholder="latitude" />
-        <input type="text" id="lng" placeholder="longitude" />
+        <input type="hidden" id="lat" placeholder="latitude" />
+        <input type="hidden" id="lng" placeholder="longitude" />
         <input type="text" id="adress" placeholder="morada" />
         <input type="text" id="icon" placeholder="icon" />
         <input type="color" id="color" placeholder="color" value='#897459' />
@@ -135,12 +148,17 @@
         <input type="number" id="size" min="12" max="40" step="1" value="18">
         <input type="text" id="time" placeholder="time" />
         <button id="envia" class="enable "> enviar</button>
+        <div class="search"> <input type="text" autocomplete="off" id="cherche" placeholder="Procurar">
+            <ul id="r" class="result"></ul>
+        </div>
     </div>
 
     <div id="map"></div>
 
     <script>
-        var map = L.map('map').setView([39.4039, -9.1336], 16);
+        var map = L.map('map', {
+            zoomControl: false
+        }).setView([39.4039, -9.1336], 16);
 
         L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
             attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -578,7 +596,7 @@
         //// charge layer avec tags
         window.load = getText(url, null, 15)
     </script>
-
+    <script src="js/cidades.js"></script>
 
 </body>
 

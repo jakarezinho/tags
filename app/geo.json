@@ -12,8 +12,8 @@
                 "icon": "tourist",
                 "info": "Pra\u00e7a da fruta mercado ao ar livre local tur\u00edstico e chic",
                 "adress": "Pra\u00e7a da Rep\u00fablica 21",
-                "size": "25",
-                "time": "Tue Apr 27 2021 15:21:12 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "size": "30",
+                "time": "Thu Apr 29 2021 20:16:16 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
@@ -115,7 +115,7 @@
             "type": "Feature",
             "properties": {
                 "id": "6",
-                "tag": "Zona hist\u00f3rica",
+                "tag": "historic zone",
                 "lat": "39.4025",
                 "lng": "-9.13189",
                 "color": "#e82cb5",
@@ -123,7 +123,7 @@
                 "info": "",
                 "adress": "Rua Rafael Bordalo Pinheiro 13",
                 "size": "18",
-                "time": "Wed Apr 28 2021 11:42:26 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Fri Apr 30 2021 15:24:29 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
@@ -137,7 +137,7 @@
             "type": "Feature",
             "properties": {
                 "id": "7",
-                "tag": "Arte",
+                "tag": "Grande artista",
                 "lat": "39.404",
                 "lng": "-9.13126",
                 "color": "#897459",
@@ -145,7 +145,7 @@
                 "info": "Obra de ceramista Ferreira da Silva",
                 "adress": "Rua Di\u00e1rio de Not\u00edcias",
                 "size": "22",
-                "time": "Tue Apr 27 2021 20:33:46 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Fri Apr 30 2021 15:11:16 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
@@ -666,20 +666,20 @@
             "properties": {
                 "id": "33",
                 "tag": "poucos combois",
-                "lat": "39.4059",
-                "lng": "-9.14005",
+                "lat": "39.4064",
+                "lng": "-9.14007",
                 "color": "#897459",
                 "icon": "",
                 "info": "",
-                "adress": "",
+                "adress": "Largo da Esta\u00e7\u00e3o",
                 "size": "14",
-                "time": "Tue Apr 27 2021 20:27:50 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Fri Apr 30 2021 17:22:25 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    "-9.14005",
-                    "39.4059"
+                    "-9.14007",
+                    "39.4064"
                 ]
             }
         },
@@ -731,7 +731,7 @@
             "type": "Feature",
             "properties": {
                 "id": "37",
-                "tag": "o s\u00e9culo da SECLA",
+                "tag": "o s\u00e9culo  SECLA",
                 "lat": "39.3996",
                 "lng": "-9.13583",
                 "color": "#897459",
@@ -739,13 +739,299 @@
                 "info": "",
                 "adress": "Rua S\u00e3o Jo\u00e3o de Deus",
                 "size": "14",
-                "time": "Tue Apr 27 2021 20:52:21 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Fri Apr 30 2021 15:20:57 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     "-9.13583",
                     "39.3996"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "38",
+                "tag": "Reformados franceses",
+                "lat": "39.5141",
+                "lng": "-9.13106",
+                "color": "#897459",
+                "icon": "napoleon",
+                "info": "",
+                "adress": "Rua Vinha do Senhor 5A",
+                "size": "14",
+                "time": "Fri Apr 30 2021 15:57:14 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13106",
+                    "39.5141"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "39",
+                "tag": "caf\u00e9 a 1\u20ac",
+                "lat": "39.5035",
+                "lng": "-9.13696",
+                "color": "#e62719",
+                "icon": "bad",
+                "info": "",
+                "adress": "Parque de Campismo",
+                "size": "18",
+                "time": "Thu Apr 29 2021 18:47:38 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13696",
+                    "39.5035"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "40",
+                "tag": "Passeio de reformados franceses",
+                "lat": "39.5078",
+                "lng": "-9.13445",
+                "color": "#897459",
+                "icon": "napoleon",
+                "info": "",
+                "adress": "Avenida Marginal",
+                "size": "18",
+                "time": "Fri Apr 30 2021 16:03:17 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13445",
+                    "39.5078"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "41",
+                "tag": "garotos a gritar",
+                "lat": "39.5129",
+                "lng": "-9.13689",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Avenida Marginal",
+                "size": "18",
+                "time": "Thu Apr 29 2021 18:51:30 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13689",
+                    "39.5129"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "42",
+                "tag": "Dead people",
+                "lat": "39.3997",
+                "lng": "-9.13813",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Rua Fernando Ponte e Sousa",
+                "size": "18",
+                "time": "Fri Apr 30 2021 15:20:24 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13813",
+                    "39.3997"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "43",
+                "tag": "parece uma esta\u00e7\u00e3o de comboios",
+                "lat": "39.3646",
+                "lng": "-9.15948",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Rua Esta\u00e7\u00e3o",
+                "size": "18",
+                "time": "Fri Apr 30 2021 15:46:49 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.15948",
+                    "39.3646"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "44",
+                "tag": "Dysney land",
+                "lat": "39.3607",
+                "lng": "-9.15754",
+                "color": "#897459",
+                "icon": "tourist",
+                "info": "",
+                "adress": "Capela de S\u00e3o Martinho",
+                "size": "14",
+                "time": "Fri Apr 30 2021 15:47:31 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.15754",
+                    "39.3607"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "45",
+                "tag": "Tradicional",
+                "lat": "39.6006",
+                "lng": "-9.07166",
+                "color": "#897459",
+                "icon": "nice",
+                "info": "",
+                "adress": "Rua 3 de Setembro 40",
+                "size": "20",
+                "time": "Fri Apr 30 2021 15:52:38 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.07166",
+                    "39.6006"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "46",
+                "tag": "Restaurantes para turistas",
+                "lat": "39.598",
+                "lng": "-9.07164",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Taberna d'Ad\u00e9lia",
+                "size": "18",
+                "time": "Fri Apr 30 2021 15:54:26 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.07164",
+                    "39.598"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "47",
+                "tag": "peixe seco",
+                "lat": "39.5991",
+                "lng": "-9.07297",
+                "color": "#897459",
+                "icon": "sardines",
+                "info": "",
+                "adress": "Avenida da Rep\u00fablica",
+                "size": "14",
+                "time": "Fri Apr 30 2021 15:55:53 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.07297",
+                    "39.5991"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "48",
+                "tag": " big waves  surf religion",
+                "lat": "39.6049",
+                "lng": "-9.08561",
+                "color": "#897459",
+                "icon": "onda",
+                "info": "",
+                "adress": "Atlantic Ocean",
+                "size": "25",
+                "time": "Fri Apr 30 2021 16:38:23 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.08561",
+                    "39.6049"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "49",
+                "tag": "caf\u00e9 a 1\u20ac ",
+                "lat": "39.3725",
+                "lng": "-9.33705",
+                "color": "#897459",
+                "icon": "bad",
+                "info": "",
+                "adress": "Largo Amigos do Baleal 1-1",
+                "size": "18",
+                "time": "Fri Apr 30 2021 17:14:18 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.33705",
+                    "39.3725"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "50",
+                "tag": "surfistas pequenos",
+                "lat": "39.3741",
+                "lng": "-9.33827",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "2520",
+                "size": "18",
+                "time": "Fri Apr 30 2021 17:15:33 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.33827",
+                    "39.3741"
                 ]
             }
         }
