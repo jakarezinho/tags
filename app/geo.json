@@ -141,11 +141,11 @@
                 "lat": "39.404",
                 "lng": "-9.13126",
                 "color": "#897459",
-                "icon": "",
+                "icon": "art",
                 "info": "Obra de ceramista Ferreira da Silva",
                 "adress": "Rua Di\u00e1rio de Not\u00edcias",
                 "size": "22",
-                "time": "Fri Apr 30 2021 15:11:16 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Sun May 02 2021 11:39:14 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
@@ -445,15 +445,15 @@
             "type": "Feature",
             "properties": {
                 "id": "21",
-                "tag": "tradicional area",
+                "tag": "locals",
                 "lat": "39.4037",
                 "lng": "-9.13778",
                 "color": "#897459",
                 "icon": "",
                 "info": "",
                 "adress": "Rua O Moinho de Vento 12A",
-                "size": "14",
-                "time": "Mon Apr 26 2021 17:21:42 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "size": "20",
+                "time": "Sat May 01 2021 22:21:20 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
@@ -475,7 +475,7 @@
                 "info": "",
                 "adress": "Frigot\u00eav\u00ea",
                 "size": "14",
-                "time": "Mon Apr 26 2021 17:22:03 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Sat May 01 2021 22:21:07 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
@@ -628,8 +628,8 @@
                 "icon": "bad",
                 "info": "",
                 "adress": "Rua Francisco Almeida Grandela",
-                "size": "16",
-                "time": "Tue Apr 27 2021 18:46:14 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "size": "25",
+                "time": "Sat May 01 2021 22:05:55 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
@@ -907,21 +907,21 @@
             "type": "Feature",
             "properties": {
                 "id": "45",
-                "tag": "Tradicional",
-                "lat": "39.6006",
-                "lng": "-9.07166",
+                "tag": "Chambre Zimmer Rooms",
+                "lat": "39.5979",
+                "lng": "-9.07248",
                 "color": "#897459",
-                "icon": "nice",
+                "icon": "hot",
                 "info": "",
-                "adress": "Rua 3 de Setembro 40",
+                "adress": "Avenida Manuel Rem\u00edgio",
                 "size": "20",
-                "time": "Fri Apr 30 2021 15:52:38 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 12:09:33 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    "-9.07166",
-                    "39.6006"
+                    "-9.07248",
+                    "39.5979"
                 ]
             }
         },
@@ -929,21 +929,21 @@
             "type": "Feature",
             "properties": {
                 "id": "46",
-                "tag": "Restaurantes para turistas",
-                "lat": "39.598",
-                "lng": "-9.07164",
-                "color": "#897459",
+                "tag": "Sardinha assada  para turistas",
+                "lat": "39.6006",
+                "lng": "-9.0732",
+                "color": "#f55c51",
                 "icon": "",
                 "info": "",
-                "adress": "Taberna d'Ad\u00e9lia",
-                "size": "18",
-                "time": "Fri Apr 30 2021 15:54:26 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "adress": "O Tamanco",
+                "size": "13",
+                "time": "Mon May 03 2021 17:22:47 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    "-9.07164",
-                    "39.598"
+                    "-9.0732",
+                    "39.6006"
                 ]
             }
         },
@@ -952,20 +952,20 @@
             "properties": {
                 "id": "47",
                 "tag": "peixe seco",
-                "lat": "39.5991",
-                "lng": "-9.07297",
+                "lat": "39.5956",
+                "lng": "-9.07278",
                 "color": "#897459",
                 "icon": "sardines",
                 "info": "",
-                "adress": "Avenida da Rep\u00fablica",
+                "adress": "Avenida Manuel Rem\u00edgio",
                 "size": "14",
-                "time": "Fri Apr 30 2021 15:55:53 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 14:32:07 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    "-9.07297",
-                    "39.5991"
+                    "-9.07278",
+                    "39.5956"
                 ]
             }
         },
@@ -1017,21 +1017,769 @@
             "type": "Feature",
             "properties": {
                 "id": "50",
-                "tag": "surfistas pequenos",
-                "lat": "39.3741",
-                "lng": "-9.33827",
+                "tag": "rich and poor surfers",
+                "lat": "39.3733",
+                "lng": "-9.33812",
                 "color": "#897459",
-                "icon": "",
+                "icon": "surfing",
                 "info": "",
-                "adress": "2520",
-                "size": "18",
-                "time": "Fri Apr 30 2021 17:15:33 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "adress": "Largo Amigos do Baleal 1-1",
+                "size": "13",
+                "time": "Fri Apr 30 2021 22:24:23 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    "-9.33827",
-                    "39.3741"
+                    "-9.33812",
+                    "39.3733"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "51",
+                "tag": "hipsters",
+                "lat": "39.3706",
+                "lng": "-9.32872",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Travessa Pedras Muitas",
+                "size": "18",
+                "time": "Fri Apr 30 2021 22:06:08 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.32872",
+                    "39.3706"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "52",
+                "tag": "surf bronze",
+                "lat": "39.3749",
+                "lng": "-9.32767",
+                "color": "#897459",
+                "icon": "surfing",
+                "info": "",
+                "adress": "Atlantic Ocean",
+                "size": "18",
+                "time": "Fri Apr 30 2021 22:25:54 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.32767",
+                    "39.3749"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "53",
+                "tag": "fog",
+                "lat": "39.3746",
+                "lng": "-9.34482",
+                "color": "#897459",
+                "icon": "fog",
+                "info": "",
+                "adress": "Atlantic Ocean",
+                "size": "18",
+                "time": "Fri Apr 30 2021 22:28:20 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.34482",
+                    "39.3746"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "54",
+                "tag": "tourist like turn back on ocean",
+                "lat": "39.3712",
+                "lng": "-9.33851",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Praia do Baleal-Norte",
+                "size": "14",
+                "time": "Fri Apr 30 2021 22:34:35 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.33851",
+                    "39.3712"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "55",
+                "tag": "fog",
+                "lat": "39.5118",
+                "lng": "-9.14762",
+                "color": "#897459",
+                "icon": "fog",
+                "info": "",
+                "adress": "Atlantic Ocean",
+                "size": "18",
+                "time": "Sat May 01 2021 14:00:58 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.14762",
+                    "39.5118"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "56",
+                "tag": "pescadores",
+                "lat": "39.5109",
+                "lng": "-9.14183",
+                "color": "#897459",
+                "icon": "pescador",
+                "info": "",
+                "adress": "Rua C\u00e2ndido dos Reis",
+                "size": "18",
+                "time": "Sat May 01 2021 14:03:16 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.14183",
+                    "39.5109"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "57",
+                "tag": "pescadores",
+                "lat": "39.4258",
+                "lng": "-9.23965",
+                "color": "#897459",
+                "icon": "pescador",
+                "info": "",
+                "adress": "\u00d3bidos",
+                "size": "18",
+                "time": "Sat May 01 2021 14:04:26 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.23965",
+                    "39.4258"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "58",
+                "tag": "estrangeiros ricos",
+                "lat": "39.4347",
+                "lng": "-9.2253",
+                "color": "#897459",
+                "icon": "pff",
+                "info": "",
+                "adress": "Praceta Jos\u00e9 Luis Barros 5A",
+                "size": "18",
+                "time": "Sat May 01 2021 14:06:31 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.2253",
+                    "39.4347"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "60",
+                "tag": "nudists",
+                "lat": "39.563",
+                "lng": "-9.09805",
+                "color": "#897459",
+                "icon": "bronze",
+                "info": "",
+                "adress": "Nazar\u00e9",
+                "size": "18",
+                "time": "Sat May 01 2021 14:37:19 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.09805",
+                    "39.563"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "61",
+                "tag": "sunburnt people",
+                "lat": "39.6026",
+                "lng": "-9.07544",
+                "color": "#897459",
+                "icon": "bronze",
+                "info": "",
+                "adress": "Largo Santo Ant\u00f3nio",
+                "size": "20",
+                "time": "Mon May 03 2021 12:10:10 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.07544",
+                    "39.6026"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "62",
+                "tag": "urbex",
+                "lat": "39.4025",
+                "lng": "-9.13284",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Beco do Quartel 5-5",
+                "size": "18",
+                "time": "Sat May 01 2021 21:52:36 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13284",
+                    "39.4025"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "63",
+                "tag": "hot kite surfers",
+                "lat": "39.4278",
+                "lng": "-9.23214",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "2500",
+                "size": "32",
+                "time": "Sat May 01 2021 22:06:23 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.23214",
+                    "39.4278"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "64",
+                "tag": "old",
+                "lat": "39.4301",
+                "lng": "-9.22283",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Multibanco",
+                "size": "18",
+                "time": "Sat May 01 2021 22:15:59 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.22283",
+                    "39.4301"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "65",
+                "tag": "praia dos gordos",
+                "lat": "39.4294",
+                "lng": "-9.22807",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "2500",
+                "size": "14",
+                "time": "Sat May 01 2021 22:23:20 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.22807",
+                    "39.4294"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "66",
+                "tag": "wind!!!",
+                "lat": "39.4341",
+                "lng": "-9.22948",
+                "color": "#897459",
+                "icon": "wind",
+                "info": "Vento dominante norte ",
+                "adress": "2500",
+                "size": "31",
+                "time": "Sun May 02 2021 20:01:33 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.22948",
+                    "39.4341"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "67",
+                "tag": "Milagre",
+                "lat": "39.6046",
+                "lng": "-9.07673",
+                "color": "#897459",
+                "icon": "superman",
+                "info": "",
+                "adress": "Largo de Nossa Senhora da Nazar\u00e9 60-60",
+                "size": "30",
+                "time": "Mon May 03 2021 18:52:31 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.07673",
+                    "39.6046"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "68",
+                "tag": "Barraca do Grandela",
+                "lat": "39.4313",
+                "lng": "-9.22626",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Rua Francisco Almeida Grandela 2",
+                "size": "18",
+                "time": "Sun May 02 2021 19:53:00 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.22626",
+                    "39.4313"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "70",
+                "tag": "roupa estendida a janela",
+                "lat": "39.601",
+                "lng": "-9.07091",
+                "color": "#897459",
+                "icon": "nice",
+                "info": "",
+                "adress": "Rua Joaquim Bernardo de Souza Lobo 80",
+                "size": "18",
+                "time": "Mon May 03 2021 12:18:44 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.07091",
+                    "39.601"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "71",
+                "tag": "Gaivotas",
+                "lat": "39.5969",
+                "lng": "-9.08303",
+                "color": "#897459",
+                "icon": "pato",
+                "info": "",
+                "adress": "Atlantic Ocean",
+                "size": "30",
+                "time": "Mon May 03 2021 13:54:18 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.08303",
+                    "39.5969"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "72",
+                "tag": "Mercado",
+                "lat": "39.5986",
+                "lng": "-9.07046",
+                "color": "#897459",
+                "icon": "mercado",
+                "info": "",
+                "adress": "Rua Sub Vila",
+                "size": "18",
+                "time": "Mon May 03 2021 12:08:42 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.07046",
+                    "39.5986"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "73",
+                "tag": "locals",
+                "lat": "39.5963",
+                "lng": "-9.0694",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Rua Rancho T\u00e1-Mar 15",
+                "size": "18",
+                "time": "Mon May 03 2021 12:11:59 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.0694",
+                    "39.5963"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "74",
+                "tag": "Por do sol",
+                "lat": "39.438",
+                "lng": "-9.226",
+                "color": "#897459",
+                "icon": "sun",
+                "info": "",
+                "adress": "Atlantic Ocean",
+                "size": "22",
+                "time": "Mon May 03 2021 12:32:25 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.226",
+                    "39.438"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "75",
+                "tag": "urbex",
+                "lat": "39.4399",
+                "lng": "-9.21807",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Variante Atl\u00e2ntica",
+                "size": "18",
+                "time": "Mon May 03 2021 12:32:47 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.21807",
+                    "39.4399"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "76",
+                "tag": "Pescadores",
+                "lat": "39.5872",
+                "lng": "-9.07741",
+                "color": "#897459",
+                "icon": "pescador",
+                "info": "",
+                "adress": "Nazar\u00e9",
+                "size": "21",
+                "time": "Mon May 03 2021 14:00:45 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.07741",
+                    "39.5872"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "77",
+                "tag": "Entrada de sardinhas",
+                "lat": "39.5909",
+                "lng": "-9.07876",
+                "color": "#897459",
+                "icon": "sardines",
+                "info": "",
+                "adress": "Atlantic Ocean",
+                "size": "18",
+                "time": "Mon May 03 2021 19:29:55 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.07876",
+                    "39.5909"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "78",
+                "tag": "elevador a turistas",
+                "lat": "39.604",
+                "lng": "-9.07389",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Rua Magalh\u00e3es Lima 20-34",
+                "size": "13",
+                "time": "Mon May 03 2021 13:43:09 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.07389",
+                    "39.604"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "79",
+                "tag": "teatro",
+                "lat": "39.6057",
+                "lng": "-9.07725",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Rua Brito Al\u00e3o 17-25",
+                "size": "18",
+                "time": "Mon May 03 2021 18:30:25 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.07725",
+                    "39.6057"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "80",
+                "tag": "pr\u00e9dios",
+                "lat": "39.5934",
+                "lng": "-9.0703",
+                "color": "#ec2727",
+                "icon": "bad",
+                "info": "",
+                "adress": "Rua Porto Santo",
+                "size": "18",
+                "time": "Mon May 03 2021 14:05:18 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.0703",
+                    "39.5934"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "81",
+                "tag": "Local para mostrar carro novo ",
+                "lat": "39.4324",
+                "lng": "-9.22748",
+                "color": "#897459",
+                "icon": "auto",
+                "info": "",
+                "adress": "S\u00e9tima Vaga",
+                "size": "12",
+                "time": "Mon May 03 2021 14:24:51 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.22748",
+                    "39.4324"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "82",
+                "tag": "Paris texas",
+                "lat": "39.5895",
+                "lng": "-9.07131",
+                "color": "#897459",
+                "icon": "desert",
+                "info": "",
+                "adress": "Nazar\u00e9",
+                "size": "18",
+                "time": "Mon May 03 2021 14:28:11 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.07131",
+                    "39.5895"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "83",
+                "tag": "bujiganga",
+                "lat": "39.5992",
+                "lng": "-9.07303",
+                "color": "#f74626",
+                "icon": "bad",
+                "info": "",
+                "adress": "Praia da Nazar\u00e9",
+                "size": "13",
+                "time": "Mon May 03 2021 14:34:11 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.07303",
+                    "39.5992"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "84",
+                "tag": "locals",
+                "lat": "39.6066",
+                "lng": "-9.07504",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Pra\u00e7a da Rep\u00fablica 12",
+                "size": "18",
+                "time": "Mon May 03 2021 15:05:56 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.07504",
+                    "39.6066"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "85",
+                "tag": "stupid people in jet ski",
+                "lat": "39.6007",
+                "lng": "-9.07915",
+                "color": "#ee2b2b",
+                "icon": "bad",
+                "info": "",
+                "adress": "Atlantic Ocean",
+                "size": "18",
+                "time": "Mon May 03 2021 18:58:05 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.07915",
+                    "39.6007"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "86",
+                "tag": "Hortas",
+                "lat": "39.5927",
+                "lng": "-9.06849",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "N242",
+                "size": "18",
+                "time": "Mon May 03 2021 19:27:17 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.06849",
+                    "39.5927"
                 ]
             }
         }

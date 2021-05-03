@@ -132,6 +132,7 @@
             opacity: 0;
             transition: opacity 300ms;
             z-index: 0;
+            overflow: auto;
         }
         
         .dep {
@@ -189,6 +190,7 @@
             padding: 5px;
             text-align: center;
         }
+        /* DIVERS*/
     </style>
 </head>
 
@@ -199,11 +201,10 @@
     <div id="dc" class="doc">
         <div class="header">
             <div>
-                <p><img src="app/images/hot_map.gif"></p>
-            </div>
-            <div>
-                <h1> Hello</h1>
-                <p>sasasasa</p>
+                <p><img src="app/images/hot_map.gif" alt="Minhas recomendações"></p>
+                <h1> Minhas recomendações</h1>
+                <p>Mapa humoristico da região oeste de portugal</p>
+                <ul id="listintro"></ul>
             </div>
 
         </div>
@@ -244,6 +245,7 @@
             } else {
                 open.innerHTML = '<span class="material-icons-two-tone">close</span>'
 
+
             }
 
             dc.classList.toggle("dep")
@@ -256,7 +258,7 @@
         L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
             attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
             maxZoom: 18,
-            minZoom: 11,
+            minZoom: 15,
             id: 'mapbox/streets-v11', ///'mapbox/outdoors-v11', mapbox://styles/mapbox/streets-v11
             tileSize: 512,
             zoomOffset: -1,
@@ -268,17 +270,16 @@
         }).addTo(map);
 
 
-        //////////////////////// VUE////////////////////////
+        //////////////////////// VUE//////////////////
         //// GEOJSON URL/////////////////////////////
-        const url = "app/fabrica.php"
-            //const detail = "data/detail.geojson"
+        const url = "app/geo.json"
             ////////////////////////////////////////////
 
 
 
         ////// POPUP/////
         function onEachFeature(feature, layer) {
-            let info = feature.properties.info ? feature.properties.info : ''
+            let info = feature.properties.info ? 'Infos: ' + feature.properties.info : ''
             let adress = feature.properties.adress ? feature.properties.adress : ''
             let popupContent = "<h3>HERE / AQUI </h3>"
 
@@ -286,36 +287,14 @@
 
             if (feature.properties && feature.properties.tag) {
                 popupContent += '<strong>' + feature.properties.tag + '</strong><br>'
-                popupContent += 'Infos: ' + info + '<br> Adress: ' + feature.properties.adress
+                popupContent += info + '<br> Adress: ' + feature.properties.adress
 
             }
 
             layer.bindPopup(popupContent);
         }
 
-        //// function text marker zoom////
-        function textZoom(pointLayer, zoom) {
-            let zoomlevel = map.getZoom();
 
-            if (zoomlevel < zoom) {
-                if (map.hasLayer(pointLayer)) {
-                    map.removeLayer(pointLayer);
-
-                } else {
-                    console.log("no point layer active");
-                }
-            }
-            if (zoomlevel >= zoom) {
-                if (map.hasLayer(pointLayer)) {
-                    console.log("layer already added");
-                } else {
-                    map.addLayer(pointLayer);
-
-                }
-            }
-            console.log("Current Zoom Level =" + zoomlevel)
-
-        };
 
 
         ////////LABEL IMAGE TEXTE ////////
@@ -343,35 +322,16 @@
         }
 
 
-        //// TEXT MARKER ZOOM ////
-        function textZoomDetail(pointLayer, zoom) {
-            let zoomlevel = map.getZoom();
-            map.addLayer(pointLayer)
-            if (zoomlevel < zoom) {
-                if (map.hasLayer(pointLayer)) {
-                    map.removeLayer(pointLayer);
-                } else {
-                    console.log("no point layer active");
-                }
-            }
-            if (zoomlevel >= zoom) {
-                if (map.hasLayer(pointLayer)) {
-                    console.log("layer already added");
-                } else {
-                    map.addLayer(pointLayer);
-                }
-            }
-            console.log("Current Zoom Level =" + zoomlevel)
 
-        };
 
         ///////////  GET URL FUNCTION GENERALE /////////////////////
-        function getText(url, detail = false, zoom = false) {
+        function getText(url, zoom = false) {
 
             //// fecth general level 1/////
             fetch(url)
                 .then((response) => {
                     return response.json();
+                    console.log('loading')
                 })
                 .then((data) => {
                     console.log(data.features)
@@ -395,71 +355,15 @@
                     });
                     geral.addData(data)
                     map.addLayer(geral)
-                        /////ADD E REMOVE LAYER EN DECSKTOP///
-                        // map.on('zoomend', () => layerGeneral(geral, zoom))
-                        //map.fitBounds(geral.getBounds());
 
                 });
 
-            ///// fetch detail caldas da rainha////
-            if (detail) {
 
-                fetch(detail)
-                    .then((response) => {
-                        return response.json();
-                    })
-                    .then((data) => {
-                        console.log(data.features)
-
-
-                        let detail = L.geoJSON(data, {
-
-                            style: (feature) => {
-                                return {
-                                    color: feature.properties.Color,
-                                    opacity: 0,
-                                    //dashArray: 20,
-                                    // fill: false
-                                };
-                            },
-
-                            onEachFeature: onEachFeature,
-
-                            pointToLayer: labelText
-
-                        });
-
-
-
-
-                        /////add remove layer zoom///
-
-                        map.on('zoomend', () => textZoom(detail, zoom))
-                            // map.fitBounds(pointLayer.getBounds());
-                    });
-
-            }
 
 
         } //////// FIM
 
-        ///// ADD REMOVE LAYER PRINCIPAL ZOOM LEVEL ////
 
-        function layerGeneral(layer, zoom) {
-            let zoommap = map.getZoom();
-            if (zoommap >= zoom) {
-                if (map.hasLayer(layer)) {
-                    map.removeLayer(layer);
-                    console.log("layer active non active geral");
-                }
-
-            } else {
-                map.addLayer(layer)
-                console.log("layer active geral active");
-            }
-
-
-        }
 
         ///// IMAGE ICON ///////
         function imogIcon(icon) {
@@ -485,109 +389,11 @@
 
         /////// FIM
 
-        window.load = getText(url, null, 15)
+        window.load = getText(url, 15)
 
         //////////////////////// PESQUISA  CIDADES///////////////////
-        const locations = [{
-            name: 'Caldas da rainha',
-            lat: '39.4039',
-            lng: '-9.1336'
-        }, {
-            name: 'Foz do arelho',
-            lat: '39.4282',
-            lng: '-9.22071'
-
-        }, {
-            name: 'São martinho do porto',
-            lat: '39.51',
-            lng: '-9.13517'
-
-        }, {
-            name: 'Obidos',
-            lat: '39.3607',
-            lng: '-9.15754'
-
-        }, {
-            name: 'Nazaré',
-            lat: '39.6006',
-            lng: '-9.07166'
-
-        }, {
-            name: 'Baleal',
-            lat: '39.3725',
-            lng: '-9.33705'
-
-        }]
-
-        let cherche = document.getElementById('cherche')
-        let r = document.getElementById('r')
-        cherche.addEventListener('focus', (e) => {
-            localidades(locations)
-
-        })
-
-        cherche.addEventListener("keyup", (e) => {
-            processResults(r)
-        });
-
-        cherche.addEventListener('focusout', (e) => {
-            if (!cherche.contains(e.relatedTarget))
-                setTimeout(function() {
-                    r.innerHTML = ''
-                    r.style.display = 'none'
-                }, 500);
-
-
-        });
-
-
-        function localidades(locations) {
-            locations.map((city, index) => {
-                r.style.display = 'block'
-                let li = document.createElement('li')
-                let a = document.createElement('a')
-                a.setAttribute('href', '#')
-                a.innerHTML = city.name
-                li.setAttribute('data-lat', city.lat)
-                li.append(a)
-                li.appendChild(a)
-                r.appendChild(li)
-
-                li.addEventListener('click', (e) => {
-                    li.dataset.lat
-                        //console.log(li.dataset.lat)
-                    cherche.value = city.name
-                    r.innerHTML = ''
-                    r.style.display = 'none'
-                    map.setView([city.lat, city.lng], 16);
-
-
-                })
-
-
-            })
-        }
-
-        function processResults(r) {
-
-
-            console.log(r)
-            liItem = r.getElementsByTagName("li");
-            Array.from(liItem).forEach(element => {
-                console.log(element)
-                links = element.getElementsByTagName("a")[0];
-                console.log(links)
-                filterSearch = cherche.value.toUpperCase();
-
-                if (links.innerHTML.toUpperCase().indexOf(filterSearch) > -1) {
-                    element.style.display = "";
-                } else {
-                    element.style.display = "none";
-                }
-            })
-        }
     </script>
-
+    <script src="app/js/cidades.js"></script>
 
 </body>
 

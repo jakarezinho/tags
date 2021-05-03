@@ -13,6 +13,7 @@
     <!-- Load Esri Leaflet from CDN -->
     <script src="https://unpkg.com/esri-leaflet@2.5.0/dist/esri-leaflet.js" integrity="sha512-ucw7Grpc+iEQZa711gcjgMBnmd9qju1CICsRaryvX7HJklK0pGl/prxKvtHwpgm5ZHdvAil7YPxI1oWPOWK3UQ==" crossorigin=""></script>
 
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <!-- Load Esri Leaflet Geocoder from CDN -->
     <link rel="stylesheet" href="https://unpkg.com/esri-leaflet-geocoder@2.3.3/dist/esri-leaflet-geocoder.css" integrity="sha512-IM3Hs+feyi40yZhDH6kV8vQMg4Fh20s9OzInIIAc4nx7aMYMfo+IenRUekoYsHZqGkREUgx0VvlEsgm7nCDW9g==" crossorigin="">
     <script src="https://unpkg.com/esri-leaflet-geocoder@2.3.3/dist/esri-leaflet-geocoder.js" integrity="sha512-HrFUyCEtIpxZloTgEKKMq4RFYhxjJkCiF5sDxuAokklOeZ68U2NPfh4MFtyIVWlsKtVbK5GD2/JzFyAfvT5ejA==" crossorigin=""></script>
@@ -24,19 +25,15 @@
             --blanc: #FFF;
             --noir: #000;
             --rouge: #ee1a1a;
-            --shadow: #2e2d2d;
+            --shadow: #131111;
             --shadow_map: text-shadow: 1px 1px 0 var(--shadow), 1px 2px 0 var(--shadow), 3px 3px 0 var(--shadow), -1px -1px 0 var(--shadow), 1px -1px 0 var(--shadow), -1px 1px 0 var(--shadow), 0 1px 0 var(--shadow);
         }
         
         * {
             box-sizing: border-box;
-            padding: 0;
-            margin: 0;
-        }
-        
-        body {
             margin: 0;
             padding: 0;
+            font-family: 'Nunito', sans-serif;
         }
         
         #map {
@@ -131,6 +128,16 @@
             padding: 0;
             margin: 0;
         }
+        /* DIVERS*/
+        
+        .delete {
+            color: var(--rouge);
+            text-align: right;
+        }
+        
+        .delete span {
+            cursor: pointer;
+        }
     </style>
 </head>
 
@@ -146,7 +153,7 @@
         <input type="color" id="color" placeholder="color" value='#897459' />
         <input type="text" id="info" placeholder="info" />
         <input type="number" id="size" min="12" max="40" step="1" value="18">
-        <input type="text" id="time" placeholder="time" />
+        <input type="hidden" id="time" placeholder="time" />
         <button id="envia" class="enable "> enviar</button>
         <div class="search"> <input type="text" autocomplete="off" id="cherche" placeholder="Procurar">
             <ul id="r" class="result"></ul>
@@ -163,7 +170,7 @@
         L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
             attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
             maxZoom: 18,
-            minZoom: 11,
+            minZoom: 15,
             id: 'mapbox/streets-v11',
             tileSize: 512,
             zoomOffset: -1,
@@ -375,52 +382,26 @@
 
         //// GEOJSON URL////
         const url = "fabrica.php"
-            //const detail = "data/detail.geojson"
-
-
 
 
         ////// popup tags/////
         function onEachFeature(feature, layer) {
-            let info = feature.properties.info ? feature.properties.info : ''
+            let info = feature.properties.info ? 'Infos: ' + feature.properties.info : ''
             let adress = feature.properties.adress ? feature.properties.adress : ''
             let popupContent = "<h3>HERE / AQUI </h3>"
 
 
             if (feature.properties && feature.properties.tag) {
                 popupContent += '<strong>' + feature.properties.tag + '</strong><br>'
-                popupContent += 'Infos: ' + info + '<br> Adress: ' + feature.properties.adress
-                popupContent += '<br><a href="update.php?id=' + feature.properties.id + '" target="_blank"> edite</a>'
-                popupContent += '<p id="delete" data-id="' + feature.properties.id + '" classe="delete"><span> DELETE</span></p>'
+                popupContent += info + '<br> Adress: ' + feature.properties.adress
+                popupContent += '<br><a href="update.php?id=' + feature.properties.id + '" target="_blank"> Edite</a>'
+                popupContent += '<p id="delete" class="delete" data-id="' + feature.properties.id + '" classe="delete"><span> DELETE</span></p>'
 
             }
 
             layer.bindPopup(popupContent);
         }
 
-        //// function  tag text marker zoom////
-        function textZoom(pointLayer, zoom) {
-            let zoomlevel = map.getZoom();
-
-            if (zoomlevel < zoom) {
-                if (map.hasLayer(pointLayer)) {
-                    map.removeLayer(pointLayer);
-
-                } else {
-                    console.log("no point layer active");
-                }
-            }
-            if (zoomlevel >= zoom) {
-                if (map.hasLayer(pointLayer)) {
-                    console.log("layer already added");
-                } else {
-                    map.addLayer(pointLayer);
-
-                }
-            }
-            console.log("Current Zoom Level =" + zoomlevel)
-
-        };
 
 
         //////// cria tag texte image  ////////
@@ -471,7 +452,7 @@
         };
 
         ///////////  GET URL TAGS  FUNCTION GENERALE /////////////////////
-        function getText(url, detail = false, zoom = false) {
+        function getText(url, zoom = false) {
 
             //// fecth general level 1/////
             fetch(url)
@@ -500,75 +481,15 @@
                     map.addLayer(geral)
                         /////ADD E REMOVE LAYER EN DECSKTOP///
                         // map.on('zoomend', () => layerGeneral(geral, zoom))
-                        // map.fitBounds(pointLayer.getBounds());
+                        // map.fitBounds(geral.getBounds());
 
                 });
-
-            ///// fetch detail level 2////
-            if (detail) {
-
-                fetch(detail)
-                    .then((response) => {
-                        return response.json();
-                    })
-                    .then((data) => {
-                        console.log(data.features)
-
-
-                        detail = L.geoJSON(data, {
-
-                            style: (feature) => {
-                                return {
-                                    color: feature.properties.Color,
-                                    opacity: 0,
-                                    //dashArray: 20,
-                                    // fill: false
-                                };
-                            },
-
-                            onEachFeature: onEachFeature,
-
-                            pointToLayer: labelText
-
-                        });
-
-
-
-
-                        /////add remove layer zoom///
-
-                        map.on('zoomend', () => textZoom(detail, zoom))
-                            // map.fitBounds(pointLayer.getBounds());
-                    });
-
-            }
-
 
 
 
 
         } //////// FIM
 
-
-
-
-        ///// ADD REMOVE LAYER PRINCIPAL ZOOM LEVEL ////
-
-        function layerGeneral(layer, zoom) {
-            let zoommap = map.getZoom();
-            if (zoommap >= zoom) {
-                if (map.hasLayer(layer)) {
-                    map.removeLayer(layer);
-                    console.log("layer active non active geral");
-                }
-
-            } else {
-                map.addLayer(layer)
-                console.log("layer active geral active");
-            }
-
-
-        }
 
         ///// IMAGE ICON ///////
         function imogIcon(icon) {
@@ -594,7 +515,7 @@
 
         /////// FIM
         //// charge layer avec tags
-        window.load = getText(url, null, 15)
+        window.load = getText(url, 15)
     </script>
     <script src="js/cidades.js"></script>
 

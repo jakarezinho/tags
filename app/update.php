@@ -99,18 +99,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['id'])) {
         }
 
         .iconimg {
-        
+
             margin-top: 20px;
             display: flex;
             flex-wrap: wrap;
             list-style-type: none;
 
         }
+
         .iconimg li {
-         padding: 10px;
-         margin: 3px;
-         text-align: center;
-         background-color:#ccc;
+            padding: 10px;
+            margin: 3px;
+            text-align: center;
+            background-color: #ccc;
 
         }
     </style>
@@ -249,30 +250,36 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['id'])) {
 
         //// icons
 
-        const icons = ['art', 'bad', 'bar', 'bof', 'bomb', 'bronze', 'camion', 'chines',
+        const icons = ['art', 'auto','bad', 'bar', 'bof', 'bomb', 'bronze', 'camion', 'chines',
             'city', 'desert', 'dino', 'eclair', 'ennui', 'fire', 'fog', 'froid', 'guerra', 'heart',
             'hipster', 'hot', 'hotp', 'like', 'love', 'mar', 'mercado', 'mild', 'mort', 'motacarro',
-             'napoleon', 'nature', 'nice', 'novo', 'ok', 'onda', 'paisagem', 'pato', 'pescador', 'pff',
-            'picnic', 'praia', 'religion', 'restaurante', 'sapo', 'sardines', 'star', 'super', 'surfing',
-            'surprise', 'tourist', 'touro', 'yes'
+            'napoleon', 'nature', 'nice', 'novo', 'ok', 'onda', 'paisagem', 'pato', 'pescador', 'pff',
+            'picnic', 'praia', 'religion', 'restaurante', 'sapo', 'sardines', 'star', 'super', 'superman','surfing',
+            'surprise', 'sun','tourist', 'touro', 'yes', 'wind'
         ]
-        const ics = [{ art: 'art.gif',bad: 'bad.gif'}]
+        const ics = [{
+            art: 'art.gif',
+            bad: 'bad.gif'
+        }]
 
-        ics.map((post,indice)=>{
-            console.log(post.indice)
+        ics.map((post, indice) => {
+            console.log(post)
         })
 
         icons.forEach((items, index) => {
             let li = document.createElement('li')
             let img = document.createElement('img')
             let sp = document.createElement('p')
-           
-            sp.innerHTML = items 
+
+            sp.innerHTML = items
             img.setAttribute('src', 'images/' + items + '.gif')
+            img.setAttribute('alt', items)
             li.append(sp);
             li.appendChild(img)
             icongif.appendChild(li)
-
+            img.addEventListener('click', (e) => {
+                icon.value= e.target.alt
+            })
 
         })
     </script>

@@ -1,39 +1,42 @@
      ////// PESQUISA  CIDADES///////////////
      const locations = [{
-             name: 'Caldas da rainha',
-             lat: '39.4039',
-             lng: '-9.1336'
-         }, {
-             name: 'Foz do arelho',
-             lat: '39.4282',
-             lng: '-9.22071'
+                 name: 'Baleal',
+                 lat: '39.3725',
+                 lng: '-9.33705'
 
-         }, {
-             name: 'São martinho do porto',
-             lat: '39.51',
-             lng: '-9.13517'
+             }, {
+                 name: 'Caldas da rainha',
+                 lat: '39.4039',
+                 lng: '-9.1336'
+             }, {
+                 name: 'Foz do arelho',
+                 lat: '39.4282',
+                 lng: '-9.22071'
 
-         }, {
-             name: 'Obidos',
-             lat: '39.3607',
-             lng: '-9.15754'
+             }, {
+                 name: 'São martinho do porto',
+                 lat: '39.51',
+                 lng: '-9.13517'
 
-         }, {
-             name: 'Nazaré',
-             lat: '39.6006',
-             lng: '-9.07166'
+             }, {
+                 name: 'Obidos',
+                 lat: '39.3607',
+                 lng: '-9.15754'
 
-         },
-         {
-             name: 'Baleal',
-             lat: '39.3725',
-             lng: '-9.33705'
+             }, {
+                 name: 'Nazaré',
+                 lat: '39.6006',
+                 lng: '-9.07166'
 
-         }
-     ]
+             },
 
+         ]
+         ///// VARS 
      let cherche = document.getElementById('cherche')
      let r = document.getElementById('r')
+     let listIntro = document.getElementById('listintro')
+
+     //// cherche vile
      cherche.addEventListener('focus', (e) => {
          localidades(locations)
 
@@ -53,7 +56,7 @@
 
      });
 
-
+     ///// display viles
      function localidades(locations) {
          locations.map((city, index) => {
              r.style.display = 'block'
@@ -80,14 +83,13 @@
 
          })
      }
-
+     ///// filtre resultats
      function processResults(r) {
 
 
          console.log(r)
          liItem = r.getElementsByTagName("li");
          Array.from(liItem).forEach(element => {
-             console.log(element)
              links = element.getElementsByTagName("a")[0];
              console.log(links)
              filterSearch = cherche.value.toUpperCase();
@@ -99,3 +101,16 @@
              }
          })
      }
+
+     //////  mini lista de viles intro
+     function localidadesIntro(locations) {
+         locations.map((city, index) => {
+
+             let li = document.createElement('li')
+             li.append(city.name)
+             listIntro.appendChild(li)
+
+         })
+     }
+
+     localidadesIntro(locations)
