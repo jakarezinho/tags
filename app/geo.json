@@ -1743,7 +1743,7 @@
             "type": "Feature",
             "properties": {
                 "id": "85",
-                "tag": "stupid people in jet ski",
+                "tag": "stupid people on jet ski",
                 "lat": "39.6007",
                 "lng": "-9.07915",
                 "color": "#ee2b2b",
@@ -1751,7 +1751,7 @@
                 "info": "",
                 "adress": "Atlantic Ocean",
                 "size": "18",
-                "time": "Mon May 03 2021 18:58:05 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 22:06:51 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
@@ -1780,6 +1780,336 @@
                 "coordinates": [
                     "-9.06849",
                     "39.5927"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "87",
+                "tag": "mosquitos",
+                "lat": "39.4054",
+                "lng": "-9.1939",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Rua Engenheiro Lu\u00eds Paiva e Sousa",
+                "size": "18",
+                "time": "Mon May 03 2021 22:08:43 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.1939",
+                    "39.4054"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "88",
+                "tag": "mariscadores, jet ski, padle, gaivotas",
+                "lat": "39.4227",
+                "lng": "-9.21972",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "2500",
+                "size": "14",
+                "time": "Mon May 03 2021 22:09:33 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.21972",
+                    "39.4227"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "89",
+                "tag": "flamingos refugiados",
+                "lat": "39.4041",
+                "lng": "-9.18818",
+                "color": "#897459",
+                "icon": "nice",
+                "info": "",
+                "adress": "2500",
+                "size": "17",
+                "time": "Mon May 03 2021 22:13:25 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.18818",
+                    "39.4041"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "90",
+                "tag": "eucaliptos",
+                "lat": "39.4073",
+                "lng": "-9.22161",
+                "color": "#897459",
+                "icon": "pff",
+                "info": "",
+                "adress": "Travessa do Remo 17",
+                "size": "18",
+                "time": "Mon May 03 2021 22:14:32 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.22161",
+                    "39.4073"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "91",
+                "tag": "atentado ambiental golf para ricos ",
+                "lat": "39.4154",
+                "lng": "-9.24472",
+                "color": "#8d715e",
+                "icon": "mort",
+                "info": "",
+                "adress": "Estrada Rei de Corti\u00e7a",
+                "size": "18",
+                "time": "Mon May 03 2021 22:17:28 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.24472",
+                    "39.4154"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "92",
+                "tag": "urbex",
+                "lat": "39.4182",
+                "lng": "-9.20339",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Rua da Paz",
+                "size": "18",
+                "time": "Mon May 03 2021 22:20:01 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.20339",
+                    "39.4182"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "93",
+                "tag": "vela",
+                "lat": "39.4094",
+                "lng": "-9.20292",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "2500",
+                "size": "14",
+                "time": "Mon May 03 2021 22:20:54 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.20292",
+                    "39.4094"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "94",
+                "tag": "picniques com o carro o domingo",
+                "lat": "39.3923",
+                "lng": "-9.22362",
+                "color": "#897459",
+                "icon": "auto",
+                "info": "",
+                "adress": "\u00d3bidos",
+                "size": "18",
+                "time": "Tue May 04 2021 11:19:34 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.22362",
+                    "39.3923"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "95",
+                "tag": "muito p\u00f3",
+                "lat": "39.3882",
+                "lng": "-9.22592",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "\u00d3bidos",
+                "size": "18",
+                "time": "Tue May 04 2021 11:15:36 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.22592",
+                    "39.3882"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "96",
+                "tag": "local de antigos pescadores",
+                "lat": "39.3978",
+                "lng": "-9.21592",
+                "color": "#897459",
+                "icon": "pescador",
+                "info": "",
+                "adress": "\u00d3bidos",
+                "size": "14",
+                "time": "Tue May 04 2021 11:18:53 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.21592",
+                    "39.3978"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "97",
+                "tag": "ricos",
+                "lat": "39.3822",
+                "lng": "-9.22983",
+                "color": "#897459",
+                "icon": "pff",
+                "info": "",
+                "adress": "\u00d3bidos",
+                "size": "18",
+                "time": "Tue May 04 2021 11:21:12 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.22983",
+                    "39.3822"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "98",
+                "tag": "bikes caminhhadas tudo ao mesmo tempo",
+                "lat": "39.4009",
+                "lng": "-9.21983",
+                "color": "#897459",
+                "icon": "bad",
+                "info": "",
+                "adress": "\u00d3bidos",
+                "size": "14",
+                "time": "Tue May 04 2021 11:30:02 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.21983",
+                    "39.4009"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "99",
+                "tag": "picnic area",
+                "lat": "39.398",
+                "lng": "-9.19897",
+                "color": "#897459",
+                "icon": "picnic",
+                "info": "",
+                "adress": "\u00d3bidos",
+                "size": "18",
+                "time": "Tue May 04 2021 11:31:11 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.19897",
+                    "39.398"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "100",
+                "tag": "patos",
+                "lat": "39.4011",
+                "lng": "-9.20234",
+                "color": "#897459",
+                "icon": "pato",
+                "info": "",
+                "adress": "\u00d3bidos",
+                "size": "18",
+                "time": "Tue May 04 2021 11:32:52 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.20234",
+                    "39.4011"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "101",
+                "tag": "mosquitos ferozes",
+                "lat": "39.4119",
+                "lng": "-9.22028",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Casal da Lapinha",
+                "size": "18",
+                "time": "Tue May 04 2021 11:34:13 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.22028",
+                    "39.4119"
                 ]
             }
         }

@@ -16,14 +16,14 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
-
+    <link rel="stylesheet" href="app/css/imoji.css">
     <style>
          :root {
             --blanc: #FFF;
             --noir: #000;
             --shadow: #2e2d2d;
             --shadow_map: text-shadow: 1px 1px 0 var(--shadow), 1px 2px 0 var(--shadow), 3px 3px 0 var(--shadow), -1px -1px 0 var(--shadow), 1px -1px 0 var(--shadow), -1px 1px 0 var(--shadow), 0 1px 0 var(--shadow);
-            --tableau: #c2b8ab;
+            --tableau: #83786a;
         }
         
         * {
@@ -143,11 +143,21 @@
         
         .header {
             color: var(--blanc);
-            text-shadow: 2px 2px var(--shadow);
             margin: 20px;
             padding-top: 100px;
             font-size: 30px;
             display: flex;
+        }
+        
+        .list {
+            list-style: none;
+            font-size: 13px;
+        }
+        
+        .header p,
+        h1,
+        h2 {
+            padding-bottom: 15px;
         }
         /*PESQUISA*/
         
@@ -190,7 +200,20 @@
             padding: 5px;
             text-align: center;
         }
+        
+        .love {
+            text-align: center;
+            font-size: 12px;
+            padding-top: 30px;
+        }
         /* DIVERS*/
+        
+        @media only screen and (max-width: 600px) {
+            .header {
+                font-size: 20px;
+                margin-top: 15px;
+            }
+        }
     </style>
 </head>
 
@@ -200,11 +223,17 @@
     </div>
     <div id="dc" class="doc">
         <div class="header">
-            <div>
+            <div class="disclamer">
                 <p><img src="app/images/hot_map.gif" alt="Minhas recomendações"></p>
-                <h1> Minhas recomendações</h1>
-                <p>Mapa humoristico da região oeste de portugal</p>
-                <ul id="listintro"></ul>
+                <h1>Sonho e realidade</h1>
+
+                <p><i class="twa twa-1x twa-hotel"></i> Cada vez que vou para um novo lugar é difícil descobrir para que partes da cidade devo ir. Muitas vezes acabo no centro turístico. Sei que 90% das pessoas que vão para um novo local ou cidade não terá
+                    nenhuma ideia sobre a realidade de um local porque apenas ficam no centro turístico. É uma área falsa que não tem nada a ver com a realidade local. Então o que eu quero? Quero obter uma visão geral rápida do que é a região. </p>
+                <p><i class="twa twa-1x twa-beach-with-umbrella"></i>Vista da região Oeste de Portugal fora do prisma marketing oficial das regiões de turismo por vezes nem tudo é paraíso </p>
+                <h2> lista de cidades em vista </h2>
+                <p> <i class="twa twa-1x twa-sun-with-face"></i>Região Oeste</p>
+                <ul id="listintro" class="list"></ul>
+                <p class="love">HOT MAP Sonho e realidade </p>
             </div>
 
         </div>

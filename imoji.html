@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Twitter Emoji (Twemoji) Preview</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="app/css/imoji.css">
+    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <script>
+        var div = document.createElement('div');
+        div.textContent = '\u2764\uFE0F ';
+        document.body.appendChild(div);
+
+        twemoji.parse(document.body);
+
+        var img = div.querySelector('img');
+
+        // note the div is preserved
+        //  img.parentNode === div; // true
+
+        img.src; // https://twemoji.maxcdn.com/v/latest/72x72/2764.png
+        img.alt; // \u2764\uFE0F
+        img.className; // emoji
+        img.draggable; // false
+    </script>
+</body>
+<p> <i class="twa twa-1x twa-sun"></i>asasasasasasas</p>
+
+</html>
