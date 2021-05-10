@@ -43,10 +43,10 @@ public function insert_infos($tag,$lat,$lng,$color,$icon,$adress,$info,$size,$ti
 ////// UPDATE////
 
 
-public function update_infos($tag,$lat,$lng,$color,$icon,$adress,$info,$size,$time,$id)
+public function update_infos($tag,$lat,$lng,$color,$icon,$adress,$info,$size,$id)
  {
 
-    $update = $this->db->query("UPDATE tags SET tag=?, lat=?, lng=?, color=?,icon=?, adress=?, info=?,size=?,time=? WHERE id=?", [$tag, $lat, $lng, $color, $icon,  $adress,$info,$size, $time,$id]);
+    $update = $this->db->query("UPDATE tags SET tag=?, lat=?, lng=?, color=?,icon=?, adress=?, info=?,size=? WHERE id=?", [$tag, $lat, $lng, $color, $icon,  $adress,$info,$size,$id]);
   return $update;
 
   }

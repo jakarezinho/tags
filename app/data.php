@@ -18,7 +18,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
 }
 if($_SERVER['REQUEST_METHOD'] === 'PUT'){
    parse_str(file_get_contents("php://input"),$post_vars);
-  $update=  $test->update_infos($post_vars['tag'],$post_vars['latitude'],$post_vars['longitude'],$post_vars['color'],$post_vars['icon'],$post_vars['adress'],$post_vars['info'],$post_vars['size'],$post_vars['time'],$post_vars['id']);
+  $update=  $test->update_infos($post_vars['tag'],$post_vars['latitude'],$post_vars['longitude'],$post_vars['color'],$post_vars['icon'],$post_vars['adress'],$post_vars['info'],$post_vars['size'],$post_vars['id']);
  return $update;
    
  

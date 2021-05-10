@@ -219,7 +219,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['id'])) {
             data.append("icon", icon.value);
             data.append("color", color.value);
             data.append("info", info.value);
-            data.append("time", new Date());
             data.append("id", id.value);
 
             //  fetch

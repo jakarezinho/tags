@@ -105,10 +105,12 @@
      //////  mini lista de viles intro
      function localidadesIntro(locations) {
          locations.map((city, index) => {
+             if (listIntro) {
+                 let li = document.createElement('li')
+                 li.append(city.name)
+                 listIntro.appendChild(li)
+             }
 
-             let li = document.createElement('li')
-             li.append(city.name)
-             listIntro.appendChild(li)
 
          })
      }
