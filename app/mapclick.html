@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Reverse geocoding from map</title>
+    <title>Hot maps edit</title>
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
 
     <!-- Load Leaflet from CDN -->
@@ -315,7 +315,7 @@
                         map.removeLayer(geral);
 
                     }
-                    getText(url, null, 15)
+                    getText(url)
 
                 })
                 .catch(function(error) {
@@ -361,7 +361,7 @@
                         map.removeLayer(geral);
 
                     }
-                    getText(url, null, 15)
+                    getText(url)
 
 
 
@@ -429,30 +429,10 @@
         }
 
 
-        //// controla o zoom e layers  ////
-        function textZoomDetail(pointLayer, zoom) {
-            let zoomlevel = map.getZoom();
-            map.addLayer(pointLayer)
-            if (zoomlevel < zoom) {
-                if (map.hasLayer(pointLayer)) {
-                    map.removeLayer(pointLayer);
-                } else {
-                    console.log("no point layer active");
-                }
-            }
-            if (zoomlevel >= zoom) {
-                if (map.hasLayer(pointLayer)) {
-                    console.log("layer already added");
-                } else {
-                    map.addLayer(pointLayer);
-                }
-            }
-            console.log("Current Zoom Level =" + zoomlevel)
 
-        };
 
         ///////////  GET URL TAGS  FUNCTION GENERALE /////////////////////
-        function getText(url, zoom = false) {
+        function getText(url) {
 
             //// fecth general level 1/////
             fetch(url)
@@ -515,7 +495,7 @@
 
         /////// FIM
         //// charge layer avec tags
-        window.load = getText(url, 15)
+        window.load = getText(url)
     </script>
     <script src="js/cidades.js"></script>
 

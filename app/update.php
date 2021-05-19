@@ -249,12 +249,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['id'])) {
 
         //// icons
 
-        const icons = ['art', 'auto','bad', 'bar', 'bof', 'bik','bomb', 'bronze', 'camion', 'chines',
+        const icons = ['art', 'auto','bad', 'bar', 'barco', 'bof', 'bik','bomb', 'bronze', 'camion', 'chines',
             'city', 'desert', 'dino', 'eclair', 'ennui', 'fire', 'fog', 'froid', 'guerra', 'heart',
             'hipster', 'hot', 'hotp', 'like', 'love', 'mar', 'mercado', 'mild', 'mort', 'motacarro',
             'napoleon', 'nature', 'nice', 'novo', 'ok', 'onda', 'paisagem', 'pato', 'pescador', 'pff',
             'picnic', 'praia', 'religion', 'restaurante', 'sapo', 'sardines', 'star', 'super', 'superman','surfing',
-            'surprise', 'sun','tourist', 'touro', 'yes', 'wind'
+            'surprise', 'sun','tourist', 'touro', 'yes', 'wind','vaga'
         ]
         const ics = [{
             art: 'art.gif',

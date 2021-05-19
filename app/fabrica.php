@@ -9,6 +9,7 @@ use App\classes\Controller;
 $test= new Controller();
 
 $feed = $test->myquery();
+//$feed= $test->porperto(39.4039, -9.1336, 5, 100);
 
 $geojson = array(
   'type' => 'FeatureCollection',

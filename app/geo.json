@@ -71,12 +71,12 @@
             "type": "Feature",
             "properties": {
                 "id": "4",
-                "tag": "Passear e dar de comer a pombos",
+                "tag": "Aqui a mata encantada ...",
                 "lat": "39.4009",
                 "lng": "-9.13336",
                 "color": "#897459",
                 "icon": "",
-                "info": "",
+                "info": "Parque D.Carlos I batizada mata encantada para efeitos de marketing",
                 "adress": "Parque Dom Carlos I",
                 "size": "14",
                 "time": "Mon Apr 26 2021 17:15:08 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
@@ -94,11 +94,11 @@
             "properties": {
                 "id": "5",
                 "tag": "Tradi\u00e7\u00f5es da cer\u00e2mica",
-                "lat": "39.4003",
+                "lat": "39.4",
                 "lng": "-9.13022",
                 "color": "#897459",
                 "icon": "sapo",
-                "info": "",
+                "info": "Antiga Fabrica Bordalo Pinheiro e Museu da cer\u00e2mica",
                 "adress": "Rua Rafael Bordalo Pinheiro 53-53",
                 "size": "20",
                 "time": "Mon Apr 26 2021 16:55:01 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
@@ -107,7 +107,7 @@
                 "type": "Point",
                 "coordinates": [
                     "-9.13022",
-                    "39.4003"
+                    "39.4"
                 ]
             }
         },
@@ -116,20 +116,20 @@
             "properties": {
                 "id": "6",
                 "tag": "historic zone",
-                "lat": "39.4025",
-                "lng": "-9.13189",
+                "lat": "39.4027",
+                "lng": "-9.13149",
                 "color": "#e82cb5",
                 "icon": "love",
                 "info": "Zona hist\u00f3rica da cidade ainda preservada",
-                "adress": "Rua Rafael Bordalo Pinheiro 13",
+                "adress": "Ribatejana",
                 "size": "18",
                 "time": "Wed May 05 2021 12:03:35 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    "-9.13189",
-                    "39.4025"
+                    "-9.13149",
+                    "39.4027"
                 ]
             }
         },
@@ -403,18 +403,18 @@
                 "id": "19",
                 "tag": "Museus vazios",
                 "lat": "39.3986",
-                "lng": "-9.13174",
+                "lng": "-9.13058",
                 "color": "#897459",
                 "icon": "",
                 "info": "",
-                "adress": "Rua Columbano Bordalo Pinheiro",
+                "adress": "Rua Columbano Bordalo Pinheiro 6",
                 "size": "18",
                 "time": "Mon Apr 26 2021 17:07:51 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    "-9.13174",
+                    "-9.13058",
                     "39.3986"
                 ]
             }
@@ -496,7 +496,7 @@
                 "icon": "",
                 "info": "",
                 "adress": "Rua Doutor Artur Maldonado Freitas 12-32",
-                "size": "13",
+                "size": "14",
                 "time": "Tue Apr 27 2021 11:12:40 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
@@ -754,20 +754,20 @@
             "properties": {
                 "id": "38",
                 "tag": "Reformados franceses",
-                "lat": "39.5141",
-                "lng": "-9.13106",
+                "lat": "39.515",
+                "lng": "-9.13345",
                 "color": "#897459",
                 "icon": "napoleon",
                 "info": "",
-                "adress": "Rua Vinha do Senhor 5A",
+                "adress": "Rua da Liberdade 9",
                 "size": "14",
                 "time": "Fri Apr 30 2021 15:57:14 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    "-9.13106",
-                    "39.5141"
+                    "-9.13345",
+                    "39.515"
                 ]
             }
         },
@@ -797,9 +797,9 @@
             "type": "Feature",
             "properties": {
                 "id": "40",
-                "tag": "Passeio de reformados franceses",
-                "lat": "39.5078",
-                "lng": "-9.13445",
+                "tag": "Passeio dos reformados franceses",
+                "lat": "39.5129",
+                "lng": "-9.13642",
                 "color": "#897459",
                 "icon": "napoleon",
                 "info": "",
@@ -810,8 +810,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    "-9.13445",
-                    "39.5078"
+                    "-9.13642",
+                    "39.5129"
                 ]
             }
         },
@@ -819,21 +819,21 @@
             "type": "Feature",
             "properties": {
                 "id": "41",
-                "tag": "garotos a gritar",
-                "lat": "39.5129",
-                "lng": "-9.13689",
+                "tag": "Fam\u00edlias e gente gorda",
+                "lat": "39.5092",
+                "lng": "-9.13522",
                 "color": "#897459",
-                "icon": "",
+                "icon": "ennui",
                 "info": "",
-                "adress": "Avenida Marginal",
+                "adress": "Rua Dr. J\u00falio Frederico Guimar\u00e3es Biel 10-22",
                 "size": "18",
                 "time": "Thu Apr 29 2021 18:51:30 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    "-9.13689",
-                    "39.5129"
+                    "-9.13522",
+                    "39.5092"
                 ]
             }
         },
@@ -1266,7 +1266,7 @@
                 "icon": "",
                 "info": "Antigo hospital em ru\u00ednas",
                 "adress": "Beco do Quartel 5-5",
-                "size": "18",
+                "size": "12",
                 "time": "Wed May 05 2021 11:54:38 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
@@ -2447,7 +2447,7 @@
             "type": "Feature",
             "properties": {
                 "id": "117",
-                "tag": "Praia com p\u00f3",
+                "tag": "Praias e p\u00f3",
                 "lat": "39.3639",
                 "lng": "-9.34499",
                 "color": "#897459",
@@ -2558,20 +2558,20 @@
             "properties": {
                 "id": "122",
                 "tag": "caf\u00e9 0.75\u20ac",
-                "lat": "39.4334",
-                "lng": "-9.22631",
+                "lat": "39.4333",
+                "lng": "-9.22701",
                 "color": "#897459",
                 "icon": "",
                 "info": "",
-                "adress": "Rua Visconde Morais 21",
+                "adress": "Rua Visconde Morais",
                 "size": "12",
                 "time": "Sun May 09 2021 19:04:49 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    "-9.22631",
-                    "39.4334"
+                    "-9.22701",
+                    "39.4333"
                 ]
             }
         },
@@ -2682,6 +2682,468 @@
                 "coordinates": [
                     "-9.36112",
                     "39.3241"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "129",
+                "tag": "virado para o por do sol",
+                "lat": "39.4147",
+                "lng": "-9.11897",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Rua Carreira do Gado 215",
+                "size": "18",
+                "time": "Tue May 11 2021 11:34:52 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.11897",
+                    "39.4147"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "130",
+                "tag": "surf stars",
+                "lat": "39.3455",
+                "lng": "-9.36366",
+                "color": "#897459",
+                "icon": "surfing",
+                "info": "",
+                "adress": "Praia de Med\u00e3o-Supertubos",
+                "size": "14",
+                "time": "Tue May 11 2021 11:37:01 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.36366",
+                    "39.3455"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "131",
+                "tag": "cheiro a peixe...",
+                "lat": "39.3612",
+                "lng": "-9.37003",
+                "color": "#897459",
+                "icon": "bad",
+                "info": "",
+                "adress": "Multibanco",
+                "size": "18",
+                "time": "Tue May 11 2021 11:41:37 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.37003",
+                    "39.3612"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "132",
+                "tag": "entradas de ondas ",
+                "lat": "39.3541",
+                "lng": "-9.38269",
+                "color": "#897459",
+                "icon": "vaga",
+                "info": "",
+                "adress": "Rua Alto da Vela",
+                "size": "14",
+                "time": "Tue May 11 2021 11:44:35 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.38269",
+                    "39.3541"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "133",
+                "tag": "Ondas manhosas",
+                "lat": "39.5435",
+                "lng": "-9.11599",
+                "color": "#897459",
+                "icon": "vaga",
+                "info": "",
+                "adress": "2460",
+                "size": "18",
+                "time": "Tue May 11 2021 11:58:02 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.11599",
+                    "39.5435"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "134",
+                "tag": "Vista para o mar",
+                "lat": "39.5147",
+                "lng": "-9.13878",
+                "color": "#897459",
+                "icon": "nice",
+                "info": "",
+                "adress": "Miradouro de S\u00e3o Martinho do Porto",
+                "size": "14",
+                "time": "Tue May 11 2021 12:00:07 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13878",
+                    "39.5147"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "135",
+                "tag": "pr\u00e9dios altos",
+                "lat": "39.5096",
+                "lng": "-9.134",
+                "color": "#897459",
+                "icon": "pff",
+                "info": "",
+                "adress": "Rua Dr. J\u00falio Frederico Guimar\u00e3es Biel 22",
+                "size": "14",
+                "time": "Tue May 11 2021 12:01:34 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.134",
+                    "39.5096"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "136",
+                "tag": "Historic zone ",
+                "lat": "39.5139",
+                "lng": "-9.13304",
+                "color": "#897459",
+                "icon": "nice",
+                "info": "",
+                "adress": "Rua do Outeiro 8",
+                "size": "25",
+                "time": "Tue May 11 2021 12:02:05 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13304",
+                    "39.5139"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "137",
+                "tag": "urbex",
+                "lat": "39.5123",
+                "lng": "-9.13292",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Rua Marechal Carmona 7",
+                "size": "14",
+                "time": "Tue May 11 2021 12:02:20 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13292",
+                    "39.5123"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "138",
+                "tag": "parece uma esta\u00e7\u00e3o",
+                "lat": "39.5075",
+                "lng": "-9.13264",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Rua Conde de Avellar 50",
+                "size": "14",
+                "time": "Tue May 11 2021 22:23:23 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13264",
+                    "39.5075"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "139",
+                "tag": "dinousauros",
+                "lat": "39.4922",
+                "lng": "-9.17723",
+                "color": "#897459",
+                "icon": "dino",
+                "info": "",
+                "adress": "2500",
+                "size": "18",
+                "time": "Tue May 11 2021 22:25:21 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.17723",
+                    "39.4922"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "140",
+                "tag": "garotos a gritar nas dunas",
+                "lat": "39.5029",
+                "lng": "-9.15103",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "2500",
+                "size": "18",
+                "time": "Tue May 11 2021 22:28:30 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.15103",
+                    "39.5029"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "141",
+                "tag": "wind",
+                "lat": "39.5232",
+                "lng": "-9.13629",
+                "color": "#897459",
+                "icon": "wind",
+                "info": "",
+                "adress": "Atlantic Ocean",
+                "size": "28",
+                "time": "Tue May 11 2021 22:29:55 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13629",
+                    "39.5232"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "142",
+                "tag": "ateliers de artistas",
+                "lat": "39.3987",
+                "lng": "-9.13167",
+                "color": "#897459",
+                "icon": "art",
+                "info": "",
+                "adress": "Rua Columbano Bordalo Pinheiro",
+                "size": "14",
+                "time": "Fri May 14 2021 20:50:20 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13167",
+                    "39.3987"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "143",
+                "tag": "caf\u00e9 0.80\u20ac",
+                "lat": "39.4336",
+                "lng": "-9.22706",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Rua Visconde Morais 7A",
+                "size": "12",
+                "time": "Sun May 16 2021 20:17:27 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.22706",
+                    "39.4336"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "144",
+                "tag": "brasileiros",
+                "lat": "39.4042",
+                "lng": "-9.1419",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Rua Vicente Paramos 24",
+                "size": "18",
+                "time": "Mon May 17 2021 12:04:00 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.1419",
+                    "39.4042"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "145",
+                "tag": "Mercearia hipster",
+                "lat": "39.4037",
+                "lng": "-9.1356",
+                "color": "#cd32b9",
+                "icon": "hot",
+                "info": "",
+                "adress": "Rua das Vacarias 39A ",
+                "size": "14",
+                "time": "Mon May 17 2021 12:06:27 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.1356",
+                    "39.4037"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "146",
+                "tag": "locals",
+                "lat": "39.436",
+                "lng": "-9.215",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Rua Jo\u00e3o Em\u00edlio da Silva 9-9",
+                "size": "18",
+                "time": "Mon May 17 2021 12:10:45 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.215",
+                    "39.436"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "147",
+                "tag": "Arrumadores",
+                "lat": "39.405",
+                "lng": "-9.13075",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Rua Di\u00e1rio de Not\u00edcias",
+                "size": "14",
+                "time": "Mon May 17 2021 12:30:01 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13075",
+                    "39.405"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "148",
+                "tag": "Barcos",
+                "lat": "39.5076",
+                "lng": "-9.14226",
+                "color": "#897459",
+                "icon": "barco",
+                "info": "",
+                "adress": "Atlantic Ocean",
+                "size": "18",
+                "time": "Mon May 17 2021 19:56:26 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.14226",
+                    "39.5076"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "149",
+                "tag": "nice view",
+                "lat": "39.5131",
+                "lng": "-9.13484",
+                "color": "#897459",
+                "icon": "love",
+                "info": "",
+                "adress": "Miradouro de S\u00e3o Martinho do Porto",
+                "size": "14",
+                "time": "Mon May 17 2021 20:03:33 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13484",
+                    "39.5131"
                 ]
             }
         }

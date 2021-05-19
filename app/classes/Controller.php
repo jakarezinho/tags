@@ -12,6 +12,12 @@ public function __construct()
     $this->db = App::getDatabase();
 }
 
+/////LOCALE 
+
+public function porperto($lat,$lng, $radius=2, $limite = 5){
+  $perto= $this->db->query("SELECT  *,( 6371 * acos( cos( radians('$lat') ) * cos( radians( lat ) ) * cos( radians( lng ) - radians('$lng') ) + sin( radians('$lat') ) * sin( radians( lat ) ) ) ) AS distance FROM tags  HAVING distance < '$radius' ORDER BY distance LIMIT 0 , $limite")->fetchAll(PDO::FETCH_ASSOC);
+  return $perto;
+}
 
 ///// DISPLAY
 public function myquery()
