@@ -12,14 +12,117 @@
                 "icon": "tourist",
                 "info": "Pra\u00e7a da fruta mercado ao ar livre local tur\u00edstico e chic",
                 "adress": "Pra\u00e7a da Rep\u00fablica 21",
-                "size": "30",
-                "time": "Thu Apr 29 2021 20:16:16 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "size": "35",
+                "time": "Thu Apr 29 2021 20:16:16 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": "669596398051",
+                "post_id": "1",
+                "rating_action": "like"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     "-9.13374",
                     "39.4038"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "8",
+                "tag": "Minha feira",
+                "lat": "39.4075",
+                "lng": "-9.12245",
+                "color": "#897459",
+                "icon": "mercado",
+                "info": "",
+                "adress": "Rua Insepar\u00e1veis de Lubango",
+                "size": "20",
+                "time": "Mon Apr 26 2021 16:57:10 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": "669596398051",
+                "post_id": "8",
+                "rating_action": "like"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.12245",
+                    "39.4075"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "11",
+                "tag": "Loja hipster",
+                "lat": "39.405",
+                "lng": "-9.13543",
+                "color": "#cd32b9",
+                "icon": "hot",
+                "info": "Loja Sr.jacinto artesanato chic",
+                "adress": "Rua Dom Miguel Bombarda 3-115",
+                "size": "13",
+                "time": "Wed May 05 2021 11:56:52 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": "669596398051",
+                "post_id": "11",
+                "rating_action": "like"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13543",
+                    "39.405"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "13",
+                "tag": "Coworking criativo",
+                "lat": "39.4024",
+                "lng": "-9.13951",
+                "color": "#897459",
+                "icon": "nice",
+                "info": "",
+                "adress": "N360",
+                "size": "17",
+                "time": "Mon Apr 26 2021 16:59:40 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": "669596398051",
+                "post_id": "13",
+                "rating_action": "like"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13951",
+                    "39.4024"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "30",
+                "tag": "caravan paradise",
+                "lat": "39.4282",
+                "lng": "-9.22071",
+                "color": "#ea2a2a",
+                "icon": "bad",
+                "info": "Montes de autocaravanas turismo rasca",
+                "adress": "Rua Francisco Almeida Grandela",
+                "size": "30",
+                "time": "Sat May 01 2021 22:05:55 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": "669596398051",
+                "post_id": "30",
+                "rating_action": "like"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.22071",
+                    "39.4282"
                 ]
             }
         },
@@ -35,7 +138,10 @@
                 "info": "Quinta da boneca antiga quinta",
                 "adress": "2500",
                 "size": "25",
-                "time": "Tue Apr 27 2021 15:20:16 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue Apr 27 2021 15:20:16 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -57,7 +163,10 @@
                 "info": "",
                 "adress": "Parque Dom Carlos I",
                 "size": "14",
-                "time": "Mon Apr 26 2021 16:53:45 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon Apr 26 2021 16:53:45 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -79,7 +188,10 @@
                 "info": "Parque D.Carlos I batizada mata encantada para efeitos de marketing",
                 "adress": "Parque Dom Carlos I",
                 "size": "14",
-                "time": "Mon Apr 26 2021 17:15:08 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon Apr 26 2021 17:15:08 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -101,7 +213,10 @@
                 "info": "Antiga Fabrica Bordalo Pinheiro e Museu da cer\u00e2mica",
                 "adress": "Rua Rafael Bordalo Pinheiro 53-53",
                 "size": "20",
-                "time": "Mon Apr 26 2021 16:55:01 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon Apr 26 2021 16:55:01 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -123,7 +238,10 @@
                 "info": "Zona hist\u00f3rica da cidade ainda preservada",
                 "adress": "Ribatejana",
                 "size": "18",
-                "time": "Wed May 05 2021 12:03:35 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Wed May 05 2021 12:03:35 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -145,35 +263,16 @@
                 "info": "Obra de ceramista Ferreira da Silva",
                 "adress": "Rua Di\u00e1rio de Not\u00edcias",
                 "size": "22",
-                "time": "Wed May 05 2021 11:49:50 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Wed May 05 2021 11:49:50 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     "-9.13126",
                     "39.404"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "8",
-                "tag": "Minha feira",
-                "lat": "39.4075",
-                "lng": "-9.12245",
-                "color": "#897459",
-                "icon": "mercado",
-                "info": "",
-                "adress": "Rua Insepar\u00e1veis de Lubango",
-                "size": "20",
-                "time": "Mon Apr 26 2021 16:57:10 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    "-9.12245",
-                    "39.4075"
                 ]
             }
         },
@@ -189,7 +288,10 @@
                 "info": "",
                 "adress": "Rua Di\u00e1rio de Not\u00edcias 211",
                 "size": "14",
-                "time": "Mon Apr 26 2021 16:57:18 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon Apr 26 2021 16:57:18 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -211,35 +313,16 @@
                 "info": "Rua das montras",
                 "adress": "Rua Almirante C\u00e2ndido Reis 46-106",
                 "size": "14",
-                "time": "Wed May 05 2021 11:55:56 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Wed May 05 2021 11:55:56 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     "-9.13467",
                     "39.4046"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "11",
-                "tag": "Loja hipster",
-                "lat": "39.405",
-                "lng": "-9.13543",
-                "color": "#cd32b9",
-                "icon": "hot",
-                "info": "Loja Sr.jacinto artesanato chic",
-                "adress": "Rua Dom Miguel Bombarda 3-115",
-                "size": "13",
-                "time": "Wed May 05 2021 11:56:52 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    "-9.13543",
-                    "39.405"
                 ]
             }
         },
@@ -255,35 +338,16 @@
                 "info": "",
                 "adress": "120 Bar",
                 "size": "18",
-                "time": "Mon Apr 26 2021 16:59:09 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon Apr 26 2021 16:59:09 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     "-9.1363",
                     "39.4033"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "13",
-                "tag": "Coworking criativo",
-                "lat": "39.4024",
-                "lng": "-9.13951",
-                "color": "#897459",
-                "icon": "nice",
-                "info": "",
-                "adress": "N360",
-                "size": "17",
-                "time": "Mon Apr 26 2021 16:59:40 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    "-9.13951",
-                    "39.4024"
                 ]
             }
         },
@@ -299,7 +363,10 @@
                 "info": "",
                 "adress": "Avenal",
                 "size": "16",
-                "time": "Mon Apr 26 2021 17:00:39 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon Apr 26 2021 17:00:39 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -321,7 +388,10 @@
                 "info": "",
                 "adress": "Rua Engenheiro Cancela de Abreu 11",
                 "size": "14",
-                "time": "Mon Apr 26 2021 17:01:17 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon Apr 26 2021 17:01:17 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -343,7 +413,10 @@
                 "info": "",
                 "adress": "Rua da Pra\u00e7a de Touros 5",
                 "size": "14",
-                "time": "Mon Apr 26 2021 17:01:27 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon Apr 26 2021 17:01:27 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -365,7 +438,10 @@
                 "info": "",
                 "adress": "Rua Adelino Soares de Oliveira 9A",
                 "size": "17",
-                "time": "Tue Apr 27 2021 18:46:40 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue Apr 27 2021 18:46:40 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -387,7 +463,10 @@
                 "info": "",
                 "adress": "Rua Claudina Chami\u00e7o 30",
                 "size": "20",
-                "time": "Tue Apr 27 2021 20:48:50 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue Apr 27 2021 20:48:50 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -409,7 +488,10 @@
                 "info": "",
                 "adress": "Rua Columbano Bordalo Pinheiro 6",
                 "size": "18",
-                "time": "Mon Apr 26 2021 17:07:51 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon Apr 26 2021 17:07:51 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -431,7 +513,10 @@
                 "info": "",
                 "adress": "Rua Capit\u00e3o Filipe de Sousa",
                 "size": "18",
-                "time": "Mon Apr 26 2021 17:20:46 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon Apr 26 2021 17:20:46 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -453,7 +538,10 @@
                 "info": "",
                 "adress": "Rua O Moinho de Vento 12A",
                 "size": "20",
-                "time": "Sat May 01 2021 22:21:20 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Sat May 01 2021 22:21:20 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -475,7 +563,10 @@
                 "info": "",
                 "adress": "Frigot\u00eav\u00ea",
                 "size": "14",
-                "time": "Sat May 01 2021 22:21:07 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Sat May 01 2021 22:21:07 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -497,7 +588,10 @@
                 "info": "",
                 "adress": "Rua Doutor Artur Maldonado Freitas 12-32",
                 "size": "14",
-                "time": "Tue Apr 27 2021 11:12:40 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue Apr 27 2021 11:12:40 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -519,7 +613,10 @@
                 "info": "",
                 "adress": "Largo Doutor Jos\u00e9 Barbosa 6-9",
                 "size": "12",
-                "time": "Tue Apr 27 2021 11:13:33 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue Apr 27 2021 11:13:33 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -541,7 +638,10 @@
                 "info": "",
                 "adress": "Escola B\u00e1sica do Campo",
                 "size": "14",
-                "time": "Tue Apr 27 2021 19:38:53 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue Apr 27 2021 19:38:53 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -563,7 +663,10 @@
                 "info": "Hospital termal \u00e1guas e vapores ",
                 "adress": "Hospital Termal das Caldas da Rainha vapores termais",
                 "size": "16",
-                "time": "Wed Apr 28 2021 11:42:59 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Wed Apr 28 2021 11:42:59 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -585,7 +688,10 @@
                 "info": "",
                 "adress": "Rua Centro de Exposi\u00e7\u00f5es 3",
                 "size": "18",
-                "time": "Tue Apr 27 2021 19:04:52 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue Apr 27 2021 19:04:52 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -607,35 +713,16 @@
                 "info": "agua fria",
                 "adress": "2500",
                 "size": "22",
-                "time": "Tue Apr 27 2021 18:33:15 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue Apr 27 2021 18:33:15 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     "-9.23272",
                     "39.431"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "30",
-                "tag": "caravan paradise",
-                "lat": "39.4282",
-                "lng": "-9.22071",
-                "color": "#ea2a2a",
-                "icon": "bad",
-                "info": "Montes de autocaravanas turismo rasca",
-                "adress": "Rua Francisco Almeida Grandela",
-                "size": "30",
-                "time": "Sat May 01 2021 22:05:55 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    "-9.22071",
-                    "39.4282"
                 ]
             }
         },
@@ -651,7 +738,10 @@
                 "info": "Passeio do domingo de pessoas com pouco dinheiro",
                 "adress": "Rua do Penedo Furado",
                 "size": "18",
-                "time": "Tue Apr 27 2021 18:45:40 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue Apr 27 2021 18:45:40 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -673,7 +763,10 @@
                 "info": "",
                 "adress": "Largo da Esta\u00e7\u00e3o",
                 "size": "14",
-                "time": "Wed May 05 2021 11:57:30 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Wed May 05 2021 11:57:30 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -695,7 +788,10 @@
                 "info": "",
                 "adress": "Rua Augusto Dias Coimbra 19",
                 "size": "18",
-                "time": "Tue Apr 27 2021 20:38:37 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue Apr 27 2021 20:38:37 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -717,7 +813,10 @@
                 "info": "",
                 "adress": "Rua Dr. Leonel Souto Mayor",
                 "size": "18",
-                "time": "Wed May 05 2021 12:04:13 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Wed May 05 2021 12:04:13 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -739,7 +838,10 @@
                 "info": "",
                 "adress": "Rua S\u00e3o Jo\u00e3o de Deus",
                 "size": "14",
-                "time": "Fri Apr 30 2021 15:20:57 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Fri Apr 30 2021 15:20:57 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -761,7 +863,10 @@
                 "info": "",
                 "adress": "Rua da Liberdade 9",
                 "size": "14",
-                "time": "Fri Apr 30 2021 15:57:14 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Fri Apr 30 2021 15:57:14 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -783,7 +888,10 @@
                 "info": "",
                 "adress": "Parque de Campismo",
                 "size": "18",
-                "time": "Thu Apr 29 2021 18:47:38 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Thu Apr 29 2021 18:47:38 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -805,7 +913,10 @@
                 "info": "",
                 "adress": "Avenida Marginal",
                 "size": "18",
-                "time": "Fri Apr 30 2021 16:03:17 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Fri Apr 30 2021 16:03:17 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -827,7 +938,10 @@
                 "info": "",
                 "adress": "Rua Dr. J\u00falio Frederico Guimar\u00e3es Biel 10-22",
                 "size": "18",
-                "time": "Thu Apr 29 2021 18:51:30 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Thu Apr 29 2021 18:51:30 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -849,7 +963,10 @@
                 "info": "",
                 "adress": "Rua Fernando Ponte e Sousa",
                 "size": "18",
-                "time": "Fri Apr 30 2021 15:20:24 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Fri Apr 30 2021 15:20:24 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -871,7 +988,10 @@
                 "info": "",
                 "adress": "Rua Esta\u00e7\u00e3o",
                 "size": "18",
-                "time": "Fri Apr 30 2021 15:46:49 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Fri Apr 30 2021 15:46:49 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -893,7 +1013,10 @@
                 "info": "",
                 "adress": "Capela de S\u00e3o Martinho",
                 "size": "20",
-                "time": "Fri Apr 30 2021 15:47:31 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Fri Apr 30 2021 15:47:31 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -915,7 +1038,10 @@
                 "info": "",
                 "adress": "Avenida Manuel Rem\u00edgio",
                 "size": "20",
-                "time": "Mon May 03 2021 12:09:33 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 12:09:33 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -937,7 +1063,10 @@
                 "info": "",
                 "adress": "O Tamanco",
                 "size": "13",
-                "time": "Mon May 03 2021 17:22:47 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 17:22:47 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -959,7 +1088,10 @@
                 "info": "",
                 "adress": "Avenida Manuel Rem\u00edgio",
                 "size": "14",
-                "time": "Mon May 03 2021 14:32:07 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 14:32:07 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -981,7 +1113,10 @@
                 "info": "",
                 "adress": "Atlantic Ocean",
                 "size": "25",
-                "time": "Fri Apr 30 2021 16:38:23 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Fri Apr 30 2021 16:38:23 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1003,7 +1138,10 @@
                 "info": "",
                 "adress": "Largo Amigos do Baleal 1-1",
                 "size": "18",
-                "time": "Fri Apr 30 2021 17:14:18 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Fri Apr 30 2021 17:14:18 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1025,7 +1163,10 @@
                 "info": "",
                 "adress": "Largo Amigos do Baleal 1-1",
                 "size": "13",
-                "time": "Fri Apr 30 2021 22:24:23 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Fri Apr 30 2021 22:24:23 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1047,7 +1188,10 @@
                 "info": "",
                 "adress": "Travessa Pedras Muitas",
                 "size": "18",
-                "time": "Fri Apr 30 2021 22:06:08 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Fri Apr 30 2021 22:06:08 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1069,7 +1213,10 @@
                 "info": "",
                 "adress": "Atlantic Ocean",
                 "size": "18",
-                "time": "Fri Apr 30 2021 22:25:54 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Fri Apr 30 2021 22:25:54 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1091,7 +1238,10 @@
                 "info": "",
                 "adress": "Atlantic Ocean",
                 "size": "18",
-                "time": "Fri Apr 30 2021 22:28:20 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Fri Apr 30 2021 22:28:20 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1113,7 +1263,10 @@
                 "info": "",
                 "adress": "Praia do Baleal-Norte",
                 "size": "14",
-                "time": "Fri Apr 30 2021 22:34:35 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Fri Apr 30 2021 22:34:35 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1135,7 +1288,10 @@
                 "info": "",
                 "adress": "Atlantic Ocean",
                 "size": "18",
-                "time": "Sat May 01 2021 14:00:58 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Sat May 01 2021 14:00:58 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1157,7 +1313,10 @@
                 "info": "",
                 "adress": "Rua C\u00e2ndido dos Reis",
                 "size": "18",
-                "time": "Sat May 01 2021 14:03:16 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Sat May 01 2021 14:03:16 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1179,7 +1338,10 @@
                 "info": "",
                 "adress": "\u00d3bidos",
                 "size": "18",
-                "time": "Sat May 01 2021 14:04:26 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Sat May 01 2021 14:04:26 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1201,7 +1363,10 @@
                 "info": "",
                 "adress": "Praceta Jos\u00e9 Luis Barros 5A",
                 "size": "25",
-                "time": "Sat May 01 2021 14:06:31 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Sat May 01 2021 14:06:31 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1223,7 +1388,10 @@
                 "info": "",
                 "adress": "Nazar\u00e9",
                 "size": "18",
-                "time": "Sat May 01 2021 14:37:19 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Sat May 01 2021 14:37:19 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1245,7 +1413,10 @@
                 "info": "",
                 "adress": "Largo Santo Ant\u00f3nio",
                 "size": "20",
-                "time": "Mon May 03 2021 12:10:10 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 12:10:10 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1267,7 +1438,10 @@
                 "info": "Antigo hospital em ru\u00ednas",
                 "adress": "Beco do Quartel 5-5",
                 "size": "12",
-                "time": "Wed May 05 2021 11:54:38 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Wed May 05 2021 11:54:38 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1289,7 +1463,10 @@
                 "info": "",
                 "adress": "2500",
                 "size": "25",
-                "time": "Sat May 01 2021 22:06:23 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Sat May 01 2021 22:06:23 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1311,7 +1488,10 @@
                 "info": "",
                 "adress": "Multibanco",
                 "size": "18",
-                "time": "Sat May 01 2021 22:15:59 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Sat May 01 2021 22:15:59 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1333,7 +1513,10 @@
                 "info": "",
                 "adress": "2500",
                 "size": "14",
-                "time": "Sat May 01 2021 22:23:20 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Sat May 01 2021 22:23:20 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1355,7 +1538,10 @@
                 "info": "Vento dominante norte ",
                 "adress": "2500",
                 "size": "31",
-                "time": "Sun May 02 2021 20:01:33 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Sun May 02 2021 20:01:33 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1377,7 +1563,10 @@
                 "info": "Local da lenda do veado de Fuas Roupinho",
                 "adress": "Largo de Nossa Senhora da Nazar\u00e9 60-60",
                 "size": "30",
-                "time": "Mon May 03 2021 18:52:31 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 18:52:31 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1399,7 +1588,10 @@
                 "info": "",
                 "adress": "Rua Francisco Almeida Grandela 2",
                 "size": "18",
-                "time": "Sun May 02 2021 19:53:00 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Sun May 02 2021 19:53:00 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1421,7 +1613,10 @@
                 "info": "",
                 "adress": "Rua Joaquim Bernardo de Souza Lobo 80",
                 "size": "18",
-                "time": "Mon May 03 2021 12:18:44 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 12:18:44 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1443,7 +1638,10 @@
                 "info": "",
                 "adress": "Atlantic Ocean",
                 "size": "30",
-                "time": "Mon May 03 2021 13:54:18 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 13:54:18 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1465,7 +1663,10 @@
                 "info": "",
                 "adress": "Rua Sub Vila",
                 "size": "18",
-                "time": "Mon May 03 2021 12:08:42 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 12:08:42 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1487,7 +1688,10 @@
                 "info": "",
                 "adress": "Rua Rancho T\u00e1-Mar 15",
                 "size": "18",
-                "time": "Mon May 03 2021 12:11:59 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 12:11:59 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1509,7 +1713,10 @@
                 "info": "",
                 "adress": "Atlantic Ocean",
                 "size": "22",
-                "time": "Mon May 03 2021 12:32:25 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 12:32:25 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1531,7 +1738,10 @@
                 "info": "",
                 "adress": "Variante Atl\u00e2ntica",
                 "size": "18",
-                "time": "Mon May 03 2021 12:32:47 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 12:32:47 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1553,7 +1763,10 @@
                 "info": "",
                 "adress": "Nazar\u00e9",
                 "size": "21",
-                "time": "Mon May 03 2021 14:00:45 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 14:00:45 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1575,7 +1788,10 @@
                 "info": "",
                 "adress": "Atlantic Ocean",
                 "size": "18",
-                "time": "Mon May 03 2021 19:29:55 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 19:29:55 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1597,7 +1813,10 @@
                 "info": "",
                 "adress": "Rua Magalh\u00e3es Lima 20-34",
                 "size": "13",
-                "time": "Mon May 03 2021 13:43:09 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 13:43:09 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1619,7 +1838,10 @@
                 "info": "",
                 "adress": "Rua Brito Al\u00e3o 17-25",
                 "size": "18",
-                "time": "Mon May 03 2021 18:30:25 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 18:30:25 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1641,7 +1863,10 @@
                 "info": "",
                 "adress": "Rua Porto Santo",
                 "size": "18",
-                "time": "Mon May 03 2021 14:05:18 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 14:05:18 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1663,7 +1888,10 @@
                 "info": "",
                 "adress": "S\u00e9tima Vaga",
                 "size": "12",
-                "time": "Mon May 03 2021 14:24:51 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 14:24:51 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1685,7 +1913,10 @@
                 "info": "lixo hortas e restaurantes abandonados",
                 "adress": "Nazar\u00e9",
                 "size": "18",
-                "time": "Mon May 03 2021 14:28:11 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 14:28:11 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1707,7 +1938,10 @@
                 "info": "",
                 "adress": "Praia da Nazar\u00e9",
                 "size": "13",
-                "time": "Mon May 03 2021 14:34:11 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 14:34:11 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1729,7 +1963,10 @@
                 "info": "",
                 "adress": "Pra\u00e7a da Rep\u00fablica 12",
                 "size": "18",
-                "time": "Mon May 03 2021 15:05:56 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 15:05:56 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1751,7 +1988,10 @@
                 "info": "",
                 "adress": "Atlantic Ocean",
                 "size": "18",
-                "time": "Mon May 03 2021 22:06:51 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 22:06:51 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1773,7 +2013,10 @@
                 "info": "",
                 "adress": "N242",
                 "size": "18",
-                "time": "Mon May 03 2021 19:27:17 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 19:27:17 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1795,7 +2038,10 @@
                 "info": "",
                 "adress": "Rua Engenheiro Lu\u00eds Paiva e Sousa",
                 "size": "18",
-                "time": "Mon May 03 2021 22:08:43 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 22:08:43 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1817,7 +2063,10 @@
                 "info": "",
                 "adress": "2500",
                 "size": "21",
-                "time": "Mon May 03 2021 22:09:33 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 22:09:33 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1839,7 +2088,10 @@
                 "info": "",
                 "adress": "2500",
                 "size": "17",
-                "time": "Mon May 03 2021 22:13:25 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 22:13:25 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1861,7 +2113,10 @@
                 "info": "",
                 "adress": "Travessa do Remo 17",
                 "size": "18",
-                "time": "Mon May 03 2021 22:14:32 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 22:14:32 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1883,7 +2138,10 @@
                 "info": "",
                 "adress": "Estrada Rei de Corti\u00e7a",
                 "size": "18",
-                "time": "Mon May 03 2021 22:17:28 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 22:17:28 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1905,7 +2163,10 @@
                 "info": "",
                 "adress": "Rua da Paz",
                 "size": "18",
-                "time": "Mon May 03 2021 22:20:01 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 22:20:01 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1927,7 +2188,10 @@
                 "info": "",
                 "adress": "2500",
                 "size": "14",
-                "time": "Mon May 03 2021 22:20:54 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 03 2021 22:20:54 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1949,7 +2213,10 @@
                 "info": "",
                 "adress": "\u00d3bidos",
                 "size": "18",
-                "time": "Tue May 04 2021 11:19:34 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue May 04 2021 11:19:34 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1971,7 +2238,10 @@
                 "info": "",
                 "adress": "\u00d3bidos",
                 "size": "18",
-                "time": "Tue May 04 2021 11:15:36 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue May 04 2021 11:15:36 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -1993,7 +2263,10 @@
                 "info": "",
                 "adress": "\u00d3bidos",
                 "size": "14",
-                "time": "Tue May 04 2021 11:18:53 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue May 04 2021 11:18:53 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2015,7 +2288,10 @@
                 "info": "",
                 "adress": "\u00d3bidos",
                 "size": "18",
-                "time": "Tue May 04 2021 11:21:12 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue May 04 2021 11:21:12 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2037,7 +2313,10 @@
                 "info": "",
                 "adress": "\u00d3bidos",
                 "size": "14",
-                "time": "Tue May 04 2021 11:30:02 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue May 04 2021 11:30:02 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2059,7 +2338,10 @@
                 "info": "",
                 "adress": "\u00d3bidos",
                 "size": "18",
-                "time": "Tue May 04 2021 11:31:11 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue May 04 2021 11:31:11 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2081,7 +2363,10 @@
                 "info": "",
                 "adress": "\u00d3bidos",
                 "size": "18",
-                "time": "Tue May 04 2021 11:32:52 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue May 04 2021 11:32:52 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2103,7 +2388,10 @@
                 "info": "",
                 "adress": "Casal da Lapinha",
                 "size": "18",
-                "time": "Tue May 04 2021 11:34:13 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue May 04 2021 11:34:13 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2125,7 +2413,10 @@
                 "info": "",
                 "adress": "Rua Doutor M\u00e1rio Castro",
                 "size": "18",
-                "time": "Wed May 05 2021 11:47:34 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Wed May 05 2021 11:47:34 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2147,7 +2438,10 @@
                 "info": "",
                 "adress": "Rua Jos\u00e9 Fuller 9",
                 "size": "18",
-                "time": "Tue May 04 2021 21:53:11 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue May 04 2021 21:53:11 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2169,7 +2463,10 @@
                 "info": "",
                 "adress": "Rua da Liberdade 25-33",
                 "size": "12",
-                "time": "Wed May 05 2021 11:48:29 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Wed May 05 2021 11:48:29 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2191,7 +2488,10 @@
                 "info": "",
                 "adress": "Policl\u00ednica Central de Alcoentre",
                 "size": "12",
-                "time": "Wed May 05 2021 11:53:18 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Wed May 05 2021 11:53:18 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2213,7 +2513,10 @@
                 "info": "",
                 "adress": "2500",
                 "size": "25",
-                "time": "Wed May 05 2021 11:59:07 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Wed May 05 2021 11:59:07 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2235,7 +2538,10 @@
                 "info": "",
                 "adress": "Avenida General Pedro Cardoso",
                 "size": "12",
-                "time": "Wed May 05 2021 12:12:51 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Wed May 05 2021 12:12:51 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2257,7 +2563,10 @@
                 "info": "",
                 "adress": "Rua 31 de Janeiro 34A",
                 "size": "14",
-                "time": "Wed May 05 2021 12:23:06 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Wed May 05 2021 12:23:06 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2279,7 +2588,10 @@
                 "info": "",
                 "adress": "Castelo de \u00d3bidos",
                 "size": "19",
-                "time": "Wed May 05 2021 12:33:08 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Wed May 05 2021 12:33:08 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2301,7 +2613,10 @@
                 "info": "",
                 "adress": "\u00d3bidos",
                 "size": "18",
-                "time": "Thu May 06 2021 21:48:31 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Thu May 06 2021 21:48:31 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2323,7 +2638,10 @@
                 "info": "rulotes de p\u00e3o com chouri\u00e7o e caf\u00e9s ",
                 "adress": "2500",
                 "size": "18",
-                "time": "Thu May 06 2021 21:50:08 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Thu May 06 2021 21:50:08 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2345,7 +2663,10 @@
                 "info": "",
                 "adress": "Atlantic Ocean",
                 "size": "30",
-                "time": "Thu May 06 2021 21:51:09 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Thu May 06 2021 21:51:09 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2367,7 +2688,10 @@
                 "info": "",
                 "adress": "2510",
                 "size": "18",
-                "time": "Thu May 06 2021 21:53:02 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Thu May 06 2021 21:53:02 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2389,7 +2713,10 @@
                 "info": "",
                 "adress": "Travessa Comandante Jos\u00e9 Eduardo Sales",
                 "size": "26",
-                "time": "Thu May 06 2021 22:00:03 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Thu May 06 2021 22:00:03 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2411,7 +2738,10 @@
                 "info": "",
                 "adress": "Rua do P\u00f4r do Sol",
                 "size": "14",
-                "time": "Thu May 06 2021 22:00:25 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Thu May 06 2021 22:00:25 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2433,7 +2763,10 @@
                 "info": "",
                 "adress": "Rua Ra\u00fal Brand\u00e3o 3",
                 "size": "14",
-                "time": "Thu May 06 2021 22:01:02 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Thu May 06 2021 22:01:02 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2455,7 +2788,10 @@
                 "info": "",
                 "adress": "Praia do Baleal-Norte",
                 "size": "25",
-                "time": "Thu May 06 2021 22:02:55 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Thu May 06 2021 22:02:55 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2477,7 +2813,10 @@
                 "info": "",
                 "adress": "Avenida da Praia",
                 "size": "18",
-                "time": "Thu May 06 2021 22:04:23 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Thu May 06 2021 22:04:23 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2499,7 +2838,10 @@
                 "info": "Vivendas de ricos e estrangeiros",
                 "adress": "Rua Encosta da Lagoa 46-46",
                 "size": "30",
-                "time": "Sat May 08 2021 20:29:28 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Sat May 08 2021 20:29:28 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2521,7 +2863,10 @@
                 "info": "",
                 "adress": "\u00d3bidos",
                 "size": "18",
-                "time": "Sat May 08 2021 21:43:01 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Sat May 08 2021 21:43:01 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2543,7 +2888,10 @@
                 "info": "",
                 "adress": "Ala Norte",
                 "size": "12",
-                "time": "Sun May 09 2021 19:03:31 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Sun May 09 2021 19:03:31 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2565,7 +2913,10 @@
                 "info": "",
                 "adress": "Rua Visconde Morais",
                 "size": "12",
-                "time": "Sun May 09 2021 19:04:49 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Sun May 09 2021 19:04:49 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2587,7 +2938,10 @@
                 "info": "reflexos na \u00e1gua ao por do sol",
                 "adress": "2500",
                 "size": "20",
-                "time": "Sun May 09 2021 19:06:27 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Sun May 09 2021 19:06:27 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2609,7 +2963,10 @@
                 "info": "",
                 "adress": "Praia da Foz do Arelho-Lagoa",
                 "size": "12",
-                "time": "Sun May 09 2021 20:09:07 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Sun May 09 2021 20:09:07 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2631,7 +2988,10 @@
                 "info": "",
                 "adress": "Rua do Horizonte",
                 "size": "18",
-                "time": "Sun May 09 2021 20:15:26 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Sun May 09 2021 20:15:26 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2653,7 +3013,10 @@
                 "info": "",
                 "adress": "Avenida da Independ\u00eancia Nacional 8",
                 "size": "18",
-                "time": "Sun May 09 2021 20:24:36 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Sun May 09 2021 20:24:36 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2675,7 +3038,10 @@
                 "info": "",
                 "adress": "Largo de Nossa Senhora da Consola\u00e7\u00e3o",
                 "size": "18",
-                "time": "Mon May 10 2021 11:16:04 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 10 2021 11:16:04 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2697,7 +3063,10 @@
                 "info": "",
                 "adress": "Rua Carreira do Gado 215",
                 "size": "18",
-                "time": "Tue May 11 2021 11:34:52 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue May 11 2021 11:34:52 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2719,7 +3088,10 @@
                 "info": "",
                 "adress": "Praia de Med\u00e3o-Supertubos",
                 "size": "14",
-                "time": "Tue May 11 2021 11:37:01 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue May 11 2021 11:37:01 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2741,7 +3113,10 @@
                 "info": "",
                 "adress": "Multibanco",
                 "size": "18",
-                "time": "Tue May 11 2021 11:41:37 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue May 11 2021 11:41:37 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2763,7 +3138,10 @@
                 "info": "",
                 "adress": "Rua Alto da Vela",
                 "size": "14",
-                "time": "Tue May 11 2021 11:44:35 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue May 11 2021 11:44:35 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2785,7 +3163,10 @@
                 "info": "",
                 "adress": "2460",
                 "size": "18",
-                "time": "Tue May 11 2021 11:58:02 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue May 11 2021 11:58:02 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2807,7 +3188,10 @@
                 "info": "",
                 "adress": "Miradouro de S\u00e3o Martinho do Porto",
                 "size": "14",
-                "time": "Tue May 11 2021 12:00:07 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue May 11 2021 12:00:07 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2829,7 +3213,10 @@
                 "info": "",
                 "adress": "Rua Dr. J\u00falio Frederico Guimar\u00e3es Biel 22",
                 "size": "14",
-                "time": "Tue May 11 2021 12:01:34 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue May 11 2021 12:01:34 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2851,7 +3238,10 @@
                 "info": "",
                 "adress": "Rua do Outeiro 8",
                 "size": "25",
-                "time": "Tue May 11 2021 12:02:05 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue May 11 2021 12:02:05 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2873,7 +3263,10 @@
                 "info": "",
                 "adress": "Rua Marechal Carmona 7",
                 "size": "14",
-                "time": "Tue May 11 2021 12:02:20 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue May 11 2021 12:02:20 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2895,7 +3288,10 @@
                 "info": "",
                 "adress": "Rua Conde de Avellar 50",
                 "size": "14",
-                "time": "Tue May 11 2021 22:23:23 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue May 11 2021 22:23:23 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2917,7 +3313,10 @@
                 "info": "",
                 "adress": "2500",
                 "size": "18",
-                "time": "Tue May 11 2021 22:25:21 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue May 11 2021 22:25:21 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2939,7 +3338,10 @@
                 "info": "",
                 "adress": "2500",
                 "size": "18",
-                "time": "Tue May 11 2021 22:28:30 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue May 11 2021 22:28:30 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2961,7 +3363,10 @@
                 "info": "",
                 "adress": "Atlantic Ocean",
                 "size": "28",
-                "time": "Tue May 11 2021 22:29:55 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Tue May 11 2021 22:29:55 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -2983,7 +3388,10 @@
                 "info": "",
                 "adress": "Rua Columbano Bordalo Pinheiro",
                 "size": "14",
-                "time": "Fri May 14 2021 20:50:20 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Fri May 14 2021 20:50:20 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -3005,7 +3413,10 @@
                 "info": "",
                 "adress": "Rua Visconde Morais 7A",
                 "size": "12",
-                "time": "Sun May 16 2021 20:17:27 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Sun May 16 2021 20:17:27 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -3027,7 +3438,10 @@
                 "info": "",
                 "adress": "Rua Vicente Paramos 24",
                 "size": "18",
-                "time": "Mon May 17 2021 12:04:00 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 17 2021 12:04:00 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -3049,7 +3463,10 @@
                 "info": "",
                 "adress": "Rua das Vacarias 39A ",
                 "size": "14",
-                "time": "Mon May 17 2021 12:06:27 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 17 2021 12:06:27 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -3071,7 +3488,10 @@
                 "info": "",
                 "adress": "Rua Jo\u00e3o Em\u00edlio da Silva 9-9",
                 "size": "18",
-                "time": "Mon May 17 2021 12:10:45 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 17 2021 12:10:45 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -3093,7 +3513,10 @@
                 "info": "",
                 "adress": "Rua Di\u00e1rio de Not\u00edcias",
                 "size": "14",
-                "time": "Mon May 17 2021 12:30:01 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 17 2021 12:30:01 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -3115,7 +3538,10 @@
                 "info": "",
                 "adress": "Atlantic Ocean",
                 "size": "18",
-                "time": "Mon May 17 2021 19:56:26 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 17 2021 19:56:26 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
@@ -3137,13 +3563,41 @@
                 "info": "",
                 "adress": "Miradouro de S\u00e3o Martinho do Porto",
                 "size": "14",
-                "time": "Mon May 17 2021 20:03:33 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)"
+                "time": "Mon May 17 2021 20:03:33 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     "-9.13484",
                     "39.5131"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "150",
+                "tag": "Caf\u00e9 a 0.65\u20ac",
+                "lat": "39.4047",
+                "lng": "-9.13391",
+                "color": "#897459",
+                "icon": "love",
+                "info": "",
+                "adress": "Travessa da Cova da On\u00e7a 5-41",
+                "size": "12",
+                "time": "Fri May 21 2021 11:54:46 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "user_id": null,
+                "post_id": null,
+                "rating_action": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13391",
+                    "39.4047"
                 ]
             }
         }

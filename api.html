@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <title>Hot maps edit</title>
-    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
     <!-- Load Leaflet from CDN -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
@@ -17,8 +18,6 @@
     <!-- Load Esri Leaflet Geocoder from CDN -->
     <link rel="stylesheet" href="https://unpkg.com/esri-leaflet-geocoder@2.3.3/dist/esri-leaflet-geocoder.css" integrity="sha512-IM3Hs+feyi40yZhDH6kV8vQMg4Fh20s9OzInIIAc4nx7aMYMfo+IenRUekoYsHZqGkREUgx0VvlEsgm7nCDW9g==" crossorigin="">
     <script src="https://unpkg.com/esri-leaflet-geocoder@2.3.3/dist/esri-leaflet-geocoder.js" integrity="sha512-HrFUyCEtIpxZloTgEKKMq4RFYhxjJkCiF5sDxuAokklOeZ68U2NPfh4MFtyIVWlsKtVbK5GD2/JzFyAfvT5ejA==" crossorigin=""></script>
-
-
 
     <style>
          :root {
@@ -70,16 +69,6 @@
             border-radius: 5px;
         }
         
-        .result {
-            list-style: none;
-            width: 200px;
-        }
-        
-        .result li {
-            background-color: var(--blanc);
-            padding: 5px;
-        }
-        
         .enable {
             padding: 10px;
             background-color: var(--noir);
@@ -107,38 +96,8 @@
             background-color: var(--rouge);
             display: block;
         }
-        /* ////// STYLE VISTA /////// */
-        
-        .leaflet-tooltip.my-labels {
-            background-color: transparent;
-            box-shadow: none;
-            font-weight: bold;
-            font-size: 20px;
-            text-shadow: 1px 1px 0 var(--shadow), 1px 2px 0 var(--shadow), 3px 3px 0 var(--shadow), -1px -1px 0 var(--shadow), 1px -1px 0 var(--shadow), -1px 1px 0 var(--shadow), 0 1px 0 var(--shadow);
-            white-space: normal;
-            text-align: center;
-            line-height: 120%;
-            border: none;
-            width: 200px;
-            border-width: 2px;
-            color: var(--blanc);
-        }
-        
-        .leaflet-tooltip.my-labels p {
-            padding: 0;
-            margin: 0;
-        }
-        /* DIVERS*/
-        
-        .delete {
-            color: var(--rouge);
-            text-align: right;
-        }
-        
-        .delete span {
-            cursor: pointer;
-        }
     </style>
+
 </head>
 
 <body>
@@ -146,8 +105,8 @@
     <button id="stop" class="enable stop"> stop</button>
     <input type="text" id="tag" placeholder="tag" />
     <div class="content">
-        <input type="hidden" id="lat" placeholder="latitude" />
-        <input type="hidden" id="lng" placeholder="longitude" />
+        <input type="text" id="lat" placeholder="latitude" />
+        <input type="text" id="lng" placeholder="longitude" />
         <input type="text" id="adress" placeholder="morada" />
         <input type="text" id="icon" placeholder="icon" />
         <input type="color" id="color" placeholder="color" value='#897459' />
@@ -184,11 +143,9 @@
 
         //// Geo code/////
         var gcs = L.esri.Geocoding.geocodeService();
+        const token = "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiZTQ4NDY1ZTBlYzk1MjdmNTY5YTJhNmE1MjRmYzY3OWQ2YjIyOTBiNTE4MjIxNWJkMTRjYmYzMmI1YzZlMTA0OWE2YmMwMjc5MWM2YjI2ZGUiLCJpYXQiOjE2MjE0NTkyNzkuODIyMjkzLCJuYmYiOjE2MjE0NTkyNzkuODIyMjkzLCJleHAiOjE2NTI5OTUyNzkuNjQ3MjgzLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.XhlEoHYUKPfgQdI_TAJQm2v_05P6_VjcRC3HuTnFbgXQ-MF5kavmsKYyHq-bSOJDMLk7ol_5_pX5sOpwY6bON1HjK-R_qIFXABG_GDQlosN_GTW40V8BqRUSMr1QtJLoCjVKFSa8Apt3-F9SrH4tM3RqWYmpvDpQjUst2cTvxPe-o3iHojNeZgI2frIRVIxSSaD6ZfJGdWj1vhgoAAhR9T9lGqm4WfgvqjuRgtQSI_UKionR6pP3jUwFNKGHEMj4dIsoSGILdG_vuHWgvy07Sf6ia-gx8y2Ci1o1nQE3ihhDd4aoPWZbrYOXiC4B0zePOmmBK8nTUbnpNTA63meVYhqOyCW8p6PRcWQDH0umvvhniVWJIPK1P-E5bifSoCE80renmXPYkHoEDR2qwGCTWSJtkqh-2Ou4sreI0FZte1KRKcuMzGgaYrEMsI4OmAqoegEE7lfSGpvnQ9Ob0ds2Iln0yR-alQ3jafKBua515VE6bfGHHUe6f2ev0cVPi_aUb2KSrAqqV6bVttHB2_FPUiOlfLuI4deHbE_kdEBK9zgGpPJo3LUX0xbDvQJZpMPuAgDna8GtJjTKNK9zFt5djsxKXKbVhmlJU4zDr3z-c6NT64hOj1oHYM9z8v1mRo89Y5CShIHExRZxcMHQoEZFsfYi4ytDoRfwwoJ39BT0XtU"
+            ////VARIABLES///
 
-        //// GEOJSON URL////
-        const url = "fabrica.php"
-
-        ////VARIABLES///
         let tag = document.getElementById('tag')
         let lat = document.getElementById('lat')
         let lng = document.getElementById('lng')
@@ -226,6 +183,8 @@
                         tag.focus()
 
                     }
+
+
 
                 })
                 map.on('mousedown', (e) => {
@@ -278,224 +237,45 @@
 
 
             }) /////escreve
-            ///// stop ecriture tag////
-        stop.addEventListener('click', () => {
-            active = false
-            escreve.classList.remove("active")
-            escreve.style.display = 'block'
-            stop.style.display = 'none'
-            tag.style.display = 'none'
 
-        })
-
-        ///// envia tags ////
         function fetchpost() {
+
+
+
             let data = new URLSearchParams();
             data.append("tag", tag.value);
-            data.append("latitude", lat.value);
-            data.append("longitude", lng.value);
+            data.append("lat", lat.value);
+            data.append("lng", lng.value);
             data.append("adress", adress.value);
             data.append("size", size.value);
             data.append("icon", icon.value);
             data.append("color", color.value);
             data.append("info", info.value);
             data.append("time", new Date());
-
-            //  fetch
-            fetch("data.php", {
-                    method: 'POST',
-                    body: data
-                })
-                .then(function(response) {
-                    return response.text();
-                })
-                .then(function(text) {
-
-                    // location.reload()
-                    if (map.hasLayer(geral)) {
-                        map.removeLayer(geral);
-
-                    }
-                    getText(url)
-
-                })
-                .catch(function(error) {
-                    console.log(error)
-                });
-
-            // (C) PREVENT HTML FORM SUBMIT
-            return false;
-        }
-        //// elimine tag////
-        map.on('popupopen', function(e) {
-                let deletag = document.getElementById('delete')
-
-                deletag.onclick = () => {
-                    if (window.confirm('Quer mesmo eliminar este tag?')) {
-                        fetchTag(deletag.dataset.id)
-                    }
+            data.append("user_id", 1);
 
 
-
-                }
-
-
-
-            })
-            ///// elimine du server ////
-        function fetchTag(id) {
-            let data = new URLSearchParams();
-            data.append("id", id)
-
-            //  FETCH
-            fetch("data.php", {
-                    method: 'DELETE',
-                    body: data
-                })
-                .then(function(response) {
-                    return response.text();
-                })
-                .then(function(text) {
-                    console.log(text);
-                    // location.reload()
-                    if (map.hasLayer(geral)) {
-                        map.removeLayer(geral);
-
-                    }
-                    getText(url)
+            var myHeaders = new Headers();
+            myHeaders.append("Authorization", token);
+            myHeaders.append("Content-Type", "application/x-www-form-urlencoded");
 
 
-
-                })
-                .catch(function(error) {
-                    console.log(error)
-                });
-
-            // (C) PREVENT HTML FORM SUBMIT
-            // return false;
-        }
+            var requestOptions = {
+                method: 'POST',
+                headers: myHeaders,
+                body: data,
+                redirect: 'follow'
+            };
 
 
+            fetch("http://api.test/api/tags", requestOptions)
+                .then(response => response.text())
+                .then(result => console.log(result))
+                .catch(error => console.log('error', error));
 
-        ///////////////////////////////////////////
-        ////////////////////// VUE tags  /////////////////
-        ///////////////////////////////////////////
-
-        ////// popup tags/////
-        function onEachFeature(feature, layer) {
-            let info = feature.properties.info ? 'Infos: ' + feature.properties.info : ''
-            let adress = feature.properties.adress ? feature.properties.adress : ''
-            let popupContent = "<h3>HERE / AQUI </h3>"
-
-
-            if (feature.properties && feature.properties.tag) {
-                popupContent += '<strong>' + feature.properties.tag + '</strong><br>'
-                popupContent += info + '<br> Adress: ' + feature.properties.adress
-                popupContent += '<br><a href="update.php?id=' + feature.properties.id + '" target="_blank"> Edite</a>'
-                popupContent += '<p id="delete" class="delete" data-id="' + feature.properties.id + '" classe="delete"><span> DELETE</span></p>'
-
-            }
-
-            layer.bindPopup(popupContent);
-        }
-
-
-
-        //////// cria tag texte image  ////////
-        function labelText(feature, latlng) {
-            let color = feature.properties.color ? feature.properties.color : '#897459'
-            let tag = feature.properties.tag ? feature.properties.tag : ''
-            let size = feature.properties.size ? feature.properties.size : '20'
-            let radius = size ? size * 2.3 : 100
-            let post_date = feature.properties.time ? feature.properties.time : ''
-            let novo = novidade(post_date)
-
-
-            let l = imogIcon(feature.properties.icon)
-
-            label = String(novo + l + '<span " style=" font-size: ' + size + 'px;">' + tag + '</span>') // .bindTooltip can't use straight 'feature.properties.attribute'
-            return new L.CircleMarker(latlng, {
-                radius: radius,
-                fillColor: color
-            }).bindTooltip(label, {
-                permanent: true,
-                direction: "center",
-                className: "my-labels"
-            }).openTooltip();
 
         }
-
-
-
-
-        ///////////  GET URL TAGS  FUNCTION GENERALE /////////////////////
-        function getText(url) {
-
-            //// fecth general level 1/////
-            fetch(url)
-                .then((response) => {
-                    return response.json();
-                })
-                .then((data) => {
-
-                    geral = L.geoJSON(data, {
-
-                        style: (feature) => {
-                            return {
-                                color: feature.properties.Color,
-                                opacity: 0,
-                                //dashArray: 20,
-                                // fill: false
-                            };
-                        },
-
-                        onEachFeature: onEachFeature,
-
-                        pointToLayer: labelText
-
-                    });
-                    geral.addData(data)
-                    map.addLayer(geral)
-                        /////ADD E REMOVE LAYER EN DECSKTOP///
-                        // map.on('zoomend', () => layerGeneral(geral, zoom))
-                        // map.fitBounds(geral.getBounds());
-
-                });
-
-
-
-
-        } //////// FIM
-
-
-        ///// IMAGE ICON ///////
-        function imogIcon(icon) {
-
-            if (icon) {
-                return '<p><img src="images/' + icon + '.gif"></p>';
-            } else {
-                return ''
-            }
-        }
-
-        ////////////////// FUNCTION NOVIDADE data de publicação  /////////////////////
-        function novidade(post_date) {
-            var countDownDate = new Date(post_date).getTime()
-            var now = new Date().getTime();
-
-            // Find the distance between now an the count down date
-            var distance = now - countDownDate
-            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-
-            return days <= 5 ? "<img src='images/novo.gif'>" : ""
-        }
-
-        /////// FIM
-        //// charge layer avec tags
-        window.load = getText(url)
     </script>
-    <script src="js/cidades.js"></script>
-
 </body>
 
 </html>

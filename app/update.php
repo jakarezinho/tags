@@ -9,6 +9,7 @@ $test = new Controller();
 if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['id'])) {
 
     $tag = $test->tag($_GET['id']);
+
 } else {
     echo "ops";
     die();

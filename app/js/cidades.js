@@ -75,7 +75,7 @@
                  cherche.value = city.name
                  r.innerHTML = ''
                  r.style.display = 'none'
-                 map.setView([city.lat, city.lng], 16);
+                 map.setView([city.lat, city.lng], zoomDevice);
 
 
              })

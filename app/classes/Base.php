@@ -27,7 +27,7 @@ class Base{
         return $this->pdo->lastInsertId();
     }
 	
-	public function conta () {
+	public function conta() {
 		return $this->pdo->rowCount();
 		}
 	

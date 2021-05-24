@@ -18,9 +18,9 @@ $geojson = array(
 # Loop through rows to build feature arrays
 
 foreach ($feed as $data) {
-     // print_r($data) ;
+
       $properties = $data;
-      
+  //  var_dump($data);
       $feature = array(
             'type' => 'Feature',
             'properties'=>array(
@@ -32,6 +32,7 @@ foreach ($feed as $data) {
             'tag'=> $data['tag'],
             'color'=> $data['color'],
             'adress'=> $data['adress'],
+            'like'=> $data['rating_action'],
           ),
           'geometry' => array(
               'type' => 'Point',

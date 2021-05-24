@@ -22,8 +22,9 @@ public function porperto($lat,$lng, $radius=2, $limite = 5){
 ///// DISPLAY
 public function myquery()
 {
-
-    $n= $this->db->query("SELECT * FROM tags ")->fetchAll(PDO::FETCH_ASSOC);
+  //$n= $this->db->query("SELECT tags.* FROM tags UNION rating_info SELECT rating_action  FROM rating_info WHERE rating_action ='like'")->fetchAll(PDO::FETCH_ASSOC);
+ $n= $this->db->query("SELECT DISTINCT tags.*,  rating_info.*  FROM tags  LEFT JOIN rating_info ON tags.id=rating_info.post_id AND  rating_info.rating_action ='like' ")->fetchAll(PDO::FETCH_ASSOC);
+ // $n= $this->db->query("SELECT * FROM tags ")->fetchAll(PDO::FETCH_ASSOC);
 		return $n;
 
 }
@@ -67,6 +68,32 @@ public function delete( $id)
 
 }
 
+
+///// INSERT LIKE 
+
+public function likeDeslike($action, $post_id, $user_id)
+{
+    switch ($action) {
+        case 'like':
+          return  $insert = $this->db->query("INSERT INTO rating_info SET rating_action='like',post_id=?,user_id =? ON DUPLICATE KEY UPDATE  rating_action='like'", [$post_id, $user_id]);
+
+            break;
+        case 'dislike':
+            $insert = $this->db->query("INSERT INTO rating_info SET rating_action='dislike',post_id=?,user_id =? ON DUPLICATE KEY UPDATE  rating_action='dislike'", [$post_id, $user_id]);
+
+            break;
+    }
+}
+
+////// GET LIKE
+
+public function getLikes($id)
+{
+    $count = $this->db->query("SELECT * FROM rating_info WHERE post_id=? AND rating_action='like'", [$id])->rowCount();
+
+  return $count;
+  
+}
   
 
 }

@@ -20,6 +20,7 @@
     <style>
          :root {
             --blanc: #FFF;
+            --active: #f11313;
             --noir: #000;
             --shadow: #2e2d2d;
             --shadow_map: text-shadow: 1px 1px 0 var(--shadow), 1px 2px 0 var(--shadow), 3px 3px 0 var(--shadow), -1px -1px 0 var(--shadow), 1px -1px 0 var(--shadow), -1px 1px 0 var(--shadow), 0 1px 0 var(--shadow);
@@ -73,7 +74,7 @@
         }
         
         .active {
-            background-color: brown;
+            background-color: var(--active);
             display: block;
         }
         /* ////// STYLE TAGS /////// */
@@ -81,21 +82,23 @@
         .leaflet-tooltip.my-labels {
             background-color: transparent;
             box-shadow: none;
-            font-weight: bold;
-            font-size: 20px;
-            text-shadow: 1px 1px 0 var(--shadow), 1px 2px 0 var(--shadow), 3px 3px 0 var(--shadow), -1px -1px 0 var(--shadow), 1px -1px 0 var(--shadow), -1px 1px 0 var(--shadow), 0 1px 0 var(--shadow);
-            white-space: normal;
-            text-align: center;
-            line-height: 120%;
             border: none;
             width: 200px;
             border-width: 2px;
-            color: var(--blanc);
+            text-align: center;
         }
         
         .leaflet-tooltip.my-labels p {
             padding: 0;
             margin: 0;
+        }
+        
+        .leaflet-tooltip.my-labels span.tag {
+            text-shadow: 1px 1px 0 var(--shadow), 1px 2px 0 var(--shadow), 3px 3px 0 var(--shadow), -1px -1px 0 var(--shadow), 1px -1px 0 var(--shadow), -1px 1px 0 var(--shadow), 0 1px 0 var(--shadow);
+            font-weight: bold;
+            line-height: 100%;
+            white-space: normal;
+            color: var(--blanc);
         }
         
         .leaflet-popup-content-wrapper {
@@ -214,6 +217,16 @@
                 margin-top: 15px;
             }
         }
+        /*VOTE*/
+        
+        .likes {
+            color: var(--active);
+        }
+        
+        .likes img {
+            cursor: pointer;
+            vertical-align: middle;
+        }
     </style>
 </head>
 
@@ -240,7 +253,7 @@
         </div>
     </div>
     <div class="search"> <input type="text" autocomplete="off" id="cherche" placeholder="Procurar"><span class="material-icons-two-tone">
-        search
+  
         </span>
         <ul id="r" class="result"></ul>
     </div>
@@ -252,7 +265,7 @@
         let device
         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
             // true for mobile device
-            zoomDevice = 15
+            zoomDevice = 17
             device == 'mobile'
         } else {
             // false for not mobile device
@@ -260,10 +273,14 @@
             device == 'destop'
         }
 
-        /////MENO OPEN///
-
+        //// VARS 
+        let action
+        const url = "app/fabrica.php"
+            /////MENO OPEN///
         let open = document.querySelector('#open')
         let dcm = document.querySelector('#dc')
+
+
         open.innerHTML = '<span class="material-icons-two-tone">help_outline </span>'
 
 
@@ -302,26 +319,124 @@
 
         //////////////////////// VUE//////////////////
         //// GEOJSON URL/////////////////////////////
-        const url = "app/geo.json"
-            ////////////////////////////////////////////
 
+        /// delete cookie ///
+        ////document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+        /////////// COKKIE USER //////
+
+        ////// set cokkie user 
+        function setCookie(cname, cvalue, exdays) {
+            var d = new Date();
+            d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+            var expires = "expires=" + d.toUTCString();
+            document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+        }
+
+
+        /// get cookie user /////
+        function getCookie(cname) {
+            var name = cname + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+
+
+        ///// check cookie
+        function checkCookie() {
+            var user = getCookie("username");
+            if (user != "") {
+                return user
+            } else {
+                /// randon user id 
+                let d = new Date();
+                let n = d.getTime();
+
+                user = Math.floor(Math.random() * n);
+                if (user != "" && user != null) {
+                    setCookie("username", user, 30);
+                }
+            }
+            return user
+
+        }
+
+
+
+        ////LIKES ////
+        console.log(checkCookie())
+        map.on('popupopen', function(e) {
+            let like = document.getElementById('like')
+            let user = checkCookie()
+
+
+            like.addEventListener('click', (e) => {
+
+                action == 'like' ? action = 'dislike' : action = 'like'
+                console.log(like.dataset.id + action)
+                    //post_id user_id action
+                adlike(like.dataset.id, user, action)
+
+                map.closePopup()
+
+
+            })
+
+
+        })
+
+        //// ENVIA LIKE //////
+        function adlike(post_id, user_id, action) {
+            let data = new URLSearchParams();
+            data.append("post_id", post_id);
+            data.append("user_id", user_id);
+            data.append("action", action);
+            //  fetch
+            fetch("app/data.php", {
+                    method: 'POST',
+                    body: data
+                })
+                .then(function(response) {
+                    return response.text();
+                })
+                .then(function(text) {
+                    console.log(text)
+
+                })
+                .catch(function(error) {
+                    console.log(error)
+                });
+
+            return false;
+
+        }
 
 
         ////// POPUP/////
         function onEachFeature(feature, layer) {
-            let info = feature.properties.info ? 'Infos: ' + feature.properties.info : ''
+            let likes = feature.properties.rating_action ? "<img src='app/images/hotp.gif'>" : ''
+            let info = feature.properties.info ? feature.properties.info : ''
             let adress = feature.properties.adress ? feature.properties.adress : ''
-            let popupContent = "<h3>HERE / AQUI </h3>"
-
+            let popupContent = '<h3>HERE / AQUI ' + likes + ' </h3>'
 
 
             if (feature.properties && feature.properties.tag) {
-                popupContent += '<strong>' + feature.properties.tag + '</strong><br>'
-                popupContent += info + '<br> Adress: ' + feature.properties.adress
+
+                popupContent += '<br><strong>' + feature.properties.tag + '</strong><br>'
+                popupContent += info + '<br> ADRESS: ' + feature.properties.adress + '<p class="likes">  VOTE <img id="like" data-id="' + feature.properties.id + '"  src="app/images/like.gif"></p>'
 
             }
 
             layer.bindPopup(popupContent);
+
         }
 
 
@@ -335,11 +450,12 @@
             let radius = size ? size * 2.3 : 100
             let post_date = feature.properties.time ? feature.properties.time : ''
             let novo = novidade(post_date)
-
-
             let l = imogIcon(feature.properties.icon)
+            feature.properties.rating_action ? size = size * 1.2 : size
+            let likes = feature.properties.rating_action ? "<img src='app/images/hotp.gif'>" : ''
 
-            label = String(novo + l + '<span " style=" font-size: ' + size + 'px;">' + tag + '</span>') // .bindTooltip can't use straight 'feature.properties.attribute'
+
+            label = String(novo + l + '<span class="tag" style=" font-size: ' + size + 'px;">' + tag + '</span> <span id="nlk">' + likes + '</span>') // .bindTooltip can't use straight 'feature.properties.attribute'
             return new L.CircleMarker(latlng, {
                 radius: radius,
                 fillColor: color
@@ -353,7 +469,6 @@
 
 
 
-
         ///////////  GET URL FUNCTION GENERALE /////////////////////
         function getText(url, zoom = false) {
 
@@ -364,7 +479,7 @@
                     console.log('loading')
                 })
                 .then((data) => {
-                    console.log(data.features)
+
 
 
                     let geral = L.geoJSON(data, {
@@ -413,7 +528,7 @@
             // Find the distance between now an the count down date
             var distance = now - countDownDate
             var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            console.log(days)
+
             return days <= 5 ? "<img src='app/images/novo.gif'>" : ""
         }
 
