@@ -32,7 +32,7 @@ foreach ($feed as $data) {
             'tag'=> $data['tag'],
             'color'=> $data['color'],
             'adress'=> $data['adress'],
-            'like'=> $data['rating_action'],
+            'like'=> $data['likes'],
           ),
           'geometry' => array(
               'type' => 'Point',

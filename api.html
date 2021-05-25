@@ -96,6 +96,34 @@
             background-color: var(--rouge);
             display: block;
         }
+        /* ////// STYLE TAGS /////// */
+        
+        .my-labels {
+            background-color: transparent;
+            box-shadow: none;
+            border: none;
+            width: 200px;
+            border-width: 2px;
+            text-align: center;
+        }
+        
+        .my-labels p {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .my-labels span.tag {
+            text-shadow: 1px 1px 0 var(--shadow), 1px 2px 0 var(--shadow), 3px 3px 0 var(--shadow), -1px -1px 0 var(--shadow), 1px -1px 0 var(--shadow), -1px 1px 0 var(--shadow), 0 1px 0 var(--shadow);
+            font-weight: bold;
+            line-height: 100%;
+            white-space: normal;
+            color: var(--blanc);
+            font-size: 14px;
+        }
+        
+        .leaflet-popup-content-wrapper {
+            border-radius: 5px !important;
+        }
     </style>
 
 </head>
@@ -141,11 +169,13 @@
         }).addTo(map);
         //map.panTo([39.431, -9.23272]);
 
+
+
         //// Geo code/////
         var gcs = L.esri.Geocoding.geocodeService();
-        const token = "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiZTQ4NDY1ZTBlYzk1MjdmNTY5YTJhNmE1MjRmYzY3OWQ2YjIyOTBiNTE4MjIxNWJkMTRjYmYzMmI1YzZlMTA0OWE2YmMwMjc5MWM2YjI2ZGUiLCJpYXQiOjE2MjE0NTkyNzkuODIyMjkzLCJuYmYiOjE2MjE0NTkyNzkuODIyMjkzLCJleHAiOjE2NTI5OTUyNzkuNjQ3MjgzLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.XhlEoHYUKPfgQdI_TAJQm2v_05P6_VjcRC3HuTnFbgXQ-MF5kavmsKYyHq-bSOJDMLk7ol_5_pX5sOpwY6bON1HjK-R_qIFXABG_GDQlosN_GTW40V8BqRUSMr1QtJLoCjVKFSa8Apt3-F9SrH4tM3RqWYmpvDpQjUst2cTvxPe-o3iHojNeZgI2frIRVIxSSaD6ZfJGdWj1vhgoAAhR9T9lGqm4WfgvqjuRgtQSI_UKionR6pP3jUwFNKGHEMj4dIsoSGILdG_vuHWgvy07Sf6ia-gx8y2Ci1o1nQE3ihhDd4aoPWZbrYOXiC4B0zePOmmBK8nTUbnpNTA63meVYhqOyCW8p6PRcWQDH0umvvhniVWJIPK1P-E5bifSoCE80renmXPYkHoEDR2qwGCTWSJtkqh-2Ou4sreI0FZte1KRKcuMzGgaYrEMsI4OmAqoegEE7lfSGpvnQ9Ob0ds2Iln0yR-alQ3jafKBua515VE6bfGHHUe6f2ev0cVPi_aUb2KSrAqqV6bVttHB2_FPUiOlfLuI4deHbE_kdEBK9zgGpPJo3LUX0xbDvQJZpMPuAgDna8GtJjTKNK9zFt5djsxKXKbVhmlJU4zDr3z-c6NT64hOj1oHYM9z8v1mRo89Y5CShIHExRZxcMHQoEZFsfYi4ytDoRfwwoJ39BT0XtU"
+        const token = "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNjA5MGUzMjYyMTgzMzk5ZmNlODMwZTIyOTQ0ZWQ1ZmMwMTE2ZWU0MGI3NDEwMjMxNmY1ZGRhODk1MDZjMjQzZjA0YTg0NjdiODVjZmE0YzIiLCJpYXQiOjE2MjE4ODk3NjIuODc5MTkxLCJuYmYiOjE2MjE4ODk3NjIuODc5MTkxLCJleHAiOjE2NTM0MjU3NjIuODcyMTkxLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.QB04yHoap7PcM6CalHqX8HQg6pVsmVhSAUEuLke2hqZqOGo-Dci2b8G3ua0V6C9gy_S_eLTUkAK4UtpEX3T3B_dflTowIReAXKBokY9HnzwJxS_vwpJYS3PBUF_ej_z657ZnfaqUb3S5bhbif8-DziHobhqzNsXDpc_4c8cDv0HCcm6_t9_luFK-cUXUypNNsXPCazbIZhq8vV_NwFEjWDr5Ei_48iqKPuAM7J57b2TPK_wjm-pyYR-9vhWy2RCDyLtuRDdOd8grEzpN8c0KA6-J9_RaxfPXObSCv-vtnr74BQf7-3jvZbUoazIL0--qqM2fPc_kkpnvXCe3PJaRDPbkCghQJVMCbgJm9WAm4Vn2TndzyiOkuUoZ6Uex9jAzqhm9DYIF8lTwY2LGJW3IIjCVr1MTOuLK1h2vNTGTHBMWmagyD2d_boKYZtuW8TMavsMB8jcnXmKDctcbRIZjWcMj9-t_f2tamzRQCMLgTZchNkdHkqoTLMe4sLesnVTxg5VYiR5idLgQK6MqFKd9S0bBAsS7psIHfjOUTOodo5i58LMQ1bUXlsRWwbRWDeDxTHqdVuaOyLAqw6fJPgKX2YQvT8mAMcZWpupdeOd0eu9ytPTfVXnmlpruzcPQuD0aR6jVZg0O0zjTNUvm8M4NyoE0Q2kYeGe4pnu-F0_cQyw"
             ////VARIABLES///
-
+        let buildingLayers = L.layerGroup().addTo(map);
         let tag = document.getElementById('tag')
         let lat = document.getElementById('lat')
         let lng = document.getElementById('lng')
@@ -160,7 +190,7 @@
         let active
 
 
-        ///// escreve tag////
+        ////// ESCREVE TAGS ////////////////
         escreve.addEventListener('click', () => {
                 escreve.classList.add("active")
                 active = escreve.classList.contains('active')
@@ -240,8 +270,6 @@
 
         function fetchpost() {
 
-
-
             let data = new URLSearchParams();
             data.append("tag", tag.value);
             data.append("lat", lat.value);
@@ -270,11 +298,87 @@
 
             fetch("http://api.test/api/tags", requestOptions)
                 .then(response => response.text())
-                .then(result => console.log(result))
+                .then(result => {
+                    console.log(result)
+                    if (map.hasLayer(geral)) {
+                        map.removeLayer(geral);
+
+                    }
+                    fetchTags()
+
+                })
                 .catch(error => console.log('error', error));
 
 
         }
+
+        /////////////// fetch tags/////
+
+        function fetchTags() {
+            let thisLayer = L.popup({
+                maxWidth: '350px'
+            })
+            var bounds = L.latLngBounds()
+
+            var myHeaders = new Headers();
+            myHeaders.append("Authorization", token);
+            myHeaders.append("Content-Type", "application/x-www-form-urlencoded");
+
+            var urlencoded = new URLSearchParams();
+
+            var requestOptions = {
+                method: 'GET',
+                headers: myHeaders,
+                // body: urlencoded,
+                redirect: 'follow'
+            };
+
+            fetch("http://api.test/api/tags", requestOptions)
+                .then(response => response.json())
+                .then(posts => {
+
+                    posts.tags.map((post, indice) => {
+                        console.log(post)
+
+                        let content_window = post.tag
+                            ///map
+                        latlng = [post.lat, post.lng]
+                        bounds.extend(latlng)
+
+                        myTextLabel = L.marker([post.lat, post.lng], {
+                            icon: L.divIcon({
+                                className: 'my-labels', // Set class for CSS styling
+                                html: '<span class="tag">' + post.tag + '</span>'
+                            }),
+
+                        });
+
+                        buildingLayers.addLayer(myTextLabel);
+
+
+
+                        myTextLabel.addEventListener('click', (e) => {
+                            thisLayer.setLatLng([post.lat, post.lng])
+                                .setContent(content_window)
+
+                            //buildingLayers.clearLayers(); // remove existing markers
+                            map.panTo([post.lat, post.lng]);
+                            //thisLayer.addTo(mymap);
+
+                            buildingLayers.addLayer(thisLayer);
+                        })
+
+
+
+
+
+
+                    })
+                }).catch(error => console.log('error', error));
+
+        }
+
+        fetchTags()
     </script>
 </body>
 

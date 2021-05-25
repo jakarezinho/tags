@@ -22,14 +22,14 @@ public function porperto($lat,$lng, $radius=2, $limite = 5){
 ///// DISPLAY
 public function myquery()
 {
-  //$n= $this->db->query("SELECT tags.* FROM tags UNION rating_info SELECT rating_action  FROM rating_info WHERE rating_action ='like'")->fetchAll(PDO::FETCH_ASSOC);
- $n= $this->db->query("SELECT DISTINCT tags.*,  rating_info.*  FROM tags  LEFT JOIN rating_info ON tags.id=rating_info.post_id AND  rating_info.rating_action ='like' ")->fetchAll(PDO::FETCH_ASSOC);
+  $n= $this->db->query("SELECT  tags.*,COUNT(DISTINCT rating_info.id) AS likes  FROM tags   LEFT JOIN rating_info ON tags.id=rating_info.post_id AND  rating_info.rating_action ='like'  GROUP BY tags.id")->fetchAll(PDO::FETCH_ASSOC);
+ //$n= $this->db->query("SELECT DISTINCT tags.*,  rating_info.*  FROM tags  LEFT JOIN rating_info ON tags.id=rating_info.post_id AND  rating_info.rating_action ='like' ")->fetchAll(PDO::FETCH_ASSOC);
  // $n= $this->db->query("SELECT * FROM tags ")->fetchAll(PDO::FETCH_ASSOC);
 		return $n;
 
 }
 
-//////TAG ////
+//////TAG //// 
 
 public function tag($id)
 {

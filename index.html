@@ -83,7 +83,7 @@
             background-color: transparent;
             box-shadow: none;
             border: none;
-            width: 200px;
+            width: 300px;
             border-width: 2px;
             text-align: center;
         }
@@ -95,7 +95,7 @@
         
         .leaflet-tooltip.my-labels span.tag {
             text-shadow: 1px 1px 0 var(--shadow), 1px 2px 0 var(--shadow), 3px 3px 0 var(--shadow), -1px -1px 0 var(--shadow), 1px -1px 0 var(--shadow), -1px 1px 0 var(--shadow), 0 1px 0 var(--shadow);
-            font-weight: bold;
+            font-weight: 700;
             line-height: 100%;
             white-space: normal;
             color: var(--blanc);
@@ -275,6 +275,7 @@
 
         //// VARS 
         let action
+        let layer
         const url = "app/fabrica.php"
             /////MENO OPEN///
         let open = document.querySelector('#open')
@@ -329,7 +330,7 @@
             var d = new Date();
             d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
             var expires = "expires=" + d.toUTCString();
-            document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+            document.cookie = cname + "=" + cvalue + ";" + SameSite + "=" + None + ";" + Secure + ";" + expires + ";path=/";
         }
 
 
@@ -373,25 +374,10 @@
 
         ////LIKES ////
         console.log(checkCookie())
-        map.on('popupopen', function(e) {
-            let like = document.getElementById('like')
-            let user = checkCookie()
 
 
-            like.addEventListener('click', (e) => {
-
-                action == 'like' ? action = 'dislike' : action = 'like'
-                console.log(like.dataset.id + action)
-                    //post_id user_id action
-                adlike(like.dataset.id, user, action)
-
-                map.closePopup()
 
 
-            })
-
-
-        })
 
         //// ENVIA LIKE //////
         function adlike(post_id, user_id, action) {
@@ -422,25 +408,51 @@
 
         ////// POPUP/////
         function onEachFeature(feature, layer) {
-            let likes = feature.properties.rating_action ? "<img src='app/images/hotp.gif'>" : ''
+            let likes = feature.properties.likes > 1 ? "<img src='app/images/hotp.gif'>" : ''
             let info = feature.properties.info ? feature.properties.info : ''
             let adress = feature.properties.adress ? feature.properties.adress : ''
-            let popupContent = '<h3>HERE / AQUI ' + likes + ' </h3>'
+            let popupContent = '<h3>HERE / AQUI ' + likes + '  </h3>'
 
 
             if (feature.properties && feature.properties.tag) {
 
                 popupContent += '<br><strong>' + feature.properties.tag + '</strong><br>'
-                popupContent += info + '<br> ADRESS: ' + feature.properties.adress + '<p class="likes">  VOTE <img id="like" data-id="' + feature.properties.id + '"  src="app/images/like.gif"></p>'
+                popupContent += info + '<br> ADRESS: ' + feature.properties.adress + '<p class="likes"> <span id="vote"> Vote </span> <img id="like" data-id="' + feature.properties.id + '"  src="app/images/like.gif"><br>likes: ' + feature.properties.likes + '</p>'
 
             }
 
             layer.bindPopup(popupContent);
 
+
+
+
         }
+        ///////////// CLICK VOTE ////
+        map.on('popupopen', () => {
+            let like = document.getElementById('like')
+            let vote = document.getElementById('vote')
+            let user = checkCookie()
+            console.log(like)
+            like.addEventListener('click', () => {
 
+                vote.innerHTML = 'Tanck'
+                action == 'like' ? action = 'dislike' : action = 'like'
 
+                console.log(like.dataset.id + action)
+                    //post_id user_id action
+                adlike(like.dataset.id, user, action)
 
+                map.closePopup()
+
+            })
+        })
+
+        //// REMOVE LIKE ELEMENT  
+        map.on('popupclose', () => {
+
+            like.remove()
+
+        })
 
         ////////LABEL IMAGE TEXTE ////////
         function labelText(feature, latlng) {
@@ -451,11 +463,11 @@
             let post_date = feature.properties.time ? feature.properties.time : ''
             let novo = novidade(post_date)
             let l = imogIcon(feature.properties.icon)
-            feature.properties.rating_action ? size = size * 1.2 : size
-            let likes = feature.properties.rating_action ? "<img src='app/images/hotp.gif'>" : ''
+            feature.properties.likes > 0 ? size = size * 1.5 : size
+            let likes = feature.properties.likes > 1 ? "<img src='app/images/hotp.gif'>" : ''
 
 
-            label = String(novo + l + '<span class="tag" style=" font-size: ' + size + 'px;">' + tag + '</span> <span id="nlk">' + likes + '</span>') // .bindTooltip can't use straight 'feature.properties.attribute'
+            label = String(novo + l + '<span class="tag" style=" font-size: ' + size + 'px;">' + tag + '</span>  <br> <span id="nlk">' + likes + '</span>') // .bindTooltip can't use straight 'feature.properties.attribute'
             return new L.CircleMarker(latlng, {
                 radius: radius,
                 fillColor: color
@@ -476,7 +488,7 @@
             fetch(url)
                 .then((response) => {
                     return response.json();
-                    console.log('loading')
+
                 })
                 .then((data) => {
 
