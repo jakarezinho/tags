@@ -290,7 +290,7 @@
                 "adress": "N360",
                 "size": "17",
                 "time": "Mon Apr 26 2021 16:59:40 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
-                "likes": "0"
+                "likes": "2"
             },
             "geometry": {
                 "type": "Point",
@@ -380,7 +380,7 @@
                 "icon": "bad",
                 "info": "",
                 "adress": "Rua Adelino Soares de Oliveira 9A",
-                "size": "17",
+                "size": "20",
                 "time": "Tue Apr 27 2021 18:46:40 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
                 "likes": "0"
             },
@@ -584,7 +584,7 @@
                 "lat": "39.4033",
                 "lng": "-9.13226",
                 "color": "#897459",
-                "icon": "fog",
+                "icon": "",
                 "info": "Hospital termal \u00e1guas e vapores ",
                 "adress": "Hospital Termal das Caldas da Rainha vapores termais",
                 "size": "16",
@@ -768,7 +768,7 @@
                 "lat": "39.3996",
                 "lng": "-9.13583",
                 "color": "#897459",
-                "icon": "",
+                "icon": "fog",
                 "info": "",
                 "adress": "Rua S\u00e3o Jo\u00e3o de Deus",
                 "size": "14",
@@ -1063,16 +1063,16 @@
             "type": "Feature",
             "properties": {
                 "id": "50",
-                "tag": "rich and poor surfers",
+                "tag": "beginners surfers",
                 "lat": "39.3733",
                 "lng": "-9.33812",
                 "color": "#897459",
                 "icon": "surfing",
                 "info": "",
                 "adress": "Largo Amigos do Baleal 1-1",
-                "size": "13",
+                "size": "20",
                 "time": "Fri Apr 30 2021 22:24:23 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
-                "likes": "0"
+                "likes": "1"
             },
             "geometry": {
                 "type": "Point",
@@ -2291,7 +2291,7 @@
                 "adress": "Policl\u00ednica Central de Alcoentre",
                 "size": "12",
                 "time": "Wed May 05 2021 11:53:18 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
-                "likes": "0"
+                "likes": "1"
             },
             "geometry": {
                 "type": "Point",
@@ -2766,12 +2766,12 @@
             "properties": {
                 "id": "127",
                 "tag": "pr\u00e9dios",
-                "lat": "39.4065",
-                "lng": "-9.13788",
+                "lat": "39.406",
+                "lng": "-9.13792",
                 "color": "#897459",
                 "icon": "",
                 "info": "",
-                "adress": "Avenida da Independ\u00eancia Nacional 8",
+                "adress": "Casa Nova",
                 "size": "18",
                 "time": "Sun May 09 2021 20:24:36 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
                 "likes": "0"
@@ -2779,8 +2779,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    "-9.13788",
-                    "39.4065"
+                    "-9.13792",
+                    "39.406"
                 ]
             }
         },
@@ -3310,6 +3310,121 @@
                 "coordinates": [
                     "-9.13391",
                     "39.4047"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "151",
+                "tag": "Vacina covid 19",
+                "lat": "39.4046",
+                "lng": "-9.12658",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "2500",
+                "size": "18",
+                "time": "Wed May 26 2021 12:12:22 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.12658",
+                    "39.4046"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "152",
+                "tag": "Cheio de fantasmas da cer\u00e2mica",
+                "lat": "39.4061",
+                "lng": "-9.14731",
+                "color": "#897459",
+                "icon": "fog",
+                "info": "",
+                "adress": "Rua Lu\u00eds Caldas",
+                "size": "14",
+                "time": "Wed May 26 2021 12:19:47 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.14731",
+                    "39.4061"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "153",
+                "tag": "Predios",
+                "lat": "39.3972",
+                "lng": "-9.13461",
+                "color": "#897459",
+                "icon": "pff",
+                "info": "",
+                "adress": "Avenida Mestre Ant\u00f3nio Duarte",
+                "size": "18",
+                "time": "Wed May 26 2021 15:47:29 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13461",
+                    "39.3972"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "154",
+                "tag": "compras",
+                "lat": "39.403",
+                "lng": "-9.14782",
+                "color": "#897459",
+                "icon": "shopping",
+                "info": "",
+                "adress": "Rua do Com\u00e9rcio",
+                "size": "18",
+                "time": "Wed May 26 2021 15:50:01 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.14782",
+                    "39.403"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "155",
+                "tag": "Compras",
+                "lat": "39.4134",
+                "lng": "-9.14058",
+                "color": "#897459",
+                "icon": "shopping",
+                "info": "",
+                "adress": "Rua Dr Bernardino Ant\u00f3nio Carv. Pargana",
+                "size": "18",
+                "time": "Wed May 26 2021 15:57:11 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.14058",
+                    "39.4134"
                 ]
             }
         }

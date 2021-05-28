@@ -210,13 +210,6 @@
             padding-top: 30px;
         }
         /* DIVERS*/
-        
-        @media only screen and (max-width: 600px) {
-            .header {
-                font-size: 20px;
-                margin-top: 15px;
-            }
-        }
         /*VOTE*/
         
         .likes {
@@ -226,6 +219,46 @@
         .likes img {
             cursor: pointer;
             vertical-align: middle;
+        }
+        
+        #vote {
+            position: absolute;
+            border-radius: 5px;
+            left: 0;
+            right: 0;
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 25px;
+            z-index: 900;
+            text-align: center;
+            padding: 5px;
+            background-color: var(--noir);
+            color: var(--blanc);
+            display: none;
+        }
+        
+        #infoslocal {
+            position: absolute;
+            border-radius: 5px;
+            bottom: 0;
+            left: 25px;
+            width: 300px;
+            z-index: 900;
+            text-align: center;
+            padding: 5px;
+            background-color: var(--blanc);
+            color: var(--noir);
+        }
+        
+        @media only screen and (max-width: 600px) {
+            .header {
+                font-size: 20px;
+                margin-top: 15px;
+            }
+            #vote {
+                margin-top: 100px;
+            }
         }
     </style>
 </head>
@@ -253,10 +286,12 @@
         </div>
     </div>
     <div class="search"> <input type="text" autocomplete="off" id="cherche" placeholder="Procurar"><span class="material-icons-two-tone">
-  
+        search
         </span>
         <ul id="r" class="result"></ul>
     </div>
+    <div id="vote"> </div>
+    <div id="infoslocal"> infos</div>
     <div id="map"></div>
 
     <script>
@@ -269,7 +304,7 @@
             device == 'mobile'
         } else {
             // false for not mobile device
-            zoomDevice = 16
+            zoomDevice = 17
             device == 'destop'
         }
 
@@ -280,6 +315,7 @@
             /////MENO OPEN///
         let open = document.querySelector('#open')
         let dcm = document.querySelector('#dc')
+        let vote = document.getElementById('vote')
 
 
         open.innerHTML = '<span class="material-icons-two-tone">help_outline </span>'
@@ -373,11 +409,6 @@
 
 
         ////LIKES ////
-        console.log(checkCookie())
-
-
-
-
 
         //// ENVIA LIKE //////
         function adlike(post_id, user_id, action) {
@@ -417,7 +448,7 @@
             if (feature.properties && feature.properties.tag) {
 
                 popupContent += '<br><strong>' + feature.properties.tag + '</strong><br>'
-                popupContent += info + '<br> ADRESS: ' + feature.properties.adress + '<p class="likes"> <span id="vote"> Vote </span> <img id="like" data-id="' + feature.properties.id + '"  src="app/images/like.gif"><br>likes: ' + feature.properties.likes + '</p>'
+                popupContent += info + '<br> ADRESS: ' + feature.properties.adress + '<p class="likes"> <span> Vote </span> <img id="like" data-id="' + feature.properties.id + '"  src="app/images/like.gif"><br>likes: ' + feature.properties.likes + '</p>'
 
             }
 
@@ -427,22 +458,26 @@
 
 
         }
-        ///////////// CLICK VOTE ////
+        ///////////// CLICK VOTE ////////////////
         map.on('popupopen', () => {
             let like = document.getElementById('like')
-            let vote = document.getElementById('vote')
+
             let user = checkCookie()
             console.log(like)
             like.addEventListener('click', () => {
 
-                vote.innerHTML = 'Tanck'
                 action == 'like' ? action = 'dislike' : action = 'like'
 
                 console.log(like.dataset.id + action)
                     //post_id user_id action
                 adlike(like.dataset.id, user, action)
 
+                vote.style.display = 'block'
+                vote.innerHTML = 'obrigado / thank you'
                 map.closePopup()
+                setTimeout(() => {
+                    vote.style.display = 'none'
+                }, 2000);
 
             })
         })
@@ -467,7 +502,7 @@
             let likes = feature.properties.likes > 1 ? "<img src='app/images/hotp.gif'>" : ''
 
 
-            label = String(novo + l + '<span class="tag" style=" font-size: ' + size + 'px;">' + tag + '</span>  <br> <span id="nlk">' + likes + '</span>') // .bindTooltip can't use straight 'feature.properties.attribute'
+            label = String(novo + l + '<span class="tag" style=" font-size: ' + size + 'px;">' + tag + '</span>  <br> <span>' + likes + '</span>') // .bindTooltip can't use straight 'feature.properties.attribute'
             return new L.CircleMarker(latlng, {
                 radius: radius,
                 fillColor: color
@@ -483,17 +518,16 @@
 
         ///////////  GET URL FUNCTION GENERALE /////////////////////
         function getText(url, zoom = false) {
-
-            //// fecth general level 1/////
+            vote.style.display = 'block'
+            vote.innerHTML = 'Loading...'
+                //// fecth general level 1/////
             fetch(url)
                 .then((response) => {
                     return response.json();
 
                 })
                 .then((data) => {
-
-
-
+                    vote.style.display = 'none'
                     let geral = L.geoJSON(data, {
 
                         style: (feature) => {
@@ -549,8 +583,9 @@
         window.load = getText(url, 15)
 
         //////////////////////// PESQUISA  CIDADES///////////////////
+        console.log('')
     </script>
-    <script src="app/js/cidades.js"></script>
+    <script defer src="app/js/cidades.js"></script>
 
 </body>
 

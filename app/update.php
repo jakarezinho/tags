@@ -254,7 +254,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['id'])) {
             'city', 'desert', 'dino', 'eclair', 'ennui', 'fire', 'fog', 'froid', 'guerra', 'heart',
             'hipster', 'hot', 'hotp', 'like', 'love', 'mar', 'mercado', 'mild', 'mort', 'motacarro',
             'napoleon', 'nature', 'nice', 'novo', 'ok', 'onda', 'paisagem', 'pato', 'pescador', 'pff',
-            'picnic', 'praia', 'religion', 'restaurante', 'sapo', 'sardines', 'star', 'super', 'superman','surfing',
+            'picnic', 'praia', 'religion', 'restaurante', 'sapo', 'sardines', 'star', 'shopping', 'super', 'superman','surfing',
             'surprise', 'sun','tourist', 'touro', 'yes', 'wind','vaga'
         ]
         const ics = [{

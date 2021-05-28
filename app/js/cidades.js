@@ -32,13 +32,20 @@
 
          ]
          ///// VARS 
+     let zoom = 16
      let cherche = document.getElementById('cherche')
      let r = document.getElementById('r')
      let listIntro = document.getElementById('listintro')
+     infoslocal = document.getElementById('infoslocal')
+     typeof zoomDevice !== 'undefined' ? zoom = zoomDevice : zoom
+     let courantlocal
+     const liItem = r.getElementsByTagName("li");
 
-     //// cherche vile
+
+     //// CHERCHE VILE 
      cherche.addEventListener('focus', (e) => {
          localidades(locations)
+         cherche.value = ''
 
      })
 
@@ -57,41 +64,44 @@
      });
 
      ///// display viles
+
      function localidades(locations) {
+
          locations.map((city, index) => {
              r.style.display = 'block'
              let li = document.createElement('li')
              let a = document.createElement('a')
              a.setAttribute('href', '#')
              a.innerHTML = city.name
-                 // li.setAttribute('data-lat', city.lat)
-                 //li.innerHTML = city.name
-             li.appendChild(a)
+             li.append(a)
+             if (a.innerHTML == courantlocal) {
+                 li.style.display = 'none'
+
+             }
              r.appendChild(li)
+
 
              li.addEventListener('click', (e) => {
                  li.dataset.lat
-                 console.log(li.dataset.lat)
                  cherche.value = city.name
                  r.innerHTML = ''
                  r.style.display = 'none'
-                 map.setView([city.lat, city.lng], zoomDevice);
-
+                 map.setView([city.lat, city.lng], zoom);
+                 displayInfos(city.name, city.lat, city.lng)
 
              })
 
 
          })
+
+
+
+
      }
      ///// filtre resultats
      function processResults(r) {
-
-
-         console.log(r)
-         liItem = r.getElementsByTagName("li");
          Array.from(liItem).forEach(element => {
              links = element.getElementsByTagName("a")[0];
-             console.log(links)
              filterSearch = cherche.value.toUpperCase();
 
              if (links.innerHTML.toUpperCase().indexOf(filterSearch) > -1) {
@@ -109,10 +119,25 @@
                  let li = document.createElement('li')
                  li.append(city.name)
                  listIntro.appendChild(li)
+
              }
 
-
          })
+
+     }
+
+
+
+     ////display infods 
+
+     function displayInfos(name, lat, lng) {
+         infoslocal.innerHTML = name + '<a href="#">' + name + '</a>'
+         courantlocal = name
+         cherche.value = courantlocal
+
+
+
      }
 
      localidadesIntro(locations)
+     displayInfos('Caldas da rainha', null, null)

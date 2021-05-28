@@ -98,8 +98,7 @@
         }
         /* ////// STYLE TAGS /////// */
         
-        .my-labels {
-            background-color: transparent;
+        .my-labels div {
             box-shadow: none;
             border: none;
             width: 200px;
@@ -118,11 +117,29 @@
             line-height: 100%;
             white-space: normal;
             color: var(--blanc);
-            font-size: 14px;
+            font-size: 30px;
         }
         
         .leaflet-popup-content-wrapper {
             border-radius: 5px !important;
+        }
+        /*LOADING*/
+        
+        #vote {
+            position: absolute;
+            border-radius: 5px;
+            left: 0;
+            right: 0;
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 25px;
+            z-index: 900;
+            text-align: center;
+            padding: 5px;
+            background-color: var(--noir);
+            color: var(--blanc);
+            display: none;
         }
     </style>
 
@@ -146,7 +163,7 @@
             <ul id="r" class="result"></ul>
         </div>
     </div>
-
+    <div id="vote"> </div>
     <div id="map"></div>
 
     <script>
@@ -175,6 +192,7 @@
         var gcs = L.esri.Geocoding.geocodeService();
         const token = "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNjA5MGUzMjYyMTgzMzk5ZmNlODMwZTIyOTQ0ZWQ1ZmMwMTE2ZWU0MGI3NDEwMjMxNmY1ZGRhODk1MDZjMjQzZjA0YTg0NjdiODVjZmE0YzIiLCJpYXQiOjE2MjE4ODk3NjIuODc5MTkxLCJuYmYiOjE2MjE4ODk3NjIuODc5MTkxLCJleHAiOjE2NTM0MjU3NjIuODcyMTkxLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.QB04yHoap7PcM6CalHqX8HQg6pVsmVhSAUEuLke2hqZqOGo-Dci2b8G3ua0V6C9gy_S_eLTUkAK4UtpEX3T3B_dflTowIReAXKBokY9HnzwJxS_vwpJYS3PBUF_ej_z657ZnfaqUb3S5bhbif8-DziHobhqzNsXDpc_4c8cDv0HCcm6_t9_luFK-cUXUypNNsXPCazbIZhq8vV_NwFEjWDr5Ei_48iqKPuAM7J57b2TPK_wjm-pyYR-9vhWy2RCDyLtuRDdOd8grEzpN8c0KA6-J9_RaxfPXObSCv-vtnr74BQf7-3jvZbUoazIL0--qqM2fPc_kkpnvXCe3PJaRDPbkCghQJVMCbgJm9WAm4Vn2TndzyiOkuUoZ6Uex9jAzqhm9DYIF8lTwY2LGJW3IIjCVr1MTOuLK1h2vNTGTHBMWmagyD2d_boKYZtuW8TMavsMB8jcnXmKDctcbRIZjWcMj9-t_f2tamzRQCMLgTZchNkdHkqoTLMe4sLesnVTxg5VYiR5idLgQK6MqFKd9S0bBAsS7psIHfjOUTOodo5i58LMQ1bUXlsRWwbRWDeDxTHqdVuaOyLAqw6fJPgKX2YQvT8mAMcZWpupdeOd0eu9ytPTfVXnmlpruzcPQuD0aR6jVZg0O0zjTNUvm8M4NyoE0Q2kYeGe4pnu-F0_cQyw"
             ////VARIABLES///
+        let vote = document.getElementById('vote')
         let buildingLayers = L.layerGroup().addTo(map);
         let tag = document.getElementById('tag')
         let lat = document.getElementById('lat')
@@ -315,11 +333,13 @@
         /////////////// fetch tags/////
 
         function fetchTags() {
-            let thisLayer = L.popup({
-                maxWidth: '350px'
-            })
-            var bounds = L.latLngBounds()
 
+            vote.style.display = 'block'
+            vote.innerHTML = 'Loading...'
+
+            let thisLayer = L.popup({})
+
+            var bounds = L.latLngBounds()
             var myHeaders = new Headers();
             myHeaders.append("Authorization", token);
             myHeaders.append("Content-Type", "application/x-www-form-urlencoded");
@@ -337,8 +357,9 @@
                 .then(response => response.json())
                 .then(posts => {
 
+                    vote.style.display = 'none'
                     posts.tags.map((post, indice) => {
-                        console.log(post)
+
 
                         let content_window = post.tag
                             ///map
@@ -348,7 +369,8 @@
                         myTextLabel = L.marker([post.lat, post.lng], {
                             icon: L.divIcon({
                                 className: 'my-labels', // Set class for CSS styling
-                                html: '<span class="tag">' + post.tag + '</span>'
+                                html: '<div><span class="tag">' + post.tag + '</span></div>',
+                                iconAnchor: [100, 0]
                             }),
 
                         });
