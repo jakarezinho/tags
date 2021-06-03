@@ -238,17 +238,27 @@
             display: none;
         }
         
-        #infoslocal {
+        .infoslocal {
             position: absolute;
-            border-radius: 5px;
-            bottom: 0;
-            left: 25px;
+            bottom: 0px;
+            left: 0px;
             width: 300px;
             z-index: 900;
             text-align: center;
-            padding: 5px;
-            background-color: var(--blanc);
             color: var(--noir);
+            margin-bottom: 20px;
+            background-color: var(--blanc);
+            border-radius: 5px;
+        }
+        
+        .abrir {
+            top: -20px;
+            left: 0px;
+            width: 300px;
+        }
+        
+        #infoslocal {
+            padding: 5px;
         }
         
         @media only screen and (max-width: 600px) {
@@ -275,7 +285,7 @@
 
                 <p><i class="twa twa-1x twa-hotel"></i> Cada vez que vou para um novo lugar é difícil descobrir para que partes da cidade devo ir. Muitas vezes acabo no centro turístico. Sei que 90% das pessoas que vão para um novo local ou cidade não terá
                     nenhuma ideia sobre a realidade de um local porque apenas ficam no centro turístico. É uma área falsa que não tem nada a ver com a realidade local. Então o que eu quero? Quero obter uma visão geral rápida do que é a região. </p>
-                <p><i class="twa twa-1x twa-beach-with-umbrella"></i>Vista da região Oeste de Portugal fora do prisma marketing oficial das regiões de turismo por vezes nem tudo é paraíso </p>
+                <p><i class="twa twa-1x twa-beach-with-umbrella"></i>Vista da região Oeste de Portugal fora do prisma marketing oficial das regiões de turismo com algum humor pelo meio também, por vezes nem tudo é paraíso </p>
                 <h2> lista de cidades em vista </h2>
                 <p> <i class="twa twa-1x twa-sun-with-face"></i>Região Oeste</p>
                 <ul id="listintro" class="list"></ul>
@@ -286,16 +296,21 @@
         </div>
     </div>
     <div class="search"> <input type="text" autocomplete="off" id="cherche" placeholder="Procurar"><span class="material-icons-two-tone">
-        search
+            search
         </span>
         <ul id="r" class="result"></ul>
     </div>
     <div id="vote"> </div>
-    <div id="infoslocal"> infos</div>
+    <div class="infoslocal">
+        <div class="abrir"> infos</div>
+        <div id="infoslocal"></div>
+    </div>
+
+
     <div id="map"></div>
 
     <script>
-        ///// get device
+        ///// GET DEVICE 
         let zoomDevice
         let device
         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
@@ -361,16 +376,19 @@
         ////document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
         /////////// COKKIE USER //////
 
-        ////// set cokkie user 
+
+        ////// SET COOKIE USER
         function setCookie(cname, cvalue, exdays) {
             var d = new Date();
             d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
             var expires = "expires=" + d.toUTCString();
-            document.cookie = cname + "=" + cvalue + ";" + SameSite + "=" + None + ";" + Secure + ";" + expires + ";path=/";
+            document.cookie = cname + "=" + cvalue + ";" + SameSite + "=" + None + ";" + Secure + ";" + expires +
+                ";path=/";
         }
 
 
         /// get cookie user /////
+
         function getCookie(cname) {
             var name = cname + "=";
             var ca = document.cookie.split(';');
@@ -387,7 +405,8 @@
         }
 
 
-        ///// check cookie
+        ///// CHECK COOKIE
+
         function checkCookie() {
             var user = getCookie("username");
             if (user != "") {
@@ -448,7 +467,9 @@
             if (feature.properties && feature.properties.tag) {
 
                 popupContent += '<br><strong>' + feature.properties.tag + '</strong><br>'
-                popupContent += info + '<br> ADRESS: ' + feature.properties.adress + '<p class="likes"> <span> Vote </span> <img id="like" data-id="' + feature.properties.id + '"  src="app/images/like.gif"><br>likes: ' + feature.properties.likes + '</p>'
+                popupContent += info + '<br> ADRESS: ' + feature.properties.adress +
+                    '<p class="likes"> <span> Vote </span> <img id="like" data-id="' + feature.properties.id +
+                    '"  src="app/images/like.gif"><br>likes: ' + feature.properties.likes + '</p>'
 
             }
 
@@ -490,6 +511,7 @@
         })
 
         ////////LABEL IMAGE TEXTE ////////
+
         function labelText(feature, latlng) {
             let color = feature.properties.color ? feature.properties.color : '#897459'
             let tag = feature.properties.tag ? feature.properties.tag : ''
@@ -502,7 +524,7 @@
             let likes = feature.properties.likes > 1 ? "<img src='app/images/hotp.gif'>" : ''
 
 
-            label = String(novo + l + '<span class="tag" style=" font-size: ' + size + 'px;">' + tag + '</span>  <br> <span>' + likes + '</span>') // .bindTooltip can't use straight 'feature.properties.attribute'
+            label = String(`${novo} ${l}<span class="tag" style=" font-size:${size}px;">${tag}</span>  <br> <span>${likes}</span>`) // .bindTooltip can't use straight 'feature.properties.attribute'
             return new L.CircleMarker(latlng, {
                 radius: radius,
                 fillColor: color
@@ -555,8 +577,6 @@
         } //////// FIM
 
 
-
-        ///// IMAGE ICON ///////
         function imogIcon(icon) {
 
             if (icon) {
@@ -583,7 +603,6 @@
         window.load = getText(url, 15)
 
         //////////////////////// PESQUISA  CIDADES///////////////////
-        console.log('')
     </script>
     <script defer src="app/js/cidades.js"></script>
 

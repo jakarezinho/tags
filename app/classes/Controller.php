@@ -15,7 +15,7 @@ public function __construct()
 /////LOCALE 
 
 public function porperto($lat,$lng, $radius=2, $limite = 5){
-  $perto= $this->db->query("SELECT  *,( 6371 * acos( cos( radians('$lat') ) * cos( radians( lat ) ) * cos( radians( lng ) - radians('$lng') ) + sin( radians('$lat') ) * sin( radians( lat ) ) ) ) AS distance FROM tags  HAVING distance < '$radius' ORDER BY distance LIMIT 0 , $limite")->fetchAll(PDO::FETCH_ASSOC);
+  $perto= $this->db->query("SELECT  ( 6371 * acos( cos( radians('$lat') ) * cos( radians( lat ) ) * cos( radians( lng ) - radians('$lng') ) + sin( radians('$lat') ) * sin( radians( lat ) ) ) ) AS distance, tags.*,COUNT(DISTINCT rating_info.id) AS likes  FROM tags  LEFT JOIN rating_info ON tags.id=rating_info.post_id AND  rating_info.rating_action ='like'  GROUP BY tags.id HAVING distance < '$radius'  ORDER BY distance ")->fetchAll(PDO::FETCH_ASSOC);
   return $perto;
 }
 
