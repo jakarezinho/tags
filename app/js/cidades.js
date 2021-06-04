@@ -147,8 +147,10 @@
 
      function displayInfos(name, hab, lat, lng) {
          if (infoslocal) {
+             const booking = `<a target="_new" href="https://www.booking.com/searchresults.html?latitude=${lat};longitude=${lng};" class="booking-link"><img src="https://logo.clearbit.com/booking.com" width="30" height="30"></a>`
              const airbnb = `<a target="_new" href="https://www.airbnb.com/s/homes?ne_lat=${lat}&ne_lng=${lng}&sw_lat=${lat-0.0002}&sw_lng=${lng-0.0002}&zoom=12&search_by_map=true&search_type=unknown&screen_size=large&map_toggle=true" class="airbnb-link"><img src="https://logo.clearbit.com/airbnb.com" width="30" height="30"></a>`
-             infoslocal.innerHTML = airbnb
+             const google = `<a target="_new" href="https://www.google.com/maps/search/hotels/@${lat},${lng},16z" class="gmaps-link"><img src="https://logo.clearbit.com/google.com" width="30" height="30"></a>`
+             infoslocal.innerHTML = `${airbnb}  ${booking}  ${google}`
              courantlocal = name
              cherche.value = courantlocal
          }

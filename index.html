@@ -238,7 +238,7 @@
             display: none;
         }
         
-        .infoslocal {
+        .infos {
             position: absolute;
             bottom: 0px;
             left: 0px;
@@ -255,10 +255,15 @@
             top: -20px;
             left: 0px;
             width: 300px;
+            cursor: pointer;
         }
         
         #infoslocal {
             padding: 5px;
+        }
+        
+        .mostrainfos {
+            display: none;
         }
         
         @media only screen and (max-width: 600px) {
@@ -301,9 +306,9 @@
         <ul id="r" class="result"></ul>
     </div>
     <div id="vote"> </div>
-    <div class="infoslocal">
-        <div class="abrir"> infos</div>
-        <div id="infoslocal"></div>
+    <div class="infos">
+        <div class="abrir" id="abririnfos"> infos</div>
+        <div id="infoslocal" class="mostrainfos"></div>
     </div>
 
 
@@ -327,15 +332,23 @@
         let action
         let layer
         const url = "app/fabrica.php"
+
+        //// INFOS 
+        let abririnfos = document.querySelector('.abrir')
+        let infoslocal = document.querySelector('#infoslocal')
+        abririnfos.addEventListener('click', () => {
+                infoslocal.classList.toggle("mostrainfos")
+
+
+            })
             /////MENO OPEN///
+
         let open = document.querySelector('#open')
         let dcm = document.querySelector('#dc')
         let vote = document.getElementById('vote')
 
 
         open.innerHTML = '<span class="material-icons-two-tone">help_outline </span>'
-
-
         open.addEventListener("click", () => {
             open.innerHTML = '<span class="material-icons-two-tone">close</span>'
             if (dcm.classList.contains('dep')) {
@@ -370,12 +383,9 @@
 
 
         //////////////////////// VUE//////////////////
-        //// GEOJSON URL/////////////////////////////
-
         /// delete cookie ///
         ////document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
         /////////// COKKIE USER //////
-
 
         ////// SET COOKIE USER
         function setCookie(cname, cvalue, exdays) {
@@ -456,29 +466,6 @@
         }
 
 
-        ////// POPUP/////
-        function onEachFeature(feature, layer) {
-            let likes = feature.properties.likes > 1 ? "<img src='app/images/hotp.gif'>" : ''
-            let info = feature.properties.info ? feature.properties.info : ''
-            let adress = feature.properties.adress ? feature.properties.adress : ''
-            let popupContent = '<h3>HERE / AQUI ' + likes + '  </h3>'
-
-
-            if (feature.properties && feature.properties.tag) {
-
-                popupContent += '<br><strong>' + feature.properties.tag + '</strong><br>'
-                popupContent += info + '<br> ADRESS: ' + feature.properties.adress +
-                    '<p class="likes"> <span> Vote </span> <img id="like" data-id="' + feature.properties.id +
-                    '"  src="app/images/like.gif"><br>likes: ' + feature.properties.likes + '</p>'
-
-            }
-
-            layer.bindPopup(popupContent);
-
-
-
-
-        }
         ///////////// CLICK VOTE ////////////////
         map.on('popupopen', () => {
             let like = document.getElementById('like')
@@ -506,9 +493,30 @@
         //// REMOVE LIKE ELEMENT  
         map.on('popupclose', () => {
 
-            like.remove()
+                like.remove()
 
-        })
+            })
+            /////// 
+            ////// POPUP/////
+        function onEachFeature(feature, layer) {
+            let likes = feature.properties.likes > 1 ? "<img src='app/images/hotp.gif'>" : ''
+            let info = feature.properties.info ? feature.properties.info : ''
+            let adress = feature.properties.adress ? feature.properties.adress : ''
+            let popupContent = '<h3>HERE / AQUI ' + likes + '  </h3>'
+
+            if (feature.properties && feature.properties.tag) {
+
+                popupContent += '<br><strong>' + feature.properties.tag + '</strong><br>'
+                popupContent += info + '<br> ADRESS: ' + feature.properties.adress +
+                    '<p class="likes"> <span> Vote </span> <img id="like" data-id="' + feature.properties.id +
+                    '"  src="app/images/like.gif"><br>likes: ' + feature.properties.likes + '</p>'
+
+            }
+
+            layer.bindPopup(popupContent);
+
+
+        }
 
         ////////LABEL IMAGE TEXTE ////////
 
@@ -524,7 +532,9 @@
             let likes = feature.properties.likes > 1 ? "<img src='app/images/hotp.gif'>" : ''
 
 
-            label = String(`${novo} ${l}<span class="tag" style=" font-size:${size}px;">${tag}</span>  <br> <span>${likes}</span>`) // .bindTooltip can't use straight 'feature.properties.attribute'
+            label = String(
+                    `${novo} ${l}<span class="tag" style=" font-size:${size}px;">${tag}</span>  <br> <span>${likes}</span>`
+                ) // .bindTooltip can't use straight 'feature.properties.attribute'
             return new L.CircleMarker(latlng, {
                 radius: radius,
                 fillColor: color
@@ -535,8 +545,6 @@
             }).openTooltip();
 
         }
-
-
 
         ///////////  GET URL FUNCTION GENERALE /////////////////////
         function getText(url, zoom = false) {
