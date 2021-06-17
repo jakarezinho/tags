@@ -5,14 +5,14 @@
             "type": "Feature",
             "properties": {
                 "id": "1",
-                "tag": "Turistas e hipsters",
+                "tag": "tourists and hipsters",
                 "lat": "39.40383605302325",
                 "lng": "-9.133737087249758",
                 "color": "#ce3bc9",
                 "icon": "tourist",
-                "info": "Pra\u00e7a da fruta mercado ao ar livre local tur\u00edstico e chic",
+                "info": "Square of fruit market, an open-air touristic and chic spot",
                 "adress": "Pra\u00e7a da Rep\u00fablica 21",
-                "size": "35",
+                "size": "25",
                 "time": "Thu Apr 29 2021 20:16:16 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
                 "likes": "2"
             },
@@ -380,7 +380,7 @@
                 "icon": "bad",
                 "info": "pior zona da cidade ",
                 "adress": "Rua Adelino Soares de Oliveira 9A",
-                "size": "25",
+                "size": "35",
                 "time": "Tue Apr 27 2021 18:46:40 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
                 "likes": "0"
             },
@@ -773,7 +773,7 @@
                 "adress": "Rua S\u00e3o Jo\u00e3o de Deus",
                 "size": "14",
                 "time": "Fri Apr 30 2021 15:20:57 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
-                "likes": "0"
+                "likes": "1"
             },
             "geometry": {
                 "type": "Point",
@@ -856,14 +856,14 @@
             "type": "Feature",
             "properties": {
                 "id": "41",
-                "tag": "Fam\u00edlias e gente gorda",
+                "tag": "Fam\u00edlias e turistas",
                 "lat": "39.5092",
                 "lng": "-9.13522",
                 "color": "#897459",
-                "icon": "ennui",
+                "icon": "tourist",
                 "info": "",
                 "adress": "Rua Dr. J\u00falio Frederico Guimar\u00e3es Biel 10-22",
-                "size": "18",
+                "size": "25",
                 "time": "Thu Apr 29 2021 18:51:30 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
                 "likes": "0"
             },
@@ -1302,7 +1302,7 @@
                 "adress": "Largo Santo Ant\u00f3nio",
                 "size": "20",
                 "time": "Mon May 03 2021 12:10:10 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
-                "likes": "0"
+                "likes": "1"
             },
             "geometry": {
                 "type": "Point",
@@ -1688,12 +1688,12 @@
                 "lat": "39.6057",
                 "lng": "-9.07725",
                 "color": "#897459",
-                "icon": "",
+                "icon": "heart",
                 "info": "",
                 "adress": "Rua Brito Al\u00e3o 17-25",
                 "size": "18",
                 "time": "Mon May 03 2021 18:30:25 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
-                "likes": "0"
+                "likes": "1"
             },
             "geometry": {
                 "type": "Point",
@@ -1739,7 +1739,7 @@
                 "adress": "S\u00e9tima Vaga",
                 "size": "12",
                 "time": "Mon May 03 2021 14:24:51 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
-                "likes": "0"
+                "likes": "1"
             },
             "geometry": {
                 "type": "Point",
@@ -2213,7 +2213,7 @@
             "type": "Feature",
             "properties": {
                 "id": "102",
-                "tag": "Zona de especula\u00e7\u00e3o imobili\u00e1ria",
+                "tag": "especula\u00e7\u00e3o imobili\u00e1ria",
                 "lat": "39.4086",
                 "lng": "-9.12624",
                 "color": "#897459",
@@ -2243,7 +2243,7 @@
                 "icon": "bof",
                 "info": "",
                 "adress": "Rua Jos\u00e9 Fuller 9",
-                "size": "18",
+                "size": "20",
                 "time": "Tue May 04 2021 21:53:11 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
                 "likes": "0"
             },
@@ -2811,11 +2811,11 @@
             "type": "Feature",
             "properties": {
                 "id": "130",
-                "tag": "surf stars",
+                "tag": "surf stars super tubos",
                 "lat": "39.3455",
                 "lng": "-9.36366",
                 "color": "#897459",
-                "icon": "surfing",
+                "icon": "onda",
                 "info": "",
                 "adress": "Praia de Med\u00e3o-Supertubos",
                 "size": "14",
@@ -2857,7 +2857,7 @@
             "type": "Feature",
             "properties": {
                 "id": "132",
-                "tag": "bairro pescadores",
+                "tag": "bairro de pescadores",
                 "lat": "39.35391194264978",
                 "lng": "-9.38404029017788",
                 "color": "#897459",
@@ -4000,6 +4000,213 @@
                 "coordinates": [
                     "-9.509782791137697",
                     "39.41096515386668"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "183",
+                "tag": " recommended area ",
+                "lat": "39.40133655036016",
+                "lng": "-9.132010067466576",
+                "color": "#7b747a",
+                "icon": "star",
+                "info": "",
+                "adress": "Rua Rafael Bordalo Pinheiro 22-22",
+                "size": "40",
+                "time": "Sun Jun 06 2021 11:23:03 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.132010067466576",
+                    "39.40133655036016"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "184",
+                "tag": "familias",
+                "lat": "39.5033287808352",
+                "lng": "-9.146482944488527",
+                "color": "#897459",
+                "icon": "ennui",
+                "info": "",
+                "adress": "2460",
+                "size": "18",
+                "time": "Sun Jun 06 2021 20:23:08 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.146482944488527",
+                    "39.5033287808352"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "185",
+                "tag": "Wind",
+                "lat": "39.50892464384447",
+                "lng": "-9.148800373077394",
+                "color": "#897459",
+                "icon": "wind",
+                "info": "",
+                "adress": "2500",
+                "size": "18",
+                "time": "Sun Jun 06 2021 20:29:33 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.148800373077394",
+                    "39.50892464384447"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "186",
+                "tag": "o ver\u00e3o as vezes aparece outras n\u00e3o",
+                "lat": "39.410832526086004",
+                "lng": "-9.119810868655291",
+                "color": "#897459",
+                "icon": "froid",
+                "info": "ver\u00e3o fresco influencia mar\u00edtima",
+                "adress": "Rua da Crocha 36",
+                "size": "18",
+                "time": "Fri Jun 11 2021 21:43:12 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.119810868655291",
+                    "39.410832526086004"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "187",
+                "tag": "hortas",
+                "lat": "39.428875875372306",
+                "lng": "-9.217507839202883",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "2500",
+                "size": "14",
+                "time": "Fri Jun 11 2021 21:46:17 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.217507839202883",
+                    "39.428875875372306"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "188",
+                "tag": "veados",
+                "lat": "39.61687948014168",
+                "lng": "-9.07625198364258",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Nazar\u00e9",
+                "size": "18",
+                "time": "Sat Jun 12 2021 13:58:03 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.07625198364258",
+                    "39.61687948014168"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "189",
+                "tag": "waves",
+                "lat": "39.336338790535336",
+                "lng": "-9.360287189483644",
+                "color": "#897459",
+                "icon": "vaga",
+                "info": "",
+                "adress": "Atlantic Ocean",
+                "size": "18",
+                "time": "Sat Jun 12 2021 17:33:58 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.360287189483644",
+                    "39.336338790535336"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "190",
+                "tag": "nothing",
+                "lat": "39.33945880395269",
+                "lng": "-9.348034858703615",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "2525",
+                "size": "30",
+                "time": "Sat Jun 12 2021 17:35:17 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.348034858703615",
+                    "39.33945880395269"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "191",
+                "tag": "nature",
+                "lat": "39.45014561041631",
+                "lng": "-9.13465976715088",
+                "color": "#897459",
+                "icon": "nature",
+                "info": "",
+                "adress": "2500",
+                "size": "18",
+                "time": "Thu Jun 17 2021 15:00:56 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.13465976715088",
+                    "39.45014561041631"
                 ]
             }
         }

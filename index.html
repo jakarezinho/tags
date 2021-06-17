@@ -214,6 +214,7 @@
         
         .likes {
             color: var(--active);
+            text-align: center;
         }
         
         .likes img {
@@ -330,7 +331,7 @@
 
         //// VARS 
         let action
-        let layer
+        let geral
         const url = "app/fabrica.php"
 
         //// INFOS 
@@ -469,12 +470,14 @@
         ///////////// CLICK VOTE ////////////////
         map.on('popupopen', () => {
             let like = document.getElementById('like')
+            let dislike = document.getElementById('dislike')
 
             let user = checkCookie()
-            console.log(like)
+                //like
+
             like.addEventListener('click', () => {
 
-                action == 'like' ? action = 'dislike' : action = 'like'
+                action = 'like'
 
                 console.log(like.dataset.id + action)
                     //post_id user_id action
@@ -483,9 +486,40 @@
                 vote.style.display = 'block'
                 vote.innerHTML = 'obrigado / thank you'
                 map.closePopup()
+                if (map.hasLayer(geral)) {
+                    map.removeLayer(geral);
+
+                }
+
                 setTimeout(() => {
                     vote.style.display = 'none'
-                }, 2000);
+                    getText(url, zoomDevice)
+                }, 1000);
+
+            })
+
+            ///dislike
+
+            dislike.addEventListener('click', () => {
+
+                action = 'dislike'
+
+                console.log(like.dataset.id + action)
+                    //post_id user_id action
+                adlike(like.dataset.id, user, action)
+
+                vote.style.display = 'block'
+                vote.innerHTML = 'obrigado / thank you'
+                map.closePopup()
+                if (map.hasLayer(geral)) {
+                    map.removeLayer(geral);
+
+                }
+
+                setTimeout(() => {
+                    vote.style.display = 'none'
+                    getText(url, zoomDevice)
+                }, 1000);
 
             })
         })
@@ -508,8 +542,9 @@
 
                 popupContent += '<br><strong>' + feature.properties.tag + '</strong><br>'
                 popupContent += info + '<br> ADRESS: ' + feature.properties.adress +
-                    '<p class="likes"> <span> Vote </span> <img id="like" data-id="' + feature.properties.id +
-                    '"  src="app/images/like.gif"><br>likes: ' + feature.properties.likes + '</p>'
+                    '<p class="likes">  <img id="like" data-id="' + feature.properties.id +
+                    '"  src="app/images/like.gif"> | <img id="dislike" data-id="' + feature.properties.id +
+                    '"  src="app/images/dislike.gif"><br> ' + feature.properties.likes + '</p>'
 
             }
 
@@ -548,6 +583,7 @@
 
         ///////////  GET URL FUNCTION GENERALE /////////////////////
         function getText(url, zoom = false) {
+
             vote.style.display = 'block'
             vote.innerHTML = 'Loading...'
                 //// fecth general level 1/////
@@ -558,7 +594,7 @@
                 })
                 .then((data) => {
                     vote.style.display = 'none'
-                    let geral = L.geoJSON(data, {
+                    geral = L.geoJSON(data, {
 
                         style: (feature) => {
                             return {

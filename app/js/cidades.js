@@ -105,7 +105,7 @@
 
              })
 
-
+             console.log(courantlocal)
          })
 
 
