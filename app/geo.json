@@ -143,7 +143,7 @@
             "type": "Feature",
             "properties": {
                 "id": "7",
-                "tag": "Obra de arte",
+                "tag": "Grande artista",
                 "lat": "39.404",
                 "lng": "-9.13126",
                 "color": "#897459",
@@ -378,7 +378,7 @@
                 "lng": "-9.13906",
                 "color": "#ec2727",
                 "icon": "bad",
-                "info": "pior zona da cidade ",
+                "info": "Zona de pr\u00e9dios altos resultado de especula\u00e7\u00e3o imobiliartia",
                 "adress": "Rua Adelino Soares de Oliveira 9A",
                 "size": "35",
                 "time": "Tue Apr 27 2021 18:46:40 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
@@ -699,7 +699,7 @@
                 "lat": "39.4064",
                 "lng": "-9.14007",
                 "color": "#897459",
-                "icon": "",
+                "icon": "train",
                 "info": "Linha do Oeste  em declinio",
                 "adress": "Largo da Esta\u00e7\u00e3o",
                 "size": "14",
@@ -741,7 +741,7 @@
             "type": "Feature",
             "properties": {
                 "id": "36",
-                "tag": "Centro cultural das cavacas",
+                "tag": " CCC Centro cultural das cavacas",
                 "lat": "39.4058",
                 "lng": "-9.13158",
                 "color": "#897459",
@@ -1362,7 +1362,7 @@
             "type": "Feature",
             "properties": {
                 "id": "64",
-                "tag": "old",
+                "tag": "old people",
                 "lat": "39.4301",
                 "lng": "-9.22283",
                 "color": "#897459",
@@ -1486,7 +1486,7 @@
                 "adress": "Rua Joaquim Bernardo de Souza Lobo 80",
                 "size": "18",
                 "time": "Mon May 03 2021 12:18:44 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
-                "likes": "0"
+                "likes": "1"
             },
             "geometry": {
                 "type": "Point",
@@ -1831,7 +1831,7 @@
                 "adress": "Atlantic Ocean",
                 "size": "18",
                 "time": "Mon May 03 2021 22:06:51 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
-                "likes": "0"
+                "likes": "1"
             },
             "geometry": {
                 "type": "Point",
@@ -1914,7 +1914,7 @@
             "type": "Feature",
             "properties": {
                 "id": "89",
-                "tag": "Flamingos refugiados",
+                "tag": "refugio de flamingos",
                 "lat": "39.4041",
                 "lng": "-9.18818",
                 "color": "#897459",
@@ -2723,7 +2723,7 @@
                 "lat": "39.605",
                 "lng": "-9.074",
                 "color": "#897459",
-                "icon": "nice",
+                "icon": "telescope",
                 "info": "",
                 "adress": "Rua do Horizonte",
                 "size": "18",
@@ -2747,7 +2747,7 @@
                 "lng": "-9.13792",
                 "color": "#897459",
                 "icon": "",
-                "info": "",
+                "info": "mais pr\u00e9dios...",
                 "adress": "Casa Nova",
                 "size": "18",
                 "time": "Sun May 09 2021 20:24:36 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
@@ -2788,7 +2788,7 @@
             "type": "Feature",
             "properties": {
                 "id": "129",
-                "tag": "virado para o por do sol",
+                "tag": "Voltado  para o por do sol",
                 "lat": "39.4147",
                 "lng": "-9.11897",
                 "color": "#897459",
@@ -2907,7 +2907,7 @@
                 "lat": "39.5147",
                 "lng": "-9.13878",
                 "color": "#897459",
-                "icon": "nice",
+                "icon": "telescope",
                 "info": "",
                 "adress": "Miradouro de S\u00e3o Martinho do Porto",
                 "size": "14",
@@ -3317,12 +3317,12 @@
             "type": "Feature",
             "properties": {
                 "id": "152",
-                "tag": "Fantasmas da cer\u00e2mica",
+                "tag": "Futuro museu",
                 "lat": "39.4061",
                 "lng": "-9.14731",
                 "color": "#897459",
                 "icon": "fog",
-                "info": "",
+                "info": "centro de forma\u00e7\u00e3o industriada cer\u00e2mica  em decl\u00ednio",
                 "adress": "Rua Lu\u00eds Caldas",
                 "size": "14",
                 "time": "Wed May 26 2021 12:19:47 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
@@ -3441,7 +3441,7 @@
                 "adress": "Rua Santo Ant\u00e3o",
                 "size": "18",
                 "time": "Fri May 28 2021 21:42:01 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
-                "likes": "0"
+                "likes": "1"
             },
             "geometry": {
                 "type": "Point",
@@ -3617,12 +3617,12 @@
             "properties": {
                 "id": "166",
                 "tag": "Cabo Carvoeiro",
-                "lat": "39.35888936951588",
-                "lng": "-9.410519599914553",
+                "lat": "39.35955299963707",
+                "lng": "-9.408546286070584",
                 "color": "#897459",
-                "icon": "pato",
+                "icon": "telescope",
                 "info": "",
-                "adress": "Atlantic Ocean",
+                "adress": "Cabo Carvoeiro",
                 "size": "21",
                 "time": "Sat May 29 2021 16:40:43 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
                 "likes": "0"
@@ -3630,8 +3630,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    "-9.410519599914553",
-                    "39.35888936951588"
+                    "-9.408546286070584",
+                    "39.35955299963707"
                 ]
             }
         },
@@ -3712,7 +3712,7 @@
                 "lat": "39.36177611460571",
                 "lng": "-9.390478134155275",
                 "color": "#897459",
-                "icon": "",
+                "icon": "ennui",
                 "info": "",
                 "adress": "Rua Cruz das Almas 47",
                 "size": "35",
@@ -4077,12 +4077,12 @@
             "properties": {
                 "id": "186",
                 "tag": "o ver\u00e3o as vezes aparece outras n\u00e3o",
-                "lat": "39.410832526086004",
-                "lng": "-9.119810868655291",
+                "lat": "39.40144847030543",
+                "lng": "-9.119639465536272",
                 "color": "#897459",
                 "icon": "froid",
                 "info": "ver\u00e3o fresco influencia mar\u00edtima",
-                "adress": "Rua da Crocha 36",
+                "adress": "Rua La Codosera",
                 "size": "18",
                 "time": "Fri Jun 11 2021 21:43:12 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
                 "likes": "0"
@@ -4090,8 +4090,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    "-9.119810868655291",
-                    "39.410832526086004"
+                    "-9.119639465536272",
+                    "39.40144847030543"
                 ]
             }
         },
@@ -4207,6 +4207,328 @@
                 "coordinates": [
                     "-9.13465976715088",
                     "39.45014561041631"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "192",
+                "tag": "Zona de est\u00e1dios",
+                "lat": "39.41021911931896",
+                "lng": "-9.152555465698244",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "2500",
+                "size": "18",
+                "time": "Tue Jun 22 2021 22:46:22 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.152555465698244",
+                    "39.41021911931896"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "193",
+                "tag": "restaurantes para turistas",
+                "lat": "39.51218593010418",
+                "lng": "-9.139831066131594",
+                "color": "#897459",
+                "icon": "restaurante",
+                "info": "",
+                "adress": "Rua C\u00e2ndido dos Reis 25B",
+                "size": "18",
+                "time": "Wed Jun 23 2021 20:34:16 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.139831066131594",
+                    "39.51218593010418"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "194",
+                "tag": "nature",
+                "lat": "39.60040184954711",
+                "lng": "-9.066896438598635",
+                "color": "#897459",
+                "icon": "nature",
+                "info": "",
+                "adress": "N8-5",
+                "size": "18",
+                "time": "Mon Jun 28 2021 12:18:46 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.066896438598635",
+                    "39.60040184954711"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "195",
+                "tag": "antiga Nazar\u00e9",
+                "lat": "39.59667761805528",
+                "lng": "-9.063227176666262",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Travessa do Nascente 9",
+                "size": "18",
+                "time": "Mon Jun 28 2021 12:20:34 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.063227176666262",
+                    "39.59667761805528"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "196",
+                "tag": "nice vue",
+                "lat": "39.59621465852687",
+                "lng": "-9.064675569534304",
+                "color": "#897459",
+                "icon": "telescope",
+                "info": "",
+                "adress": "Igreja da Miseric\u00f3rdia Pederneira",
+                "size": "14",
+                "time": "Mon Jun 28 2021 12:21:32 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.064675569534304",
+                    "39.59621465852687"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "197",
+                "tag": "padaria e restaurante hipster",
+                "lat": "39.405062973460346",
+                "lng": "-9.134836792945864",
+                "color": "#897459",
+                "icon": "hipster",
+                "info": "Casa Antero e a padaria Forno do Beco",
+                "adress": "Beco do Forno 4-16",
+                "size": "18",
+                "time": "Tue Jun 29 2021 20:05:26 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.134836792945864",
+                    "39.405062973460346"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "198",
+                "tag": "Reformados franceses ",
+                "lat": "39.43291157557333",
+                "lng": "-9.095778465270998",
+                "color": "#897459",
+                "icon": "napoleon",
+                "info": "",
+                "adress": "Rua de Santo Ant\u00f3nio 46-46",
+                "size": "18",
+                "time": "Fri Jul 02 2021 17:23:55 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.095778465270998",
+                    "39.43291157557333"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "199",
+                "tag": "wind",
+                "lat": "39.36492817125881",
+                "lng": "-9.156997203826906",
+                "color": "#897459",
+                "icon": "wind",
+                "info": "",
+                "adress": "Rua Esta\u00e7\u00e3o 23",
+                "size": "18",
+                "time": "Fri Jul 02 2021 19:10:22 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.156997203826906",
+                    "39.36492817125881"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "200",
+                "tag": "vista para o mar",
+                "lat": "39.60464665054641",
+                "lng": "-9.080286026000978",
+                "color": "#897459",
+                "icon": "telescope",
+                "info": "",
+                "adress": "Nazar\u00e9",
+                "size": "18",
+                "time": "Fri Jul 02 2021 19:59:18 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.080286026000978",
+                    "39.60464665054641"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "201",
+                "tag": "vue",
+                "lat": "39.37425079034718",
+                "lng": "-9.377281665802004",
+                "color": "#897459",
+                "icon": "telescope",
+                "info": "",
+                "adress": "Peniche de Cima",
+                "size": "18",
+                "time": "Fri Jul 02 2021 20:04:57 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.377281665802004",
+                    "39.37425079034718"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "202",
+                "tag": "View",
+                "lat": "39.378629669289865",
+                "lng": "-9.340975284576418",
+                "color": "#897459",
+                "icon": "telescope",
+                "info": "",
+                "adress": "Baleal",
+                "size": "18",
+                "time": "Fri Jul 02 2021 20:07:09 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.340975284576418",
+                    "39.378629669289865"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "203",
+                "tag": "nice view",
+                "lat": "39.518981164196695",
+                "lng": "-9.142835871959088",
+                "color": "#897459",
+                "icon": "telescope",
+                "info": "",
+                "adress": "N242-7",
+                "size": "18",
+                "time": "Fri Jul 02 2021 20:11:52 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.142835871959088",
+                    "39.518981164196695"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "204",
+                "tag": " nice view  Castle \u00d3bidos",
+                "lat": "39.370269752968674",
+                "lng": "-9.166610240936281",
+                "color": "#897459",
+                "icon": "telescope",
+                "info": "",
+                "adress": "M575",
+                "size": "18",
+                "time": "Sat Jul 03 2021 18:11:43 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.166610240936281",
+                    "39.370269752968674"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "205",
+                "tag": "nice view",
+                "lat": "39.362257227188685",
+                "lng": "-9.158198833465578",
+                "color": "#897459",
+                "icon": "telescope",
+                "info": "",
+                "adress": "Rua da Talhada",
+                "size": "18",
+                "time": "Sat Jul 03 2021 18:14:04 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.158198833465578",
+                    "39.362257227188685"
                 ]
             }
         }
