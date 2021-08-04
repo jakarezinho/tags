@@ -925,7 +925,7 @@
             "type": "Feature",
             "properties": {
                 "id": "44",
-                "tag": " Tourist Dysney land",
+                "tag": " Tourist  land",
                 "lat": "39.36073092757501",
                 "lng": "-9.157614081770232",
                 "color": "#897459",
@@ -934,7 +934,7 @@
                 "adress": "Rua Direita",
                 "size": "20",
                 "time": "Fri Apr 30 2021 15:47:31 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
-                "likes": "0"
+                "likes": "1"
             },
             "geometry": {
                 "type": "Point",
@@ -1086,11 +1086,11 @@
             "type": "Feature",
             "properties": {
                 "id": "51",
-                "tag": "Surfers e hipsters",
+                "tag": "Surfers  hipsters",
                 "lat": "39.3706",
                 "lng": "-9.32872",
                 "color": "#897459",
-                "icon": "",
+                "icon": "tourist",
                 "info": "",
                 "adress": "Travessa Pedras Muitas",
                 "size": "18",
@@ -4529,6 +4529,121 @@
                 "coordinates": [
                     "-9.158198833465578",
                     "39.362257227188685"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "206",
+                "tag": "antigo volc\u00e3o",
+                "lat": "39.59366832581102",
+                "lng": "-9.051468372344972",
+                "color": "#897459",
+                "icon": "fire",
+                "info": "",
+                "adress": "Nazar\u00e9",
+                "size": "18",
+                "time": "Tue Jul 06 2021 16:09:56 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.051468372344972",
+                    "39.59366832581102"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "207",
+                "tag": "Nothing",
+                "lat": "39.355305657918684",
+                "lng": "-9.327993392944338",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "2525",
+                "size": "18",
+                "time": "Wed Jul 07 2021 17:39:12 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.327993392944338",
+                    "39.355305657918684"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "208",
+                "tag": "Selfie spot",
+                "lat": "39.43508263585475",
+                "lng": "-9.227399826049806",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Rua Francisco Almeida Grandela 1",
+                "size": "18",
+                "time": "Mon Jul 12 2021 19:02:51 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.227399826049806",
+                    "39.43508263585475"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "209",
+                "tag": "Beach culture",
+                "lat": "39.36015026135567",
+                "lng": "-9.35842037200928",
+                "color": "#897459",
+                "icon": "",
+                "info": "",
+                "adress": "Praia do Baleal-Norte",
+                "size": "18",
+                "time": "Tue Jul 13 2021 18:12:06 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.35842037200928",
+                    "39.36015026135567"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "210",
+                "tag": "soldados",
+                "lat": "39.392859128896404",
+                "lng": "-9.134209156036379",
+                "color": "#897459",
+                "icon": "guerra",
+                "info": "",
+                "adress": "Avenal",
+                "size": "18",
+                "time": "Fri Jul 16 2021 15:36:39 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
+                "likes": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-9.134209156036379",
+                    "39.392859128896404"
                 ]
             }
         }

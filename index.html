@@ -74,8 +74,8 @@
 
     <script type="module">
         import confetti from 'https://cdn.skypack.dev/canvas-confetti';
-        import {setCookie,getCookie,checkCookie} from './app/js/cookies.js';
-        import {adlike,novidade,imogIcon} from './app/js/app.js';
+        import { setCookie, getCookie, checkCookie } from './app/js/cookies.js';
+        import { adlike, novidade, imogIcon } from './app/js/app.js';
 
 
 
@@ -146,7 +146,7 @@
         }).addTo(map);
 
 
-    
+
         ///////////// CLICK VOTE ////////////////
         map.on('popupopen', () => {
             let like = document.getElementById('like')
@@ -306,22 +306,22 @@
         window.load = getText(url, 15)
 
         //////////////////////// PESQUISA  CIDADES///////////////////
-        import  {locations,localidades,displayInfos,processResults,localidadesIntro} from './app/js/cidades.js';
+        import { locations, localidades, displayInfos, processResults, localidadesIntro } from './app/js/cidades.js';
 
         ///// VARS 
         let zoom = 16
         let cherche = document.getElementById('cherche')
         let r = document.getElementById('r')
-       
+
         infoslocal = document.getElementById('infoslocal')
         typeof zoomDevice !== 'undefined' ? zoom = zoomDevice : zoom
-       
+
         const liItem = r.getElementsByTagName("li");
 
 
         //// CHERCHE VILE 
         cherche.addEventListener('focus', (e) => {
-            localidades(locations,map)
+            localidades(locations, map)
             cherche.value = ''
 
 
@@ -340,9 +340,9 @@
 
         });
 
-    
 
-       /////INFOS
+
+        /////INFOS
         localidadesIntro(locations)
         displayInfos('Caldas da rainha', '14000', '39.4039', '-9.1336')
     </script>
