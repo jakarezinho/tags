@@ -147,12 +147,15 @@
 
 
 
+
+
         ///////////// CLICK VOTE ////////////////
         map.on('popupopen', () => {
             let like = document.getElementById('like')
             let dislike = document.getElementById('dislike')
 
             let user = checkCookie()
+            console.log(checkCookie())
             //like
 
             like.addEventListener('click', () => {

@@ -106,7 +106,7 @@
                 "adress": "Rua Rafael Bordalo Pinheiro 53-53",
                 "size": "20",
                 "time": "Mon Apr 26 2021 16:55:01 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
-                "likes": "1"
+                "likes": "0"
             },
             "geometry": {
                 "type": "Point",
@@ -290,7 +290,7 @@
                 "adress": "N360",
                 "size": "17",
                 "time": "Mon Apr 26 2021 16:59:40 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
-                "likes": "2"
+                "likes": "0"
             },
             "geometry": {
                 "type": "Point",
@@ -658,7 +658,7 @@
                 "adress": "Rua Francisco Almeida Grandela",
                 "size": "30",
                 "time": "Sat May 01 2021 22:05:55 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
-                "likes": "1"
+                "likes": "0"
             },
             "geometry": {
                 "type": "Point",
@@ -681,7 +681,7 @@
                 "adress": "Rua do Penedo Furado",
                 "size": "18",
                 "time": "Tue Apr 27 2021 18:45:40 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
-                "likes": "1"
+                "likes": "0"
             },
             "geometry": {
                 "type": "Point",
@@ -704,7 +704,7 @@
                 "adress": "Largo da Esta\u00e7\u00e3o",
                 "size": "14",
                 "time": "Wed May 05 2021 11:57:30 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
-                "likes": "0"
+                "likes": "1"
             },
             "geometry": {
                 "type": "Point",
@@ -773,7 +773,7 @@
                 "adress": "Rua S\u00e3o Jo\u00e3o de Deus",
                 "size": "14",
                 "time": "Fri Apr 30 2021 15:20:57 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
-                "likes": "1"
+                "likes": "0"
             },
             "geometry": {
                 "type": "Point",
@@ -934,7 +934,7 @@
                 "adress": "Rua Direita",
                 "size": "20",
                 "time": "Fri Apr 30 2021 15:47:31 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
-                "likes": "1"
+                "likes": "0"
             },
             "geometry": {
                 "type": "Point",
@@ -1072,7 +1072,7 @@
                 "adress": "Largo Amigos do Baleal 1-1",
                 "size": "20",
                 "time": "Fri Apr 30 2021 22:24:23 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
-                "likes": "1"
+                "likes": "0"
             },
             "geometry": {
                 "type": "Point",
@@ -1302,7 +1302,7 @@
                 "adress": "Largo Santo Ant\u00f3nio",
                 "size": "20",
                 "time": "Mon May 03 2021 12:10:10 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
-                "likes": "1"
+                "likes": "0"
             },
             "geometry": {
                 "type": "Point",
@@ -1486,7 +1486,7 @@
                 "adress": "Rua Joaquim Bernardo de Souza Lobo 80",
                 "size": "18",
                 "time": "Mon May 03 2021 12:18:44 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
-                "likes": "1"
+                "likes": "0"
             },
             "geometry": {
                 "type": "Point",
@@ -1693,7 +1693,7 @@
                 "adress": "Rua Brito Al\u00e3o 17-25",
                 "size": "18",
                 "time": "Mon May 03 2021 18:30:25 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
-                "likes": "1"
+                "likes": "0"
             },
             "geometry": {
                 "type": "Point",
@@ -1739,7 +1739,7 @@
                 "adress": "S\u00e9tima Vaga",
                 "size": "12",
                 "time": "Mon May 03 2021 14:24:51 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
-                "likes": "1"
+                "likes": "0"
             },
             "geometry": {
                 "type": "Point",
@@ -1831,7 +1831,7 @@
                 "adress": "Atlantic Ocean",
                 "size": "18",
                 "time": "Mon May 03 2021 22:06:51 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
-                "likes": "1"
+                "likes": "0"
             },
             "geometry": {
                 "type": "Point",
@@ -2291,7 +2291,7 @@
                 "adress": "Policl\u00ednica Central de Alcoentre",
                 "size": "12",
                 "time": "Wed May 05 2021 11:53:18 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
-                "likes": "1"
+                "likes": "0"
             },
             "geometry": {
                 "type": "Point",
@@ -2498,7 +2498,7 @@
                 "adress": "Rua do P\u00f4r do Sol",
                 "size": "14",
                 "time": "Thu May 06 2021 22:00:25 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
-                "likes": "1"
+                "likes": "0"
             },
             "geometry": {
                 "type": "Point",
@@ -3441,7 +3441,7 @@
                 "adress": "Rua Santo Ant\u00e3o",
                 "size": "18",
                 "time": "Fri May 28 2021 21:42:01 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
-                "likes": "1"
+                "likes": "0"
             },
             "geometry": {
                 "type": "Point",
@@ -3579,7 +3579,7 @@
                 "adress": "Rua Nossa Senhora da Concei\u00e7\u00e3o 29",
                 "size": "20",
                 "time": "Sat May 29 2021 16:34:15 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
-                "likes": "1"
+                "likes": "0"
             },
             "geometry": {
                 "type": "Point",
@@ -3717,7 +3717,7 @@
                 "adress": "Rua Cruz das Almas 47",
                 "size": "35",
                 "time": "Sat May 29 2021 19:08:48 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
-                "likes": "1"
+                "likes": "0"
             },
             "geometry": {
                 "type": "Point",
@@ -4338,7 +4338,7 @@
                 "adress": "Beco do Forno 4-16",
                 "size": "18",
                 "time": "Tue Jun 29 2021 20:05:26 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
-                "likes": "1"
+                "likes": "0"
             },
             "geometry": {
                 "type": "Point",
@@ -4384,7 +4384,7 @@
                 "adress": "Rua Esta\u00e7\u00e3o 23",
                 "size": "18",
                 "time": "Fri Jul 02 2021 19:10:22 GMT+0100 (Hora de ver\u00e3o da Europa Ocidental)",
-                "likes": "1"
+                "likes": "0"
             },
             "geometry": {
                 "type": "Point",

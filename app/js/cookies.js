@@ -9,7 +9,7 @@
         var d = new Date();
         d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
         var expires = "expires=" + d.toUTCString();
-        document.cookie = `${cnam}=${cvalue};SameSite=None;secure${expires};path=/;`
+        document.cookie = `${cname}=${cvalue};SameSite=None;expires${expires};path=/;`
 
     }
 
@@ -34,19 +34,19 @@
         ///// CHECK COOKIE
 
     export function checkCookie() {
-            var user = getCookie("username");
-            if (user != "") {
-                return user
+            var userid = getCookie("username");
+            if (userid != "") {
+                return userid
             } else {
                 /// randon user id 
                 let d = new Date();
                 let n = d.getTime();
 
-                user = Math.floor(Math.random() * n);
-                if (user != "" && user != null) {
-                    setCookie("username", user, 30);
+                userid = Math.floor(Math.random() * n);
+                if (userid != "" && userid != null) {
+                    setCookie("username", userid, 30);
                 }
             }
-            return user
+            return userid
 
         }
